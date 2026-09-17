@@ -107,6 +107,7 @@ cd C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes
 .\scripts\validar-estrutura.ps1
 .\scripts\listar-pendencias.ps1
 .\scripts\resumo-matinal.ps1
+.\scripts\smoke-test-fase1.ps1
 ```
 
 Piloto: 1 tarefa, 1 lembrete, 1 rascunho na fila (sem envio).
