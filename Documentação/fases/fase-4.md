@@ -1,23 +1,24 @@
-# Fase 4 — Financeiro / inadimplência (papel)
+# Fase 4 — Camada Google (Drive / Sheets) (papel)
 
-**Status:** stub one-pager.  
-**Não implementar.** Aponta para a arquitetura.
+**Status:** one-pager. **Não implementar.**  
+Detalhe completo: `Documentação/Plano_Implementacao_Fases_V2.md` (FASE 4).  
+V2 §10: `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`.
 
-## Domínio / tema
+Este arquivo **não** é um índice incompleto. O plano-mãe já tem as seções pedidas.
 
-Financeiro
+## Neste repo (hoje)
 
-## Fonte
+Drive / Sheets / Gmail / Calendar **não** estão ligados. Não conectar OAuth, não criar workbook, não copiar base de clientes.
 
-- `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`
-- Fichas em `empresa/fichas/` (quando existirem para o domínio)
+Recomendação do Engenheiro (ainda **PENDENTE SAMUEL**): Supabase = fonte da verdade operacional; Sheets = espelho analítico.
 
 ## Condição para sair do papel
 
-1. Fases anteriores validadas por Samuel.
-2. Plano escrito + autorização explícita desta fase.
-3. Nada de inventar regras de negócio (comissões, legal, etc.).
+1. Fases anteriores combinadas + decisão SoT.
+2. Autorização explícita desta fase.
+3. Conta Google e estrutura das abas — **PENDENTE SAMUEL**.
 
-## Nota
+## Não fazer
 
-Qualquer detalhe operacional fino = **PENDENTE SAMUEL**.
+- Duplicar verdade no Sheet
+- Ligar conector “para adiantar”

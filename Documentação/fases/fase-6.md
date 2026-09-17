@@ -1,23 +1,20 @@
-# Fase 6 — Gestor / orquestração (papel)
+# Fase 6 — Financeiro: inadimplência, cobrança, comissões (papel)
 
-**Status:** stub one-pager.  
-**Não implementar.** Aponta para a arquitetura.
+**Status:** one-pager. **Não implementar.**  
+Detalhe completo: `Documentação/Plano_Implementacao_Fases_V2.md` (FASE 6).  
+Checklist humano: `Documentação/fases/fase-6-checklist-ativacao.md`.  
+Ficha: `empresa/fichas/05-financeiro.md`. Pasta stub: `operacao/financeiro/`.
 
-## Domínio / tema
-
-Gestor
-
-## Fonte
-
-- `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`
-- Fichas em `empresa/fichas/` (quando existirem para o domínio)
+Este arquivo **não** é um índice incompleto. O plano-mãe já tem as seções pedidas.
 
 ## Condição para sair do papel
 
-1. Fases anteriores validadas por Samuel.
-2. Plano escrito + autorização explícita desta fase.
-3. Nada de inventar regras de negócio (comissões, legal, etc.).
+1. Fases anteriores validadas; autorização explícita desta fase.
+2. Documento oficial de **comissões** — **PENDENTE SAMUEL** (não inventar %).
+3. Fonte/formato da inadimplência semanal — **PENDENTE SAMUEL**.
 
-## Nota
+## Não fazer
 
-Qualquer detalhe operacional fino = **PENDENTE SAMUEL**.
+- Movimentar dinheiro
+- Iniciar cobrança sem fila + OK
+- Inventar regra de comissão, prazo legal ou texto de cobrança

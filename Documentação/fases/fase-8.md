@@ -1,23 +1,24 @@
-# Fase 8 — Integrações (Drive/Sheets/APIs) — futuro
+# Fase 8 — Gestor + Central de Aprovações + equipe (papel)
 
-**Status:** stub one-pager.  
-**Não implementar.** Aponta para a arquitetura.
+**Status:** one-pager. **Não implementar.**  
+Detalhe completo: `Documentação/Plano_Implementacao_Fases_V2.md` (FASE 8).  
+Fichas 02–07 em `empresa/fichas/`. Pasta: `operacao/central-aprovacoes/` (índice stub).
 
-## Domínio / tema
+Este arquivo **não** é um índice incompleto. O plano-mãe já tem as seções pedidas.
 
-temas transversais V2
+## Neste repo (hoje)
 
-## Fonte
-
-- `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`
-- Fichas em `empresa/fichas/` (quando existirem para o domínio)
+- Fila local de rascunhos: `operacao/fila-aprovacoes/` (Fase 1)
+- Central formal + Gestor ao vivo: **não**
 
 ## Condição para sair do papel
 
-1. Fases anteriores validadas por Samuel.
-2. Plano escrito + autorização explícita desta fase.
-3. Nada de inventar regras de negócio (comissões, legal, etc.).
+1. Fases 1–7 mínimas estáveis **ou** recorte autorizado por Samuel.
+2. Quais agentes criar, e em que ordem — **PENDENTE SAMUEL**.
+3. Evolução **só sugere** agente novo; nunca cria sozinho.
 
-## Nota
+## Não fazer
 
-Qualquer detalhe operacional fino = **PENDENTE SAMUEL**.
+- Dar Cursor a outros agentes
+- Criar frota de bots
+- Skills/Routines permanentes sem OK

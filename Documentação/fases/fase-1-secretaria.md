@@ -1,6 +1,8 @@
 # Fase 1 — Secretária (operacional local)
 
-**Status:** em consolidação (papéis + pastas + scripts locais).  
+**Status:** operacional (validação humana do Samuel ainda pendente).  
+**Detalhe:** `Documentação/fases/fase-1-mvp-secretaria.md`.  
+**Testes reais:** `Documentação/TESTES-REAIS-AMANHA.md`.  
 **Autorização de envio externo:** **não** — só rascunhos em `fila-aprovacoes/`.
 
 ## O que está sólido
@@ -12,8 +14,10 @@
 
 ## Como testar (Samuel)
 
-1. Abrir a pasta `SamsTechSolucoes-Agentes` no Cursor.
-2. Pedir à Secretária: “cria uma tarefa X” / “lembrete Y” / “rascunho de mensagem Z”.
+Siga o checklist: `Documentação/TESTES-REAIS-AMANHA.md`. Resumo:
+
+1. Abrir a pasta certa no Cursor (`ABRIR-NO-CURSOR.md`).
+2. Pedir à Secretária: tarefa real / lembrete real / rascunho de mensagem.
 3. Ou rodar:
    ```powershell
    .\scripts\novo-tarefa.ps1 -Titulo "Teste Fase 1"
@@ -24,7 +28,7 @@
 
 ## Critério para fechar Fase 1
 
-- [ ] Samuel usou Secretária em rotina real (tarefas + lembretes)
+- [ ] Samuel usou Secretária em rotina real (tarefas + lembretes + rascunho na fila)
 - [ ] Formatos markdown batem com a ficha 01 (ajustar scripts se necessário)
 - [ ] Samuel autoriza explicitamente início da Fase 2
 

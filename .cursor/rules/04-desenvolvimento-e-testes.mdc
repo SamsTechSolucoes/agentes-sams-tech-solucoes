@@ -18,3 +18,5 @@ No Grok Bot, use a seleção automática de modelo. Não peça troca manual de C
 No Cursor Agent, Samuel pode trocar o modelo. Não adapte a arquitetura do SamsTech por causa de um modelo.
 
 Skills e Routines só depois de processo estável, testado e com aprovação explícita para ação externa.
+
+Neste repositório: só docs, fichas, `operacao/` e scripts locais. Sem código de produto. Sem tocar `nf-stream-analyze` sem permissão explícita.

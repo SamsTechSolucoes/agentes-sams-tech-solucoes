@@ -2,6 +2,8 @@
 
 **Status:** pronta para uso (sem Cursor)  
 **Nome em PT-BR:** Secretária Pessoal  
+**Bot no Grok:** Secretária SamsTech  
+**Mapa da equipe:** `empresa/MAPA-EQUIPE.md`  
 **Constituição:** `empresa/constituicao-comum.md`  
 **Glossário:** `empresa/glossario-ptbr.md`  
 **Runbook:** `Documentação/runbooks/secretaria-fase1.md`

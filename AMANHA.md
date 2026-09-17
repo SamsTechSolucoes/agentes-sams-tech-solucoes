@@ -1,3 +1,21 @@
+# Atualização 17/09/2026 — comece pelos arquivos atuais
+
+O trabalho de Agentes é **somente** neste GitHub / pasta `SamsTechSolucoes-Agentes`.
+
+| Agora | Arquivo |
+|---|---|
+| Briefing | [STATUS.md](./STATUS.md) |
+| Abrir no Cursor | [ABRIR-NO-CURSOR.md](./ABRIR-NO-CURSOR.md) |
+| Testes reais da Secretária | [Documentação/TESTES-REAIS-AMANHA.md](./Documentação/TESTES-REAIS-AMANHA.md) |
+| Engenheiro Principal | [AGENTS.md](./AGENTS.md) |
+| Arquitetura V2 (texto integral) | [Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md](./Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md) |
+| Equipe Grok × fichas | [empresa/MAPA-EQUIPE.md](./empresa/MAPA-EQUIPE.md) |
+
+Fase 1 Secretária: **operacional**. Sistema de NF: **não** alterar.  
+O texto abaixo é o snapshot histórico da Fase 0 (15/09/2026). **Não apagar.** Organograma Jarvis/Alex não substitui a V2.
+
+---
+
 # AmanhÃ£ â€” abrir daqui
 
 Documento de handoff. Leia este arquivo primeiro, no Cursor Web ou no desktop.

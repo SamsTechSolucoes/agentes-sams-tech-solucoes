@@ -1,3 +1,5 @@
 ﻿# Exemplos arquivados
-Arquivos EXEMPLO-* movidos para ca para nao poluir pendencias do dia.
-Podem ser apagados sem impacto operacional.
+
+Arquivos `EXEMPLO-*` movidos para cá para **não** poluir pendências do dia (`scripts/listar-pendencias.ps1`).
+
+Podem ser apagados sem impacto operacional. Não copiar como se fossem tarefa/lembrete reais.

@@ -1,23 +1,19 @@
-# Fase 5 — Inteligência / ofensores (papel)
+# Fase 5 — Produtos: estoque + cliente aguardando (papel)
 
-**Status:** stub one-pager.  
-**Não implementar.** Aponta para a arquitetura.
+**Status:** one-pager. **Não implementar.**  
+Detalhe completo: `Documentação/Plano_Implementacao_Fases_V2.md` (FASE 5).  
+Checklist humano: `Documentação/fases/fase-5-checklist-ativacao.md`.  
+Ficha: `empresa/fichas/04-produtos.md`. Pasta stub: `operacao/produtos/`.
 
-## Domínio / tema
-
-Inteligência
-
-## Fonte
-
-- `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`
-- Fichas em `empresa/fichas/` (quando existirem para o domínio)
+Este arquivo **não** é um índice incompleto. O plano-mãe já tem as seções pedidas.
 
 ## Condição para sair do papel
 
-1. Fases anteriores validadas por Samuel.
-2. Plano escrito + autorização explícita desta fase.
-3. Nada de inventar regras de negócio (comissões, legal, etc.).
+1. Fases anteriores validadas; autorização explícita desta fase.
+2. Checklist de ativação preenchido por Samuel (entrada de estoque, lista “aguardando”, equivalências).
+3. Nada de inventar produto, equivalência ou cliente.
 
-## Nota
+## Não fazer
 
-Qualquer detalhe operacional fino = **PENDENTE SAMUEL**.
+- Código de estoque no sistema de NF sem permissão
+- Mensagem ao cliente fora de `operacao/fila-aprovacoes/`
