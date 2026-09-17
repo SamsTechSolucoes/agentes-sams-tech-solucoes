@@ -73,6 +73,15 @@ Só o **Engenheiro Principal** usa Cursor IA e ferramentas (Shell, arquivos, nav
 Demais agentes **não** usam Cursor até o Samuel autorizar.  
 Decisão: `Documentação/decisoes/2026-09-17-cursor-somente-engenheiro-e-termos-ptbr.md`.
 
+## Como Samuel comanda (Grok Bot)
+
+Ambientes Cursor **já configurados** — não reconfigurar. Cursor no PC aberto na pasta `SamsTechSolucoes-Agentes`.  
+Samuel dá o comando no Grok Bot **SamsTech Engineer**. A execução com ferramentas é neste Cursor (desktop ou Cloud Agent).
+
+- Runbook: `Documentação/runbooks/comandar-engenheiro-grok.md`
+- Texto para colar: `templates/comando-engenheiro.md`
+- Decisão: `Documentação/decisoes/2026-09-17-comando-engenheiro-via-grok.md`
+
 ## Ordem de trabalho (não pular)
 
 **Entender → inspecionar → planejar → implementar → testar → validar → documentar → reportar.**

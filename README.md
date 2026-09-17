@@ -15,11 +15,12 @@ Este GitHub e essa pasta são **o mesmo projeto**. Não use `nf-stream-analyze` 
 | 1 | [STATUS.md](./STATUS.md) | Briefing da manhã |
 | 2 | [AGENTS.md](./AGENTS.md) | Escopo do Engenheiro Principal |
 | 3 | [ABRIR-NO-CURSOR.md](./ABRIR-NO-CURSOR.md) | Abrir a pasta certa no Cursor |
-| 4 | [AMANHA-TESTES.md](./AMANHA-TESTES.md) | Guia rápido dos testes A–C |
-| 5 | [Documentação/TESTES-REAIS-AMANHA.md](./Documentação/TESTES-REAIS-AMANHA.md) | Checklist completo da Secretária |
-| 6 | [empresa/MAPA-EQUIPE.md](./empresa/MAPA-EQUIPE.md) | Equipe Grok Bot × fichas |
-| 7 | [empresa/fichas/01-secretaria.md](./empresa/fichas/01-secretaria.md) | Secretária (Fase 1 operacional) |
-| 8 | [Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md](./Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md) | Arquitetura V2 (16/09/2026) |
+| 4 | [WEB-ACOMPANHAMENTO.md](./WEB-ACOMPANHAMENTO.md) | Comandar o Engenheiro pelo Grok Bot |
+| 5 | [AMANHA-TESTES.md](./AMANHA-TESTES.md) | Guia rápido dos testes A–C |
+| 6 | [Documentação/TESTES-REAIS-AMANHA.md](./Documentação/TESTES-REAIS-AMANHA.md) | Checklist completo da Secretária |
+| 7 | [empresa/MAPA-EQUIPE.md](./empresa/MAPA-EQUIPE.md) | Equipe Grok Bot × fichas |
+| 8 | [empresa/fichas/01-secretaria.md](./empresa/fichas/01-secretaria.md) | Secretária (Fase 1 operacional) |
+| 9 | [Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md](./Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md) | Arquitetura V2 (16/09/2026) |
 
 ## Estado em 17/09/2026
 

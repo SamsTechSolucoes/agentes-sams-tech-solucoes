@@ -70,7 +70,7 @@ Sem isso, inventar um segundo WhatsApp aqui seria arquitetura paralela proibida.
 | Painel Drive (ao vivo) | https://docs.google.com/document/d/1i_dHYla1wpAWrXPtI_g9oTunBZtPs6Sl8Wc1T3hYl9M/edit |
 | GitHub (código) | https://github.com/SamsTechSolucoes/agentes-sams-tech-solucoes |
 | Cursor Web | Open Folder / Open in Cursor no repo acima — ver `ABRIR-NO-CURSOR.md` e `WEB-ACOMPANHAMENTO.md` |
-| Comandos ao Engenheiro | Chat **SamsTech Engineer** (este) |
+| Comandos ao Engenheiro | Chat **SamsTech Engineer** (Grok Bot → Cursor). Ambientes já ok. Ver `WEB-ACOMPANHAMENTO.md` |
 | Testes Secretária | Chat **Secretaria SamsTech** — roteiro `Documentação/TESTES-REAIS-AMANHA.md` |
 
 ## 7. O que falta para testes reais seus (checklist)

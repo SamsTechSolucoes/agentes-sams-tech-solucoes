@@ -27,6 +27,7 @@
 |---|---|
 | [fases/fase-1-mvp-secretaria.md](./fases/fase-1-mvp-secretaria.md) | Fase 1 operacional |
 | [runbooks/secretaria-fase1.md](./runbooks/secretaria-fase1.md) | Runbook Secretária |
+| [runbooks/comandar-engenheiro-grok.md](./runbooks/comandar-engenheiro-grok.md) | Comandar o Engenheiro pelo Grok Bot |
 | [fases/fase-2-comercial-ATIVACAO.md](./fases/fase-2-comercial-ATIVACAO.md) | Checklist se Samuel autorizar Fase 2 |
 | [playbooks/](./playbooks/) | Contatos, NF (como falar), ofensores, resumo matinal |
 | [decisoes/](./decisoes/) | Log datado |
@@ -37,5 +38,6 @@
 - [decisoes/2026-09-17-escopo-pasta-agentes.md](./decisoes/2026-09-17-escopo-pasta-agentes.md)
 - [decisoes/2026-09-17-autonomia-noturna.md](./decisoes/2026-09-17-autonomia-noturna.md)
 - [decisoes/2026-09-17-cursor-somente-engenheiro-e-termos-ptbr.md](./decisoes/2026-09-17-cursor-somente-engenheiro-e-termos-ptbr.md)
+- [decisoes/2026-09-17-comando-engenheiro-via-grok.md](./decisoes/2026-09-17-comando-engenheiro-via-grok.md)
 
 Handoff histórico (não apagar): [../AMANHA.md](../AMANHA.md), [../docs/conversa-handoff-15-09-2026.md](../docs/conversa-handoff-15-09-2026.md).

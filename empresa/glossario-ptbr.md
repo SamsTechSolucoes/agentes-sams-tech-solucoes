@@ -53,6 +53,8 @@ Mapa: `empresa/MAPA-EQUIPE.md`. Canal de grupo: **SamsTech Ops** (Engineer + Sec
 | Termo PT-BR | Significado |
 |---|---|
 | Cursor IA | Ambiente onde o Engenheiro Principal age com ferramentas. |
+| Ambientes Cursor | Configuração já pronta do Cloud Agent deste repo. **Não reconfigurar** sem pedido. |
 | Ferramentas do Cursor | Shell, arquivos, navegador, conectores (MCP), etc. |
 | Navegador do Cursor | Ferramenta de browser da sessão (quando disponível). |
 | Conector (MCP) | Ligação a serviço externo (Gmail, Agenda, etc.), se autenticado. |
+| Comando ao Engenheiro | Pedido colado no Grok Bot **SamsTech Engineer**; execução no Cursor. |

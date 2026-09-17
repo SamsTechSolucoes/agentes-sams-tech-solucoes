@@ -17,7 +17,8 @@ Chat **Secretaria SamsTech**:
 Roteiro detalhado: `Documentação/TESTES-REAIS-AMANHA.md` (A–C).
 
 ## 3. Engenheiro (só se precisar)
-Chat **SamsTech Engineer** — desenvolvimento, sync, integração, bugs.  
+Grok Bot **SamsTech Engineer** — cole o comando (modelo em `templates/comando-engenheiro.md`).  
+Cursor no PC já aberto; Ambientes já configurados — **não** pedir reconfiguração.  
 No modo diário ele **não** deve abrir mudança estrutural sem você pedir.
 
 ## 4. Scripts úteis (PowerShell nesta pasta)

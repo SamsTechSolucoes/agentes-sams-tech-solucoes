@@ -14,6 +14,7 @@
 2. `C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes`
 3. Source Control deve mostrar `agentes-sams-tech-solucoes`
 4. Aí sim: Open in Cursor no cloud agent
+5. Comando de engenharia: Grok Bot **SamsTech Engineer** (Ambientes já ok). Modelo: `templates/comando-engenheiro.md`
 
 Não é necessário criar outro repositório: este já é exclusivo dos Agentes. O trabalho local já foi enviado para o `main` do GitHub.
 
