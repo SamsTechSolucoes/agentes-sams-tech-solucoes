@@ -1,9 +1,19 @@
 ﻿# Plano de Implementação por Fases — SamsTech Agents V2
 
-Data do plano: 17/09/2026
-Base: Arquitetura V2 (16/09/2026) × diagnóstico nf-stream-analyze × regras do Engenheiro Principal
-Status: AGUARDANDO AUTORIZAÇÃO PARA INICIAR QUALQUER FASE
-Princípio: reutilizar o SaaS atual (nf-stream-analyze); substituir progressivamente; primeira versão pequena e testável.
+| Campo | Valor |
+|---|---|
+| **Data do plano** | 17/09/2026 |
+| **Base** | Arquitetura V2 (16/09/2026) × diagnóstico 17/09 × Engenheiro Principal |
+| **Autonomia noturna** | 17/09/2026 — docs/fichas/scripts **neste repo apenas** |
+| **Fonte do dia a dia** | Pasta local `C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes` (clone deste GitHub) |
+| **Sistema de NF** | **Externo.** Não alterar `nf-stream-analyze` sem permissão explícita |
+| **Repo exclusivo** | https://github.com/SamsTechSolucoes/agentes-sams-tech-solucoes |
+| **Status 17/09 (manhã)** | Fase 0 documental **feita neste git**. Fase 1 Secretária **operacional** (local). Fases 2–9 no papel. **Nenhum código de produto iniciado.** |
+
+Princípio: o Agents vive **neste** repositório. O SaaS de NF continua onde está; reutilizar **como sistema externo** (consulta/tela), substituir progressivamente **só** com autorização e no repo certo. Primeira versão pequena e testável = Secretária.
+
+**v1 sugerida:** 0 → 1 → 2.  
+**Não iniciar código em `nf-stream-analyze` até o Samuel autorizar explicitamente aquela fase *e* aquele repositório.**
 
 ## Síntese da comparação
 
@@ -23,8 +33,14 @@ Princípio: reutilizar o SaaS atual (nf-stream-analyze); substituir progressivam
 - Testes ainda rasos
 - Higiene de segredos no git (.env*, Tokens & Keys.txt)
 
+### Já existe neste repo de Agentes (17/09)
+- Arquitetura V2 integral (seções 1–11)
+- Diretriz do Engenheiro Principal + regras Cursor
+- Constituição, fichas 01–07, `operacao/`, scripts e templates
+- Fase 1 Secretária operacional (sem envio autônomo)
+
 ### Arquitetura V2 pede e ainda NÃO existe (ou só no papel)
-- Equipe multiagente (Secretária, Gestor, Comercial, Produtos, Financeiro, Inteligência, Evolução)
+- Equipe multiagente **ao vivo** além da Secretária (Gestor, Comercial, Produtos, Financeiro, Inteligência, Evolução)
 - Central de Aprovações formal
 - Camada Google Drive/Sheets como superfície operacional visível
 - Integração Gmail / Calendar / Contacts (padrão CNPJ/CPF - Nome [Cliente Cantu])
@@ -55,8 +71,8 @@ Fechar decisões, higiene de segurança e baseline documental para desenvolver c
 - Critérios de custo (sem overage)
 
 ### Arquivos afetados
-- `agentes-sams-tech-solucoes`: Documentação/arquitetura/*, AGENTS.md, PR #1
-- Possivelmente `.gitignore` / remoção de secrets no `nf-stream-analyze` (só após autorização)
+- **Somente** `agentes-sams-tech-solucoes`: `Documentação/`, `AGENTS.md`, `empresa/`, `operacao/`, `scripts/`, PR #1
+- Qualquer `.gitignore` / remoção de secrets em `nf-stream-analyze`: **proibido neste plano** até permissão explícita pontual do Samuel
 
 ### Dados envolvidos
 - Nenhum dado de produção alterado
@@ -77,10 +93,11 @@ Fechar decisões, higiene de segurança e baseline documental para desenvolver c
 - Checklist: PR revisado; arquitetura versionada; lista de decisões fechadas
 
 ### Critérios de conclusão
-- Arquitetura V2 no GitHub
-- Decisões SoT + escopo v1 registradas em Documentação/decisoes/
-- Plano de secrets aprovado (executado ou agendado)
-- Nenhuma feature de produto iniciada sem OK da Fase 1
+- [x] Arquitetura V2 no GitHub (este repo)
+- [x] Escopo de pasta/repo registrado (`2026-09-17-escopo-pasta-agentes.md`)
+- [ ] Decisão SoT (Supabase vs Sheets) — **PENDENTE SAMUEL**
+- [ ] Plano de secrets no **repo de NF** — só com permissão explícita; **não** executar daqui
+- [x] Nenhuma feature de produto iniciada sem OK
 
 ### Decisões que dependem de Samuel
 - Autorizar limpeza/rotação de secrets
@@ -93,8 +110,10 @@ Fechar decisões, higiene de segurança e baseline documental para desenvolver c
 
 ## FASE 1 — Secretária Pessoal (MVP utilizável)
 
+**Status 17/09: OPERACIONAL neste repo** (validação humana do Samuel ainda pendente na manhã). Detalhe: `Documentação/fases/fase-1-mvp-secretaria.md`.
+
 ### Objetivo
-Samuel fala com uma interface única (Secretária) que consulta o que o nf-stream já sabe e avisa o que importa — sem ele precisar “lembrar de perguntar”.
+Samuel fala com uma interface única (Secretária) que registra o dia a dia **nesta pasta**, consulta o que o sistema de NF **já sabe** (tela / dado externo, sem alterar código) e avisa o que importa — sem ele precisar “lembrar de perguntar”.
 
 ### Funcionalidades
 - Bot Secretária no Grok Bot (texto; áudio depois)
@@ -105,9 +124,9 @@ Samuel fala com uma interface única (Secretária) que consulta o que o nf-strea
 - Rotina matinal: resumo do que precisa atenção
 
 ### Arquivos afetados
-- `agentes-sams-tech-solucoes`: fichas/empresa, routines docs
-- Possivelmente endpoints/views read-only no `nf-stream-analyze` (mínimo)
-- Skills/routines do Grok Bot (após aprovação)
+- **Somente** `agentes-sams-tech-solucoes`: `empresa/fichas/01-secretaria.md`, `operacao/*`, `scripts/`, runbook, playbooks
+- Endpoints/views no `nf-stream-analyze`: **fora de escopo** até permissão explícita
+- Skills/routines do Grok Bot: só após aprovação
 
 ### Dados envolvidos
 - clients, invoices, reminders, user_settings (leitura)
@@ -465,4 +484,5 @@ Fechar interface principal da V2 com agenda e e-mails autorizados.
 
 **Primeira versão utilizável sugerida:** concluir Fases 0–2 (Secretária + Comercial proativo sobre o que já existe).
 
-**Não iniciar código até Samuel autorizar explicitamente a Fase 0 ou a Fase 1.**
+**Não iniciar código de produto (nem tocar `nf-stream-analyze`) até Samuel autorizar explicitamente a fase *e* o repositório.**  
+Trabalho overnight 17/09 e o dia a dia da Secretária acontecem **só** neste repo / pasta local.

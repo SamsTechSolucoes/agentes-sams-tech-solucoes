@@ -1,23 +1,19 @@
-# Fase 9 — Automação estável (Skills/Routines) — futuro
+# Fase 9 — Secretária completa: Gmail, Calendar, Contacts, áudio (papel)
 
-**Status:** stub one-pager.  
-**Não implementar.** Aponta para a arquitetura.
+**Status:** stub. **Não ligar Gmail.** Fase 1 (texto + arquivos locais) vem **antes**.  
+**Fonte:** Plano Fase 9 e V2 §§8–10.
 
-## Domínio / tema
+## Objetivo
+Fechar a interface principal da V2 com agenda e e-mails **autorizados**.
 
-Evolução + custo/segurança
+## Funcionalidades
+Gmail no escopo; Calendar + lembretes; Contacts com padrão de nome; áudio → texto → ação.
 
-## Fonte
+## Arquivos / Dados / Integrações
+Playbooks da Secretária; permissões. E-mails/eventos/contatos **só no escopo** que Samuel definir.
 
-- `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`
-- Fichas em `empresa/fichas/` (quando existirem para o domínio)
+## Dependências / Riscos / Testes / Critérios
+Fases 1 e 8; política de escopo de e-mail. Riscos: LGPD, custo, caixa demais. Testes: casos autorizados vs recusados.
 
-## Condição para sair do papel
-
-1. Fases anteriores validadas por Samuel.
-2. Plano escrito + autorização explícita desta fase.
-3. Nada de inventar regras de negócio (comissões, legal, etc.).
-
-## Nota
-
-Qualquer detalhe operacional fino = **PENDENTE SAMUEL**.
+## Decisões Samuel
+Contas e filtros; o que pode responder sozinha vs rascunhar. **PENDENTE SAMUEL.**

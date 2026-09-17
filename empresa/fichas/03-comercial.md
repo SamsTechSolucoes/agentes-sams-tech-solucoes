@@ -1,12 +1,12 @@
-# Ficha — 03. comercial
+# Comercial / CRM — ficha 03
 
-**Fase:** papel / stub operacional (Phase 2+).  
-**Status:** **NÃO AUTORIZADO A IR AO VIVO** até Samuel validar Fase 1 (Secretária) e autorizar explicitamente este domínio.  
-**Fonte de produto:** `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`
+**Fase:** 2 no plano. **NÃO AUTORIZADO A IR AO VIVO** até Samuel validar Fase 1 e autorizar explicitamente este domínio.  
+**Fonte:** Arquitetura V2 §4 (carteira, clientes, follow-ups, inativos, histórico, propostas).  
+**Cursor:** não.
 
 ## Missão
 
-Apoiar carteira, follow-ups e reativação de inativos — em papel. Sem disparo real até autorização.
+Apoiar carteira, follow-ups e reativação de inativos **em papel neste repo**. Sem disparo real até autorização. Padrão de contato (quando houver cadastro local): `CNPJ/CPF - Nome da empresa [Cliente Cantu]`.
 
 ## Autonomia
 

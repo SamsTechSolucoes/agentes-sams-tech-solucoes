@@ -12,4 +12,6 @@ Todas em PT-BR. Glossário: `../glossario-ptbr.md`. Constituição: `../constitu
 | `06-inteligencia.md` | Inteligência Comercial e Operacional | Não |
 | `07-evolucao.md` | Evolução / Arquitetura | Não |
 
-**Único com Cursor (temporário):** Engenheiro Principal — ver `AGENTS.md` e decisão em `Documentação/decisoes/2026-09-17-cursor-somente-engenheiro-e-termos-ptbr.md`.
+**Único com Cursor (temporário):** Engenheiro Principal — `AGENTS.md`.  
+**Único operacional (Fase 1):** Secretária Pessoal (`01-secretaria.md`).  
+**04–07:** stubs **PENDENTE SAMUEL** — não ao vivo.

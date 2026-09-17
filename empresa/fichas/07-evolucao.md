@@ -1,8 +1,7 @@
-# Ficha — 07. evolucao
+# Evolução / Arquitetura — ficha 07
 
-**Fase:** papel / stub operacional (Phase 2+).  
-**Status:** **NÃO AUTORIZADO A IR AO VIVO** até Samuel validar Fase 1 (Secretária) e autorizar explicitamente este domínio.  
-**Fonte de produto:** `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`
+**PENDENTE SAMUEL.** Stub de papel. **Nunca cria agente sozinho.** Só sugere especialização.  
+**Fonte:** Arquitetura V2 §4. **Cursor:** não (Cursor é do Engenheiro Principal, papel distinto).
 
 ## Missão
 

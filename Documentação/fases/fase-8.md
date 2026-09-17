@@ -1,23 +1,19 @@
-# Fase 8 — Integrações (Drive/Sheets/APIs) — futuro
+# Fase 8 — Gestor + Central de Aprovações + equipe (papel)
 
-**Status:** stub one-pager.  
-**Não implementar.** Aponta para a arquitetura.
+**Status:** stub. Fichas 02 e 07 prontas em papel; **não ao vivo**.  
+**Fonte:** Plano Fase 8 e V2 §§3–5.
 
-## Domínio / tema
+## Objetivo
+Secretária não faz tudo: Gestor decompõe/delega; aprovações centralizadas.
 
-temas transversais V2
+## Funcionalidades
+Gestor: decomposição e handoff; Central de Aprovações (enviar, cobrar, cancelar, alterar crítico); demais papéis sob o Gestor; Evolução só sugere agentes.
 
-## Fonte
+## Arquivos / Dados / Integrações
+`empresa/fichas/02-gestor.md`, `07-evolucao.md`, `operacao/gestor/`, `operacao/central-aprovacoes/`, `operacao/fila-aprovacoes/`.
 
-- `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`
-- Fichas em `empresa/fichas/` (quando existirem para o domínio)
+## Dependências / Riscos / Testes / Critérios
+Fases 1–7 mínimas estáveis; orçamento de Bots no Pro. Risco: custo e falha de handoff. Critério: 1 fluxo multiagente com aprovação registrada; nenhum agente novo sem OK.
 
-## Condição para sair do papel
-
-1. Fases anteriores validadas por Samuel.
-2. Plano escrito + autorização explícita desta fase.
-3. Nada de inventar regras de negócio (comissões, legal, etc.).
-
-## Nota
-
-Qualquer detalhe operacional fino = **PENDENTE SAMUEL**.
+## Decisões Samuel
+Quais papéis criar na ordem; limite Pro / on-demand = 0. **PENDENTE SAMUEL.**

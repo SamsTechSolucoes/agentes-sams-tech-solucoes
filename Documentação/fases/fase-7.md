@@ -1,23 +1,19 @@
-# Fase 7 — Evolução / melhorias (papel)
+# Fase 7 — Inteligência: ofensores, metas, tickets/SLA (papel)
 
-**Status:** stub one-pager.  
-**Não implementar.** Aponta para a arquitetura.
+**Status:** stub. Ficha `empresa/fichas/06-inteligencia.md` = **PENDENTE SAMUEL**.  
+**Fonte:** Plano Fase 7 e V2 §11.3.
 
-## Domínio / tema
+## Objetivo
+Relatórios que **separam fatos de interpretações**; visão de metas e tickets.
 
-Evolução
+## Funcionalidades
+Ofensores nas categorias Comercial, Produto, Logística, Processos, Financeiro; reuso de metas/dashboard existentes no sistema externo; tickets + SLA se houver fonte.
 
-## Fonte
+## Arquivos / Dados / Integrações
+Neste repo: ficha 06 + `operacao/inteligencia/`. Sem ranking público inventado.
 
-- `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`
-- Fichas em `empresa/fichas/` (quando existirem para o domínio)
+## Dependências / Riscos / Testes / Critérios
+Fases 1–2; taxonomia. Risco: hipótese como fato. Critério: 1 relatório semanal útil revisado por Samuel.
 
-## Condição para sair do papel
-
-1. Fases anteriores validadas por Samuel.
-2. Plano escrito + autorização explícita desta fase.
-3. Nada de inventar regras de negócio (comissões, legal, etc.).
-
-## Nota
-
-Qualquer detalhe operacional fino = **PENDENTE SAMUEL**.
+## Decisões Samuel
+Taxonomia e pesos; existe sistema de tickets hoje? Qual? **PENDENTE SAMUEL.**

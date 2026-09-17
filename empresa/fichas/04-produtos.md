@@ -1,8 +1,7 @@
-# Ficha — 04. produtos
+# Produtos — ficha 04
 
-**Fase:** papel / stub operacional (Phase 2+).  
-**Status:** **NÃO AUTORIZADO A IR AO VIVO** até Samuel validar Fase 1 (Secretária) e autorizar explicitamente este domínio.  
-**Fonte de produto:** `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`
+**PENDENTE SAMUEL.** Stub de papel. Fase 5 no plano. **Não ao vivo.** Não inventar ruptura, equivalência nem estoque.  
+**Fonte:** Arquitetura V2 §4 e §11.1. **Cursor:** não.
 
 ## Missão
 

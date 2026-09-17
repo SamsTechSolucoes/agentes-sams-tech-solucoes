@@ -1,5 +1,7 @@
 # Fase 1 — Secretária (operacional local)
 
+Documento curto. Detalhe completo: [fase-1-mvp-secretaria.md](./fase-1-mvp-secretaria.md).
+
 **Status:** em consolidação (papéis + pastas + scripts locais).  
 **Autorização de envio externo:** **não** — só rascunhos em `fila-aprovacoes/`.
 

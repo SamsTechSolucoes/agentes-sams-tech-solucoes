@@ -1,23 +1,19 @@
-# Fase 4 — Financeiro / inadimplência (papel)
+# Fase 4 — Google Drive / Sheets espelho (papel)
 
-**Status:** stub one-pager.  
-**Não implementar.** Aponta para a arquitetura.
+**Status:** stub. **Não conectar OAuth.** **PENDENTE SAMUEL** (SoT).  
+**Fonte:** Plano Fase 4 e V2 §10.
 
-## Domínio / tema
+## Objetivo
+Expor visão analítica em Sheets **sem** abandonar o banco do produto como verdade operacional (recomendação: Supabase SoT; Sheets espelho).
 
-Financeiro
+## Funcionalidades
+Espelho read-only (clientes, NFs recentes, inativos, metas); docs executivos no Drive; sync com custo controlado.
 
-## Fonte
+## Arquivos / Dados / Integrações
+Só deste repo até autorização: documentação de mapeamento. Dados = cópias derivadas, não SoT. Integrações: Drive, Sheets — **desligadas**.
 
-- `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`
-- Fichas em `empresa/fichas/` (quando existirem para o domínio)
+## Dependências / Riscos / Testes / Critérios
+Fases 1–2; OAuth; decisão SoT. Riscos: duplicidade de verdade, LGPD, sync stale. Critério: 1 workbook usado sem editar SoT no Sheet.
 
-## Condição para sair do papel
-
-1. Fases anteriores validadas por Samuel.
-2. Plano escrito + autorização explícita desta fase.
-3. Nada de inventar regras de negócio (comissões, legal, etc.).
-
-## Nota
-
-Qualquer detalhe operacional fino = **PENDENTE SAMUEL**.
+## Decisões Samuel
+Estrutura das abas; frequência; conta Google. **PENDENTE SAMUEL.**

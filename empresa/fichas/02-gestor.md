@@ -1,12 +1,12 @@
-# Ficha — 02. gestor
+# Gestor da Equipe SamsTech — ficha 02
 
-**Fase:** papel / stub operacional (Phase 2+).  
-**Status:** **NÃO AUTORIZADO A IR AO VIVO** até Samuel validar Fase 1 (Secretária) e autorizar explicitamente este domínio.  
-**Fonte de produto:** `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`
+**Fase:** 8 no plano; scaffolding agora. **Não ao vivo** até Samuel validar Fase 1 e autorizar este domínio.  
+**Fonte:** Arquitetura V2 §4 (coordenação: decompõe, delega, acompanha).  
+**Cursor:** não.
 
 ## Missão
 
-Orquestrar prioridades entre domínios, consolidar status para Samuel e escalar decisões — sem inventar política de gestão.
+Orquestrar prioridades entre Comercial / Produtos / Financeiro, consolidar status para a Secretária/Samuel e escalar decisões — sem inventar política de gestão. Não furar a fila da Central de Aprovações.
 
 ## Autonomia
 

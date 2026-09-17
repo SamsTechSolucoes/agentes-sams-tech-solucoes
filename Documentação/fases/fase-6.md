@@ -1,23 +1,19 @@
-# Fase 6 — Gestor / orquestração (papel)
+# Fase 6 — Financeiro (papel)
 
-**Status:** stub one-pager.  
-**Não implementar.** Aponta para a arquitetura.
+**Status:** stub. Ficha `empresa/fichas/05-financeiro.md` = **PENDENTE SAMUEL**.  
+**Fonte:** Plano Fase 6 e V2 §11.2.
 
-## Domínio / tema
+## Objetivo
+Processar inadimplência semanal e preparar cobranças/comissões **sem executar dinheiro**.
 
-Gestor
+## Funcionalidades
+Import semanal; fila de cobrança com aprovação; cálculo de comissões **segundo documento oficial da empresa** (ainda inexistente neste git).
 
-## Fonte
+## Arquivos / Dados / Integrações
+Neste repo: ficha 05 + `operacao/financeiro/`. Nunca movimentar valores. Sem texto de cobrança inventado.
 
-- `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`
-- Fichas em `empresa/fichas/` (quando existirem para o domínio)
+## Dependências / Riscos / Testes / Critérios
+Regras de comissão por escrito; fonte oficial de inadimplência. Risco: regra inventada (proibido). Critério: 1 ciclo semanal com aprovação em todo envio.
 
-## Condição para sair do papel
-
-1. Fases anteriores validadas por Samuel.
-2. Plano escrito + autorização explícita desta fase.
-3. Nada de inventar regras de negócio (comissões, legal, etc.).
-
-## Nota
-
-Qualquer detalhe operacional fino = **PENDENTE SAMUEL**.
+## Decisões Samuel
+Documento de comissões; fonte/formato da inadimplência; canais. **PENDENTE SAMUEL.**

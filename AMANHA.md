@@ -1,11 +1,12 @@
-# Atualização 17/09/2026 (não substitui o handoff abaixo)
+# Atualização 17/09/2026 (overnight + repo exclusivo)
 
-O **Engenheiro Principal** está ativo para preparação de ambiente e instruções.
+O trabalho de Agentes é **somente** neste GitHub / pasta `SamsTechSolucoes-Agentes`.  
+Briefing: [STATUS.md](./STATUS.md). Porta de entrada: [AGENTS.md](./AGENTS.md).  
+Fase 1 Secretária: operacional. Sistema de NF: **não** alterar.
 
-- Porta de entrada: [AGENTS.md](./AGENTS.md)
-- Documentação: [Documentação/README.md](./Documentação/README.md)
+O texto abaixo permanece o snapshot da Fase 0 (15/09/2026). Não apagar.
 
-Isto **não** autoriza criar a frota Grok Bot (Jarvis, Alex, …) nem implementar o produto. O texto abaixo permanece o snapshot da Fase 0 (15/09/2026).
+---
 
 ---
 

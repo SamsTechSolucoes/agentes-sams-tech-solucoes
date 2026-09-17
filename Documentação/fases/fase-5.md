@@ -1,23 +1,19 @@
-# Fase 5 — Inteligência / ofensores (papel)
+# Fase 5 — Produtos: estoque + cliente aguardando (papel)
 
-**Status:** stub one-pager.  
-**Não implementar.** Aponta para a arquitetura.
+**Status:** stub. Ficha `empresa/fichas/04-produtos.md` = **PENDENTE SAMUEL**.  
+**Fonte:** Plano Fase 5 e V2 §11.1.
 
-## Domínio / tema
+## Objetivo
+Avisar quando entrar produto que o cliente aguarda (notificação idempotente).
 
-Inteligência
+## Funcionalidades
+Cadastro “aguarda X para cliente Y”; entrada de estoque; aviso à Secretária; equivalências depois.
 
-## Fonte
+## Arquivos / Dados / Integrações
+Neste repo: ficha 04 + `operacao/produtos/`. Código de estoque no NF: **só com permissão explícita**.
 
-- `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`
-- Fichas em `empresa/fichas/` (quando existirem para o domínio)
+## Dependências / Riscos / Testes / Critérios
+Fases 1–3; regras de equivalência. Risco: estoque impreciso. Teste: aguarda → entra → notifica uma vez.
 
-## Condição para sair do papel
-
-1. Fases anteriores validadas por Samuel.
-2. Plano escrito + autorização explícita desta fase.
-3. Nada de inventar regras de negócio (comissões, legal, etc.).
-
-## Nota
-
-Qualquer detalhe operacional fino = **PENDENTE SAMUEL**.
+## Decisões Samuel
+Como mede “entrada”; equivalências iniciais. **PENDENTE SAMUEL.** Não inventar.
