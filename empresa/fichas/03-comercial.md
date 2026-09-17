@@ -54,3 +54,5 @@ Apoiar carteira, follow-ups e reativação de inativos **em papel neste repo**. 
 ## Relação com a Secretária (Fase 1)
 
 Enquanto a Secretária for o único domínio operacional, este papel permanece em **ficha + pastas stub**. A Secretária não “vira” comercial sem autorização.
+
+Ativação ao vivo (quando Samuel autorizar): `Documentação/fases/fase-2-comercial-ATIVACAO.md`. Handoff: `Documentação/playbooks/handoff-secretaria-comercial.md`.

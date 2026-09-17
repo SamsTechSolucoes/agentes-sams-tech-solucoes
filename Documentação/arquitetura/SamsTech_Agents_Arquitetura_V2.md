@@ -13,6 +13,8 @@
 
 Objetivo da V2: construir a primeira versão **utilizável** do SamsTech Agents para uso pessoal de Samuel na rotina comercial, substituindo **progressivamente** o SaaS SamsTech atual — sem apagar o que já funciona e sem misturar repositórios.
 
+**Como ler:** as seções **1–11** são o conteúdo oficial de **16/09/2026**. Notas de pasta/GitHub, Fase 1 e “PENDENTE SAMUEL” **não** inventam regra de comissão, estoque, cobrança, SoT ou equivalência de produto.
+
 ---
 
 ## 1. INSTRUÇÃO PRINCIPAL

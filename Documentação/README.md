@@ -11,6 +11,9 @@ Comece por [../AGENTS.md](../AGENTS.md) e [../STATUS.md](../STATUS.md).
 | [arquitetura/SamsTech_Agents_Arquitetura_V2.md](./arquitetura/SamsTech_Agents_Arquitetura_V2.md) | **Fonte de produto** (V2, 16/09/2026, seções 1–11) |
 | [Plano_Implementacao_Fases_V2.md](./Plano_Implementacao_Fases_V2.md) | Fases 0–9 (completa) |
 | [fases/fase-1-mvp-secretaria.md](./fases/fase-1-mvp-secretaria.md) | Fase 1 operacional |
+| [fases/fase-2-comercial-ATIVACAO.md](./fases/fase-2-comercial-ATIVACAO.md) | Checklist se Samuel autorizar Fase 2 |
+| [fases/fase-5-checklist-ativacao.md](./fases/fase-5-checklist-ativacao.md) | Produtos — **PENDENTE SAMUEL** |
+| [fases/fase-6-checklist-ativacao.md](./fases/fase-6-checklist-ativacao.md) | Financeiro — **PENDENTE SAMUEL** |
 | [SamsTech_Diretriz_Engenheiro_Principal.md](./SamsTech_Diretriz_Engenheiro_Principal.md) | Diretriz de engenharia |
 | [diagnostico-ambiente-2026-09-17.md](./diagnostico-ambiente-2026-09-17.md) | Inventário classificado |
 | [../AGENTS.md](../AGENTS.md) | Porta de entrada |

@@ -50,3 +50,5 @@ Apoiar visão de inadimplência e lembretes financeiros em papel — sem cobran�
 ## Relação com a Secretária (Fase 1)
 
 Enquanto a Secretária for o único domínio operacional, este papel permanece em **ficha + pastas stub**. A Secretária não “vira” financeiro sem autorização.
+
+Checklist (não opera sozinho): `Documentação/fases/fase-6-checklist-ativacao.md`. Sem % de comissão neste git.

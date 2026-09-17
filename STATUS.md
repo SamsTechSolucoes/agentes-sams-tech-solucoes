@@ -1,6 +1,6 @@
 ﻿# STATUS — briefing da manhã (SamsTech Agents)
 
-**Atualizado:** 17/09/2026 (cloud agent overnight, America/Sao_Paulo)  
+**Atualizado:** 17/09/2026 (cloud + push local)  
 **Repo exclusivo:** https://github.com/SamsTechSolucoes/agentes-sams-tech-solucoes  
 **Pasta local:** `C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes` (clone deste repo)
 
@@ -8,19 +8,35 @@
 
 ## Em uma frase
 
-A documentação e o esqueleto da equipe de Agentes estão neste GitHub; a **Secretária (Fase 1) está operacional** na pasta local; o sistema de **NF não foi (e não deve ser) alterado**.
+A **Secretária (Fase 1) está operacional** nesta pasta/GitHub; scripts locais passaram na validação; o **PR #1** leva a Arquitetura V2 completa + README coerente para o `main`. O sistema de **NF não foi (e não deve ser) alterado**.
 
 ---
 
-## O que o Samuel encontra ao acordar
+## Verificação (OK — push local)
 
-1. **PR #1** neste repo, com a visão local (fichas, fases, scripts, operação) **mais** a diretriz do Engenheiro Principal e o diagnóstico 17/09.
-2. **Arquitetura V2 integral** (seções 1–11, 16/09/2026) em `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`.
-3. **Plano de fases 0–9** com Objetivo / Funcionalidades / Arquivos / Dados / Integrações / Dependências / Riscos / Testes / Critérios / Decisões Samuel.
-4. **Fichas 01–07** + constituição comum. 04–07 continuam **PENDENTE SAMUEL** (não ao vivo).
-5. **Runbook da Secretária** e scripts PowerShell locais.
+- Pasta = repo exclusivo `agentes-sams-tech-solucoes` (não é NF). Ver `ABRIR-NO-CURSOR.md`.
+- `main` já tem scripts, templates comerciais, checklists de ativação (Fases 2 / 5 / 6) e STATUS contínuo.
+- `scripts\validar-estrutura.ps1`: 24/24 OK (máquina do Samuel).
+- Scripts de pendência / tarefa / lembrete / rascunho corrigidos (encoding) e testados no Desktop.
 
-## Escopo fixo (não negociar no silêncio)
+## Pronto neste git
+
+- Fase 1 operacional (Secretária + pastas + scripts + templates)
+- Scaffolding Fase 2+ (fichas 02–07, `operacao/comercial/`, playbooks)
+- Bots: Secretária, Gestor, Comercial (Cursor só Engenheiro Principal)
+- Rotina Grok: resumo matinal 8:00 seg–sex
+- Pendências reais: `scripts\listar-pendencias.ps1` (ignorar `EXEMPLO-*`)
+
+## O que o PR #1 ainda adiciona ao `main` (não redundante)
+
+O `main` local ainda tem `README.md` da **Fase 0 (Jarvis / papel)** e a V2 só no texto curto. O PR #1 traz:
+
+1. `README.md` alinhado ao repo exclusivo e à Fase 1
+2. Arquitetura V2 **seções 1–11** com notas de operação (NF externo; sem regra de negócio inventada)
+3. `AGENTS.md`, constituição, runbook e Fase 1 detalhados
+4. Diagnóstico 17/09 e decisões de escopo / autonomia noturna
+
+## Escopo fixo
 
 | Pode | Não pode |
 |---|---|
@@ -29,18 +45,12 @@ A documentação e o esqueleto da equipe de Agentes estão neste GitHub; a **Sec
 | Rascunho na fila de aprovações | Envio WhatsApp/e-mail sozinho |
 | Consultar a tela de NF se o Samuel pedir | Alterar o git/código do NF |
 
-Decisões: `Documentação/decisoes/2026-09-17-escopo-pasta-agentes.md` e `Documentação/decisoes/2026-09-17-autonomia-noturna.md`.
+## Teste rápido (2 minutos)
 
-## Fase 1 — teste rápido (2 minutos)
-
-1. Abrir no Cursor a pasta `C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes` (ver `ABRIR-NO-CURSOR.md`).
-2. Source Control deve mostrar `agentes-sams-tech-solucoes` — **não** o repo de NF.
-3. Abrir a **Secretária SamsTech** (ou pedir no chat usando a ficha `empresa/fichas/01-secretaria.md`).
-4. Pedir uma **tarefa real**.
-5. Pedir um **rascunho de WhatsApp** — deve ir para `operacao/fila-aprovacoes/`, **sem enviar**.
-6. Não apagar o lembrete real `operacao/lembretes/20260917-0222-desligar-torneira.md`.
-
-Scripts, se preferir o terminal:
+1. Open Folder: `C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes`
+2. Source Control = `agentes-sams-tech-solucoes` (não o repo de NF)
+3. Pedir à Secretária: tarefa real + rascunho de WhatsApp → só `operacao/fila-aprovacoes/`
+4. Não apagar `operacao/lembretes/20260917-0222-desligar-torneira.md`
 
 ```powershell
 cd C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes
@@ -48,34 +58,27 @@ cd C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes
 .\scripts\resumo-matinal.ps1
 ```
 
-## Aguardando o Samuel (manhã)
+## Aguardando Samuel
 
-- [ ] Validar a Fase 1 na rotina real (tarefa + lembrete + rascunho).
-- [ ] Revisar / mergear o PR #1 deste repo.
-- [ ] Confirmar SoT: recomendação **Supabase = verdade operacional**, **Sheets = espelho analítico** — ainda **PENDENTE SAMUEL**.
-- [ ] Autorizar (ou não) a Fase 2 ao vivo (Comercial).
-- [ ] Confirmar se upload de NF permanece manual na v1.
-- [ ] Três dores da semana para priorizar.
+- [ ] Validar Fase 1 (tarefa + lembrete + rascunho)
+- [ ] Merge do PR #1 (README + V2 completa no `main`)
+- [ ] SoT: recomendação Supabase = verdade / Sheets = espelho — **PENDENTE SAMUEL**
+- [ ] Autorizar ou não a Fase 2 ao vivo (`Documentação/fases/fase-2-comercial-ATIVACAO.md`)
+- [ ] Upload de NF continua manual? **PENDENTE SAMUEL**
+- [ ] Regras de comissão — **não inventar**
+- [ ] Três dores da semana
 
 ## Não feito (de propósito)
 
-- Nenhuma linha de código em `nf-stream-analyze`.
-- Integração de produção com o sistema de NF.
-- Envio automático de WhatsApp.
-- Regras de comissão (faltam regras oficiais).
-- Drive/Sheets como camada operacional (Fase 4).
-- Skills/Routines permanentes.
-- Cursor para Secretária / Gestor / Comercial (só Engenheiro Principal).
-
-## Overnight (o que avançou)
-
-- Pacote local (scripts, templates, fichas, fases 0–9, `operacao/`) já estava no `main`.
-- Este turno: merge do `main` no PR #1 + preenchimento integral dos documentos exigidos + esclarecimento **repo exclusivo = esta pasta**.
-- Autonomia noturna: temporária; termina quando o Samuel acordar / revogar.
+- Código em `nf-stream-analyze`
+- Envio automático WhatsApp
+- Drive/Sheets ligados (Fase 4)
+- Skills/Routines permanentes
+- Fases 5–6 ao vivo (só checklist **PENDENTE SAMUEL**)
 
 ## Como abrir o dia
 
-1. `STATUS.md` (este arquivo)
+1. Este `STATUS.md`
 2. `AGENTS.md`
-3. Ficha `01-secretaria.md`
-4. Se for decidir produto: Arquitetura V2 + Plano de fases
+3. Ficha `empresa/fichas/01-secretaria.md`
+4. Arquitetura V2 + plano de fases, se for decidir produto

@@ -2,6 +2,8 @@
 
 **Status:** **plano / scaffolding**. **NÃO autorizado a ir ao vivo** até Samuel validar Fase 1.
 
+Checklist curto se autorizar: [fase-2-comercial-ATIVACAO.md](./fase-2-comercial-ATIVACAO.md).
+
 ## Pré-requisitos
 
 1. Fase 1 validada por Samuel.

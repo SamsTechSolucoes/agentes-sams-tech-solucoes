@@ -1,5 +1,7 @@
 # Playbook — Contatos
 
+Fonte: Arquitetura V2 §8. Não completar CNPJ/CPF/nome/telefone com chute.
+
 ## Padrão de nome
 `CNPJ/CPF - Nome da empresa [Cliente Cantu]`
 

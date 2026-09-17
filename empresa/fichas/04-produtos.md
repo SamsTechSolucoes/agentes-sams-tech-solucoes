@@ -48,3 +48,5 @@ Organizar visão de catálogo/estoque em papel; não assumir que catálogo NF = 
 ## Relação com a Secretária (Fase 1)
 
 Enquanto a Secretária for o único domínio operacional, este papel permanece em **ficha + pastas stub**. A Secretária não “vira” produtos sem autorização.
+
+Checklist (não opera sozinho): `Documentação/fases/fase-5-checklist-ativacao.md`.
