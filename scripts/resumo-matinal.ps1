@@ -1,35 +1,30 @@
-#Requires -Version 5.1
+﻿# Gera resumo das pendencias em operacao/registros
 $ErrorActionPreference = "Stop"
-$raiz = "C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes"
-$agora = Get-Date
-$dia = $agora.ToString("yyyyMMdd")
-$iso = $agora.ToString("yyyy-MM-ddTHH:mm:ssK")
+$root = Split-Path $PSScriptRoot -Parent
+Set-Location $root
+. "$PSScriptRoot\listar-pendencias.ps1" | Out-Null
 
-function Coletar([string]$Rel) {
-  $dir = Join-Path $raiz $Rel
-  if (-not (Test-Path $dir)) { return @() }
-  Get-ChildItem -Path $dir -Filter "*.md" -File |
-    Where-Object { $_.Name -notmatch '^(EXEMPLO-|README)' } |
-    ForEach-Object { $_.Name }
+function Count-Status($relDir, $needle) {
+  $dir = Join-Path $root $relDir
+  if (-not (Test-Path $dir)) { return 0 }
+  @(Get-ChildItem $dir -File -Filter *.md | Where-Object {
+    $_.Name -notmatch '^(README|EXEMPLO)' -and ((Get-Content $_.FullName -Raw) -match ("status:\s*" + $needle))
+  }).Count
 }
 
-$linhas = New-Object System.Collections.Generic.List[string]
-$linhas.Add("# Registro - Resumo matinal")
-$linhas.Add("- data: $($agora.ToString('yyyy-MM-dd'))")
-$linhas.Add("- tipo: nota")
-$linhas.Add("- conteudo: |")
-$linhas.Add("    Gerado em $iso pelo Engenheiro Principal (script resumo-matinal.ps1).")
-$linhas.Add("    Cursor: somente Engenheiro Principal autorizado nesta fase.")
-$linhas.Add("")
-$linhas.Add("    ## Tarefas")
-foreach ($i in (Coletar "operacao\tarefas")) { $linhas.Add("    - $i") }
-$linhas.Add("    ## Lembretes")
-foreach ($i in (Coletar "operacao\lembretes")) { $linhas.Add("    - $i") }
-$linhas.Add("    ## Fila de aprovacoes")
-foreach ($i in (Coletar "operacao\fila-aprovacoes")) { $linhas.Add("    - $i") }
-$linhas.Add("    ## Handoffs")
-foreach ($i in (Coletar "operacao\gestor")) { $linhas.Add("    - $i") }
-
-$destino = Join-Path $raiz ("operacao\registros\" + $dia + "-resumo-matinal.md")
-Set-Content -LiteralPath $destino -Value $linhas -Encoding UTF8
-Write-Host ("Resumo: " + $destino)
+$t = Count-Status "operacao\tarefas" "aberta"
+$l = Count-Status "operacao\lembretes" "pendente"
+$f = Count-Status "operacao\fila-aprovacoes" "pendente"
+$outDir = Join-Path $root "operacao\registros"
+New-Item -ItemType Directory -Force -Path $outDir | Out-Null
+$name = "{0}-resumo-matinal-auto.md" -f (Get-Date -Format "yyyyMMdd")
+$path = Join-Path $outDir $name
+@"
+# Resumo matinal automatico
+- data: $(Get-Date -Format "yyyy-MM-dd HH:mm")
+- tarefas_abertas: $t
+- lembretes_pendentes: $l
+- fila_aprovacao_pendente: $f
+- nota: Gerado por scripts/resumo-matinal.ps1. Nao inventa clientes nem dados de NF.
+"@ | Set-Content -Encoding UTF8 $path
+Write-Host "Resumo: $path"
