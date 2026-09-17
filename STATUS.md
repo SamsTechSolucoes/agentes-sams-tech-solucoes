@@ -1,34 +1,35 @@
 ﻿# STATUS — SamsTech Agents
 
-**Atualizado:** 2026-09-17 ~03:15 (America/Sao_Paulo)  
-**Autonomia noturna:** em andamento (Engenheiro nao parou)
+**Atualizado:** 2026-09-17 ~03:20 (America/Sao_Paulo)
+**Modo:** autonomia noturna CONTINUA (Engenheiro ainda trabalhando em background)
 
-## Verificacao (OK)
-- Pasta = repo exclusivo `agentes-sams-tech-solucoes` (nao e NF)
-- `main` sincronizado com GitHub
-- Abrir no Cursor: `C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes` → ver `ABRIR-NO-CURSOR.md`
-- `scripts\validar-estrutura.ps1`: 24/24 OK
-- Scripts de pendencia/tarefa/lembrete/rascunho corrigidos e testados
+## Verificacao
+- Repo exclusivo: https://github.com/SamsTechSolucoes/agentes-sams-tech-solucoes
+- Pasta: C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes
+- main no GitHub atualizado continuamente
+- NF (nf-stream-analyze): intocado
 
-## Pronto
-- Fase 1 operacional (Secretaria + pastas + scripts + templates)
-- Scaffolding Fase 2+ (fichas 02-07, comercial, playbooks)
-- Bots: Secretaria, Gestor, Comercial
-- Rotina Grok: resumo matinal 8:00 seg-sex
-- Pendencias reais atuais: ver `scripts\listar-pendencias.ps1`
+## Para amanha (testes reais)
+1. Open Folder no Cursor nesta pasta → ABRIR-NO-CURSOR.md
+2. Seguir Documentacao\TESTES-REAIS-AMANHA.md (e AMANHA-TESTES.md)
+3. Chat Secretaria: tarefa + lembrete + rascunho WhatsApp (so fila)
 
-## Ao acordar
-1. Open Folder no Cursor nesta pasta
-2. Testar Secretaria (tarefa + rascunho WhatsApp na fila)
-3. Autorizar ou ajustar Fase 2
+## Equipe Grok (scaffolding)
+- Secretaria SamsTech — Fase 1 operacional
+- Gestor SamsTech
+- Comercial SamsTech
+- Produtos SamsTech
+- Financeiro SamsTech
 
-## Aguardando Samuel
-- Validacao Fase 1
-- SoT Supabase vs Sheets
-- Regras de comissao
-- Ativacao ao vivo da Fase 2
+## Operacao
+- scripts\listar-pendencias.ps1 / novo-*.ps1 / resumo-matinal.ps1 / validar-estrutura.ps1
+- EXEMPLO-* arquivados em operacao\_exemplos\
+- Rotina: resumo matinal Agents 8:00 seg-sex
 
-## Proibido
-- Alterar nf-stream-analyze
-- Envio automatico WhatsApp
-- Inventar regras/clientes
+## Aguardando Samuel (nao bloqueia scaffolding)
+- Validar Fase 1 nos testes A-C
+- Autorizar Fase 2 ao vivo
+- SoT / comissoes / fontes inadimplencia
+
+## Encerramento
+Mensagem "encerrei" so aparece quando o Engenheiro parar de tomar decisoes e ficar apenas aguardando voce.

@@ -1,10 +1,17 @@
-﻿# Documentação SamsTech Agents
+﻿# Documentacao SamsTech Agents
 
-- [Diretriz do Engenheiro](./SamsTech_Diretriz_Engenheiro_Principal.md)
+## Comecar
+- [STATUS](../STATUS.md)
+- [Testes reais amanha](./TESTES-REAIS-AMANHA.md)
+- [Abrir no Cursor](../ABRIR-NO-CURSOR.md)
+
+## Arquitetura e plano
 - [Arquitetura V2](./arquitetura/SamsTech_Agents_Arquitetura_V2.md)
 - [Plano por fases](./Plano_Implementacao_Fases_V2.md)
-- [Fase 1 — MVP Secretária](./fases/fase-1-mvp-secretaria.md)
-- [Decisões](./decisoes/)
-- [Runbooks](./runbooks/)
+- [Diretriz Engenheiro](./SamsTech_Diretriz_Engenheiro_Principal.md)
+- [Fases](./fases/)
 
-Operação do dia a dia: `../operacao/` e ficha `../empresa/fichas/01-secretaria.md`.
+## Operacao
+- [Runbook Secretaria](./runbooks/secretaria-fase1.md)
+- [Playbooks](./playbooks/)
+- [Decisoes](./decisoes/)
