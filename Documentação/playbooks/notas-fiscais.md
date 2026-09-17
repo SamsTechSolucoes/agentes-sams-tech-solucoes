@@ -1,0 +1,13 @@
+# Playbook — Notas fiscais (orientação)
+
+## Política atual
+Upload de NF: **Samuel**. Agentes não processam NF sozinhos nesta fase.
+
+## O que a equipe pode fazer
+- Avisar que há NF a tratar (se a informação existir em registro/e-mail autorizado — integração ainda pendente).
+- Registrar follow-up em `operacao/registros/`.
+
+## O que não fazer
+- Alterar `nf-stream-analyze` sem permissão.
+- Inventar valor, cliente ou item de NF.
+- Usar Cursor (exceto Engenheiro Principal, e mesmo assim sem mudar o sistema de NF sem OK).

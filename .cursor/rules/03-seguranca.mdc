@@ -1,0 +1,15 @@
+---
+description: Segurança, credenciais, políticas corporativas e alterações irreversíveis
+alwaysApply: true
+---
+
+# Segurança
+
+Nunca exponha credenciais, coloque tokens no código, cole senha/2FA no chat ou desative proteção para facilitar teste.
+
+- Use variáveis de ambiente ou o fluxo seguro da plataforma.
+- Não contorne autenticação, controles de TI ou política corporativa.
+- Não encaminhe e-mail corporativo de forma proibida nem capture dado sem autorização.
+- Não invente regra financeira, comissão, meta ou dado crítico. Fonte oficial primeiro.
+- Confirme com Samuel antes de: apagar dados, mudar produção, autenticação, permissões, contratar serviço pago, habilitar overage, enviar mensagem externa ou publicar.
+- No computador do Grok Bot, não deixe credencial que outro Bot da mesma conta não deveria usar.

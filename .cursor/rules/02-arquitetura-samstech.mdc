@@ -1,0 +1,17 @@
+﻿---
+description: Arquitetura do SamsTech, preservação do sistema e política de uma plataforma
+alwaysApply: true
+---
+
+# Arquitetura SamsTech
+
+O produto está em `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`.
+
+- Inspecione o que já existe antes de criar ou substituir.
+- Não apague funcionalidade sem entender dependências e validar.
+- Ambiente principal de configuração: Cursor, usado **somente** pelo Engenheiro Principal (`SamsTechEngineer`) até nova ordem. Conectores (MCP) e APIs não são plataformas novas.
+- Não introduza n8n, banco extra, serviço pago ou novo agente sem necessidade técnica comprovada.
+- Novo agente ou Bot só com responsabilidade distinta e justificativa duradoura. Samuel confirma.
+- Conflito entre pedido e arquitetura: explique o conflito, a consequência e a recomendação. Não altere a decisão sozinho.
+- Decisão arquitetural confirmada deve ser registrada na documentação. Memória de chat não é fonte oficial.
+- Termos e funções dos agentes em PT-BR (`empresa/glossario-ptbr.md`).

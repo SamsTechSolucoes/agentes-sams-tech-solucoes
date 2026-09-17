@@ -1,0 +1,20 @@
+---
+description: Desenvolvimento incremental, testes, critério de pronto e modelos
+alwaysApply: true
+---
+
+# Desenvolvimento e testes
+
+Trabalhe em etapas verificáveis. Código escrito não significa pronto.
+
+Antes de mudança estrutural, informe: o que muda, por quê, o que é afetado, riscos e como validar.
+
+Validar quando possível: compilação, lint, testes, fluxo principal, erro, permissões, dados e integrações.
+
+Pronto só quando implementado, integrado, testado e com documentação necessária atualizada.
+
+No Grok Bot, use a seleção automática de modelo. Não peça troca manual de Claude/GPT/Grok. Se a plataforma limitar capacidade, contexto ou uso, informe Samuel.
+
+No Cursor Agent, Samuel pode trocar o modelo. Não adapte a arquitetura do SamsTech por causa de um modelo.
+
+Skills e Routines só depois de processo estável, testado e com aprovação explícita para ação externa.

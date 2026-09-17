@@ -1,0 +1,19 @@
+---
+description: Idioma PT-BR e permissão temporária de Cursor só para o Engenheiro Principal
+alwaysApply: true
+---
+
+# Idioma e permissão Cursor
+
+## Idioma
+- Todo material operacional e fichas de agentes em **português do Brasil (PT-BR)**.
+- Usar nomes de papéis do glossário: Engenheiro Principal, Secretária Pessoal, Gestor da Equipe, Comercial, Produtos, Financeiro, Inteligência Comercial e Operacional, Evolução / Arquitetura.
+- Evitar misturar termos em inglês nas funções dos agentes (exceto identificador técnico `SamsTechEngineer` e nomes de sistemas externos).
+
+## Cursor — quem pode usar
+- **Autorizado (temporário):** apenas Engenheiro Principal (`SamsTechEngineer`).
+- **Não autorizado (temporário):** Secretária Pessoal, Gestor da Equipe, Comercial, Produtos, Financeiro, Inteligência, Evolução.
+- Motivo: o Engenheiro Principal está configurando o sistema.
+- Ampliar permissão exige decisão registrada de Samuel em `Documentação/decisoes/`.
+
+Decisão: `Documentação/decisoes/2026-09-17-cursor-somente-engenheiro-e-termos-ptbr.md`.
