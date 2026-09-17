@@ -23,5 +23,6 @@ Abra `MODO-DIARIO.md` e `STATUS.md`.
 
 ## Acompanhar pela web
 Ver `WEB-ACOMPANHAMENTO.md` (Painel Drive + GitHub + como comandar o Engenheiro).  
+App da equipe (não é o Cursor): `ABRIR-GROK-BOT.md` → https://cursor.com/download/bot  
 Painel: https://docs.google.com/document/d/1i_dHYla1wpAWrXPtI_g9oTunBZtPs6Sl8Wc1T3hYl9M/edit  
 Integridade: `Documentação/INTEGRIDADE-FASES-E-FERRAMENTAS.md`

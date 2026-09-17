@@ -92,13 +92,13 @@ Ignorar `README.md` e `operacao/_exemplos/`. Os itens A–C devem aparecer.
 
 ## Critério de “Fase 1 ok para mim”
 
-- [ ] Abri a pasta certa no Cursor
-- [ ] **A** — 1 tarefa real em `operacao/tarefas/`
-- [ ] **B** — 1 lembrete real em `operacao/lembretes/`
-- [ ] **C** — 1 rascunho **só** na fila (`operacao/fila-aprovacoes/`)
-- [ ] Confirmei que **nada** foi enviado sozinho
+- [x] Abri a pasta certa no Cursor
+- [x] **A** — 1 tarefa real em `operacao/tarefas/`
+- [x] **B** — 1 lembrete real em `operacao/lembretes/`
+- [x] **C** — 1 rascunho **só** na fila (`operacao/fila-aprovacoes/`)
+- [x] Confirmei que **nada** foi enviado sozinho
 
-Se A–C funcionarem, a Fase 1 está validada.  
+Samuel confirmou em 17/09/2026: piloto da Fase 1 **concluído ontem (16/09)**.  
 Fase 2 ao vivo **só** com autorização escrita — `Documentação/fases/fase-2-comercial-ATIVACAO.md`.
 
 ---

@@ -17,7 +17,8 @@ Chat **Secretaria SamsTech**:
 Roteiro detalhado: `Documentação/TESTES-REAIS-AMANHA.md` (A–C).
 
 ## 3. Engenheiro (só se precisar)
-Grok Bot **SamsTech Engineer** — cole o comando (modelo em `templates/comando-engenheiro.md`).  
+App **Grok Bot** (não é o Cursor) → chat **SamsTech Engineer** — cole o comando (`templates/comando-engenheiro.md`).  
+Se ainda não tem o app: `ABRIR-GROK-BOT.md` → https://cursor.com/download/bot  
 Cursor no PC já aberto; Ambientes já configurados — **não** pedir reconfiguração.  
 No modo diário ele **não** deve abrir mudança estrutural sem você pedir.
 

@@ -5,10 +5,12 @@ Samuel acompanha a configuração pela web e dá comandos ao Engenheiro Principa
 
 ## Canal oficial (17/09/2026)
 Ambientes Cursor **já configurados** — não reconfigurar. Cursor no PC aberto em `SamsTechSolucoes-Agentes`.  
-Samuel acessa o Grok Bot **SamsTech Engineer** e cola o comando. Execução com ferramentas: Cursor no PC ou Cloud Agent deste repo.
+O app da equipe é o **Grok Bot** (programa separado do Cursor). Download: `ABRIR-GROK-BOT.md` → https://cursor.com/download/bot  
+Samuel fala no Grok Bot **SamsTech Engineer**. Execução: Cursor no PC ou Cloud Agent deste repo.
 
 - Decisão: `Documentação/decisoes/2026-09-17-comando-engenheiro-via-grok.md`
-- Runbook: `Documentação/runbooks/comandar-engenheiro-grok.md`
+- Runbook comando: `Documentação/runbooks/comandar-engenheiro-grok.md`
+- Runbook instalação: `Documentação/runbooks/baixar-grok-bot.md`
 - Texto para colar: `templates/comando-engenheiro.md`
 
 ## 1. Painel ao vivo (Google Docs)
@@ -28,10 +30,11 @@ https://github.com/SamsTechSolucoes/agentes-sams-tech-solucoes
 ## 4. Como comandar em paralelo
 | Você quer… | Onde falar |
 |---|---|
-| Dar ordem ao Engenheiro (Ambientes já ok, PC aberto) | **SamsTech Engineer** (Grok Bot) → execução no Cursor |
-| Desenvolver / integrar / diagnosticar com ferramentas | **SamsTech Engineer** no Cursor (PC ou Cloud Agent) |
-| Testar rotina diária (tarefa/lembrete/rascunho) | **Secretaria SamsTech** (Grok) |
-| Ver status sem abrir IDE | **Painel Drive** (link acima) |
+| Conversar com a equipe (Secretária, Engineer) | App **Grok Bot** — baixar em `ABRIR-GROK-BOT.md` |
+| Dar ordem ao Engenheiro | **SamsTech Engineer** no Grok Bot → execução no Cursor |
+| Git / PR / arquivos agora | Cursor no PC ou Cloud Agent (`cursor.com/agents` / Slack `@cursor`) |
+| Testar rotina diária | **Secretaria SamsTech** no Grok Bot |
+| Ver status sem IDE | **Painel Drive** (link acima) |
 
 ## 5. Regras
 - Só o Engenheiro usa Cursor/MCP por enquanto.

@@ -76,7 +76,7 @@ Decisão: `Documentação/decisoes/2026-09-17-cursor-somente-engenheiro-e-termos
 ## Como Samuel comanda (Grok Bot)
 
 Ambientes Cursor **já configurados** — não reconfigurar. Cursor no PC aberto na pasta `SamsTechSolucoes-Agentes`.  
-Samuel dá o comando no Grok Bot **SamsTech Engineer**. A execução com ferramentas é neste Cursor (desktop ou Cloud Agent).
+Samuel dá o comando no **app Grok Bot**, chat **SamsTech Engineer** (baixar: `ABRIR-GROK-BOT.md`). A execução com ferramentas é neste Cursor (desktop ou Cloud Agent).
 
 - Runbook: `Documentação/runbooks/comandar-engenheiro-grok.md`
 - Texto para colar: `templates/comando-engenheiro.md`

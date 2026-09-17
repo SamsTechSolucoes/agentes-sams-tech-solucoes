@@ -57,4 +57,7 @@ Mapa: `empresa/MAPA-EQUIPE.md`. Canal de grupo: **SamsTech Ops** (Engineer + Sec
 | Ferramentas do Cursor | Shell, arquivos, navegador, conectores (MCP), etc. |
 | Navegador do Cursor | Ferramenta de browser da sessão (quando disponível). |
 | Conector (MCP) | Ligação a serviço externo (Gmail, Agenda, etc.), se autenticado. |
-| Comando ao Engenheiro | Pedido colado no Grok Bot **SamsTech Engineer**; execução no Cursor. |
+| App Grok Bot | Programa separado do Cursor. Download: https://cursor.com/download/bot — guia `ABRIR-GROK-BOT.md`. |
+| Cursor IDE | Onde o Engenheiro edita a pasta `SamsTechSolucoes-Agentes`. Não é o Grok Bot. |
+| Cloud Agent | Agente na nuvem (`cursor.com/agents` ou Slack `@cursor`). Também não é o app Grok Bot. |
+| Comando ao Engenheiro | Pedido no app Grok Bot **SamsTech Engineer**; execução no Cursor. |

@@ -1,12 +1,14 @@
 ﻿# STATUS — SamsTech Agents
 
-**Atualizado:** 2026-09-17 11:40 (America/Sao_Paulo)  
+**Atualizado:** 2026-09-17 17:56 (America/Sao_Paulo)  
 **Modo:** DIÁRIO (uso no trabalho) — não é modo software
 
 ## Canal do Engenheiro (hoje)
 Ambientes Cursor **já configurados**. Cursor no PC **aberto**.  
+Piloto Fase 1: **concluído** (Samuel, 16/09).  
+App da equipe: **Grok Bot** (não é o Cursor). Como baixar: `ABRIR-GROK-BOT.md`.  
 Comando: Grok Bot **SamsTech Engineer** → execução no Cursor.  
-Colar: `templates/comando-engenheiro.md`. Runbook: `Documentação/runbooks/comandar-engenheiro-grok.md`.
+Colar: `templates/comando-engenheiro.md`.
 
 ## Ao chegar no trabalho
 Siga `MODO-DIARIO.md` (roteiro curto).
@@ -21,8 +23,8 @@ Siga `MODO-DIARIO.md` (roteiro curto).
 
 ## Rotina rápida
 1. `.\scripts\listar-pendencias.ps1` ou perguntar pendências à Secretária
-2. Testes A–C se ainda não fez (`Documentação/TESTES-REAIS-AMANHA.md`)
-3. Rascunhos WhatsApp só na fila
+2. Testes A–C: **já feitos** (piloto 16/09)
+3. Rascunhos WhatsApp só na fila (piloto arquivado; não enviar)
 
 ## Modo software (depois / sob pedido)
 Integração WhatsApp/NF, Fase 2, sync GitHub forçado — pedir: "voltar ao modo software".  

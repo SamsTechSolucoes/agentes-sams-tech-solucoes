@@ -24,7 +24,7 @@ O Grok Bot **não** substitui o Cursor. Ele **despacha** o Engenheiro. Ferrament
 ## Passos (Samuel)
 
 1. Confirme: pasta certa no Cursor do PC.
-2. Abra o Grok Bot **SamsTech Engineer**.
+2. Abra o **app Grok Bot** (se ainda não instalou: `ABRIR-GROK-BOT.md`) e o chat **SamsTech Engineer**.
 3. Cole **um** comando (modelo em `templates/comando-engenheiro.md`).
 4. Se o pedido precisar de arquivo/git/PR: abra também o Cloud Agent / chat Cursor neste repo com o **mesmo texto**, ou peça: “execute no Cursor”.
 5. Acompanhe: `STATUS.md`, painel Drive e GitHub.
