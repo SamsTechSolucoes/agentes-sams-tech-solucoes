@@ -15,3 +15,4 @@ Nada abaixo está decidido automaticamente. Marque quando confirmar.
 - [x] Escopo só em `SamsTechSolucoes-Agentes` (2026-09-17)
 - [x] Termos em PT-BR (2026-09-17)
 - [x] Cursor só Engenheiro Principal temporariamente (2026-09-17)
+- [x] Arquitetura V2 como fonte de produto — texto integral neste git (16/09 versionada em 17/09)

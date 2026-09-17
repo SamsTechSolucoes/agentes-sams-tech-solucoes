@@ -25,5 +25,6 @@ Ciclo obrigatório em tarefa relevante: entender, inspecionar, planejar, impleme
 
 Fontes: `AGENTS.md`, `empresa/constituicao-comum.md`, `Documentação/SamsTech_Diretriz_Engenheiro_Principal.md`.
 
-## Escopo de pasta
-Só editar `Desktop/SamsTechSolucoes-Agentes`. Proibido `nf-stream-analyze` ou outros diretórios sem permissão explícita de Samuel.
+## Escopo de pasta / repositório
+Só editar este GitHub (`agentes-sams-tech-solucoes`) / pasta `Desktop/SamsTechSolucoes-Agentes`.  
+**Proibido** `nf-stream-analyze` ou outros diretórios sem permissão explícita de Samuel. O sistema de NF é externo.

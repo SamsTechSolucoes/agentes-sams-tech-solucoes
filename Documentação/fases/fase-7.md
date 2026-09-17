@@ -1,23 +1,18 @@
-# Fase 7 — Evolução / melhorias (papel)
+# Fase 7 — Inteligência: ofensores, metas, tickets/SLA (papel)
 
-**Status:** stub one-pager.  
-**Não implementar.** Aponta para a arquitetura.
+**Status:** one-pager. **Não implementar.**  
+Detalhe completo: `Documentação/Plano_Implementacao_Fases_V2.md` (FASE 7).  
+V2 §11.3. Ficha: `empresa/fichas/06-inteligencia.md`. Pasta stub: `operacao/inteligencia/`.
 
-## Domínio / tema
-
-Evolução
-
-## Fonte
-
-- `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`
-- Fichas em `empresa/fichas/` (quando existirem para o domínio)
+Este arquivo **não** é um índice incompleto. O plano-mãe já tem as seções pedidas.
 
 ## Condição para sair do papel
 
-1. Fases anteriores validadas por Samuel.
-2. Plano escrito + autorização explícita desta fase.
-3. Nada de inventar regras de negócio (comissões, legal, etc.).
+1. Fases anteriores validadas; autorização explícita desta fase.
+2. Taxonomia/pesos de ofensores e fonte de tickets — **PENDENTE SAMUEL**.
+3. Separar **fatos** de **interpretações**.
 
-## Nota
+## Não fazer
 
-Qualquer detalhe operacional fino = **PENDENTE SAMUEL**.
+- Passar hipótese como fato
+- Inventar ofensor, meta ou SLA
