@@ -1,27 +1,17 @@
----
-description: Arquitetura SamsTech — produto existente, satélites e o que não inventar
+﻿---
+description: Arquitetura do SamsTech, preservação do sistema e política de uma plataforma
 alwaysApply: true
 ---
 
 # Arquitetura SamsTech
 
-O sistema de produto **já existe**: NF-Stream-Analyze (React + TS + Vite, Supabase, Vercel). Não reconstruir em outra stack. Não inventar arquitetura.
+O produto está em `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`.
 
-## Onde está o quê
-
-- Produto: https://github.com/SamsTechSolucoes/nf-stream-analyze (privado). Produção: https://nf-stream-analyze.vercel.app
-- Este repo: instruções de agentes e documentação apenas.
-- Fonte de produto: `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md` (V2, 16/09/2026, status consolidado). **Implementação só após plano por fases e autorização.** Não inventar o que a V2 não disser.
-
-## Classificação (ver diagnóstico)
-
-Preserve o que está **EXISTENTE E FUNCIONANDO**. Adapte só o marcado como tal. Satélites (`neon-flow`, `prospecta-b2b-lead-finder`) provavelmente serão substituídos — não promover a núcleo.
-
-## Trilhos (não misturar no mesmo turno)
-
-- **A** — operar a tela / consulta / rascunho.
-- **B** — mudar código.
-
-Samuel decide negócio, produção, merge, deploy e envio ao cliente. Disparo em massa e scraping de WhatsApp Web são recusados sem aval.
-
-Decisões duráveis: `Documentação/decisoes/`. Inventário: `Documentação/diagnostico-ambiente-2026-09-17.md`.
+- Inspecione o que já existe antes de criar ou substituir.
+- Não apague funcionalidade sem entender dependências e validar.
+- Ambiente principal de configuração: Cursor, usado **somente** pelo Engenheiro Principal (`SamsTechEngineer`) até nova ordem. Conectores (MCP) e APIs não são plataformas novas.
+- Não introduza n8n, banco extra, serviço pago ou novo agente sem necessidade técnica comprovada.
+- Novo agente ou Bot só com responsabilidade distinta e justificativa duradoura. Samuel confirma.
+- Conflito entre pedido e arquitetura: explique o conflito, a consequência e a recomendação. Não altere a decisão sozinho.
+- Decisão arquitetural confirmada deve ser registrada na documentação. Memória de chat não é fonte oficial.
+- Termos e funções dos agentes em PT-BR (`empresa/glossario-ptbr.md`).

@@ -1,22 +1,15 @@
 ---
-description: Segurança SamsTech — segredos, git e o que nunca vazar
+description: Segurança, credenciais, políticas corporativas e alterações irreversíveis
 alwaysApply: true
 ---
 
 # Segurança
 
-**Segredos nunca entram em código, commit, log, artefato ou chat.** Não imprimir valores de token, chave, senha, `.env` ou connection string. Se encontrar um segredo, avisar o Samuel e **não** copiar o valor.
+Nunca exponha credenciais, coloque tokens no código, cole senha/2FA no chat ou desative proteção para facilitar teste.
 
-## Achado crítico (diagnóstico 2026-09-17)
-
-Em `nf-stream-analyze` o git tree aparenta incluir `.env*` e `Tokens & Keys.txt`. Tratar como **EXISTENTE E PRECISA SER ADAPTADA** (higiene de segredos). Não versionar esses arquivos neste repo. Não colar conteúdo deles.
-
-## Práticas
-
-- Credenciais só em gerenciador de secrets / variáveis de ambiente do provedor, nunca no código.
-- Este repo é **privado**; mesmo assim não colocar chaves “temporárias”.
-- Não pedir, não ecoar e não commitar `service_role`, JWT, tokens de WhatsApp, Gemini, Vercel, Railway, Hostinger ou Render.
-- Acesso a produção, 2FA e contas de provedor: só o Samuel.
-- Não tornar público este repositório nem dumps de diagnóstico com dados operacionais sensíveis (clientes, telefones, NFs).
-
-Detalhe: `Documentação/SamsTech_Diretriz_Engenheiro_Principal.md` e `Documentação/diagnostico-ambiente-2026-09-17.md`.
+- Use variáveis de ambiente ou o fluxo seguro da plataforma.
+- Não contorne autenticação, controles de TI ou política corporativa.
+- Não encaminhe e-mail corporativo de forma proibida nem capture dado sem autorização.
+- Não invente regra financeira, comissão, meta ou dado crítico. Fonte oficial primeiro.
+- Confirme com Samuel antes de: apagar dados, mudar produção, autenticação, permissões, contratar serviço pago, habilitar overage, enviar mensagem externa ou publicar.
+- No computador do Grok Bot, não deixe credencial que outro Bot da mesma conta não deveria usar.

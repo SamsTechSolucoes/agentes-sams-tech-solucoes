@@ -1,26 +1,20 @@
 ---
-description: Desenvolvimento, testes, git e limites de implementação SamsTech
+description: Desenvolvimento incremental, testes, critério de pronto e modelos
 alwaysApply: true
 ---
 
 # Desenvolvimento e testes
 
-Inspecionar antes de alterar. Preservar features que já funcionam. Mudança mínima para o pedido. Sem “melhoria” não solicitada.
+Trabalhe em etapas verificáveis. Código escrito não significa pronto.
 
-## Escopo atual
+Antes de mudança estrutural, informe: o que muda, por quê, o que é afetado, riscos e como validar.
 
-Neste repo: **apenas** documentação e regras de agente. Sem código de aplicação. Sem tocar `nf-stream-analyze`. Sem apagar handoff existente.
+Validar quando possível: compilação, lint, testes, fluxo principal, erro, permissões, dados e integrações.
 
-Produto (quando o Samuel autorizar **e** existir doc oficial de arquitetura): branch de feature; nunca commit direto em `main`/`develop`; Conventional Commits; testar e validar **antes** de considerar pronto; merge/deploy só com aval.
+Pronto só quando implementado, integrado, testado e com documentação necessária atualizada.
 
-## Testes
+No Grok Bot, use a seleção automática de modelo. Não peça troca manual de Claude/GPT/Grok. Se a plataforma limitar capacidade, contexto ou uso, informe Samuel.
 
-- Não declarar pronto sem evidência (teste, comando, ou critério do pedido).
-- Vitest no produto está **EXISTENTE E PRECISA SER ADAPTADA** — não fingir cobertura.
-- UI: verificar o fluxo, não só um screenshot.
+No Cursor Agent, Samuel pode trocar o modelo. Não adapte a arquitetura do SamsTech por causa de um modelo.
 
-## Custo
-
-Modelo automático do Cursor. Sem dependência paga, CI extra, Skill, Routine ou overage sem aprovação. Registrar erro com explicação didática antes de repetir o mesmo comando que falhou.
-
-Diretriz: `Documentação/SamsTech_Diretriz_Engenheiro_Principal.md`. Runbooks: `Documentação/runbooks/`.
+Skills e Routines só depois de processo estável, testado e com aprovação explícita para ação externa.
