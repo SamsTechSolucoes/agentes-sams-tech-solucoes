@@ -26,3 +26,10 @@ Só `Desktop\SamsTechSolucoes-Agentes`. Sistema de NF **não** é alterado.
 - Integração produção NF
 - Envio automático WhatsApp
 - Regras de comissão (faltam regras oficiais)
+
+## Cursor — Incorrect Repository
+Corrigido: pasta ligada ao GitHub `agentes-sams-tech-solucoes`. Ver `ABRIR-NO-CURSOR.md`.
+
+## Pacote overnight aplicado
+Scripts/templates/fases/fichas do pacote noturno foram mesclados em 2026-09-17T03:07:41.2893659-03:00.
+

@@ -1,12 +1,11 @@
-# Comercial
+# operacao/comercial/
 
-Arquivos para carteira, acompanhamentos e inativos (rascunhos locais).
+Stubs da **Fase 2 — Comercial**. Pastas vazias (só README) até Samuel validar Fase 1 e autorizar Fase 2.
 
-```md
-# Item comercial
-- status: aberto
-- tipo: acompanhamento|inativo|proposta
-- cliente:
-- criado: 2026-09-17T03:00:00-03:00
-- observação:
-```
+Subpastas:
+
+- `carteira/` — contas ativas (papel)
+- `follow-ups/` — próximos contatos
+- `inativos/` — reativação
+
+**Não ao vivo.** Sem envio, sem scraping, sem inventar comissão.

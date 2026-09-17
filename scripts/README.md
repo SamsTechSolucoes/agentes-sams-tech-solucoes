@@ -1,21 +1,14 @@
 # Scripts locais (PowerShell)
 
-**Quem executa:** Engenheiro Principal (`SamsTechEngineer`) via Cursor/Shell.  
-Demais agentes: sem permissão Cursor nesta fase.
+Helpers **só locais** para a pasta `operacao/`. Não enviam WhatsApp, não chamam API de produção, não leem `.env`.
 
-| Script | Função |
-|---|---|
-| `validar-estrutura.ps1` | Confere arquivos obrigatórios |
-| `listar-pendencias.ps1` | Lista itens reais (ignora EXEMPLO/README) |
-| `novo-item.ps1` | Cria tarefa/lembrete/aprovação/registro/handoff |
-| `resumo-matinal.ps1` | Gera resumo em `operacao/registros/` |
-
-Exemplo:
+## Uso (na raiz do projeto Agentes)
 
 ```powershell
-cd C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes\scripts
-.\validar-estrutura.ps1
-.\listar-pendencias.ps1
-.\resumo-matinal.ps1
-.\novo-item.ps1 -Tipo tarefa -Titulo "Ligar cliente" -Texto "Retornar Metro Max"
+.\scripts\novo-tarefa.ps1 -Titulo "Ligar fulano" -Descricao "Retornar ligação"
+.\scripts\novo-lembrete.ps1 -Titulo "Desligar torneira" -Quando "2026-09-17 07:00"
+.\scripts\novo-rascunho-aprovacao.ps1 -Titulo "Aviso cliente X" -Mensagem "Olá..." -Canal whatsapp
+.\scripts\listar-pendencias.ps1
 ```
+
+Requer PowerShell 5+ no Windows. Caminhos relativos à raiz `SamsTechSolucoes-Agentes`.
