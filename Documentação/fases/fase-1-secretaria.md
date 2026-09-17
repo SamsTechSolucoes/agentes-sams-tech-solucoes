@@ -9,7 +9,7 @@
 
 - Ficha: `empresa/fichas/01-secretaria.md`
 - Pastas: `operacao/tarefas|lembretes|registros|fila-aprovacoes`
-- Scripts: `scripts/novo-*.ps1`, `scripts/listar-pendencias.ps1`
+- Scripts: `scripts/novo-*.ps1`, `scripts/listar-pendencias.ps1`, `scripts/smoke-test-fase1.ps1`
 - Templates: `templates/`
 
 ## Como testar (Samuel)
