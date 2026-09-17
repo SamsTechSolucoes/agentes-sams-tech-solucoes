@@ -2,6 +2,8 @@
 
 Snapshot para continuar no Cursor Web ou em outro PC. Não é o JSONL bruto do chat.
 
+**Atualização 17/09/2026:** a preparação de ambiente do Engenheiro Principal está em [AGENTS.md](../AGENTS.md) e [Documentação/](../Documentação/README.md). Este arquivo continua sendo o snapshot da Fase 0. **Implementação de produto não começou.**
+
 **Repo:** https://github.com/SamsTechSolucoes/agentes-sams-tech-solucoes  
 **Chat desktop (ID):** `4344bddb-cf5a-4230-867b-f9ba106f718b`
 

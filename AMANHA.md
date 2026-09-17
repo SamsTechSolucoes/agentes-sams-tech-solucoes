@@ -1,3 +1,14 @@
+# Atualização 17/09/2026 (não substitui o handoff abaixo)
+
+O **Engenheiro Principal** está ativo para preparação de ambiente e instruções.
+
+- Porta de entrada: [AGENTS.md](./AGENTS.md)
+- Documentação: [Documentação/README.md](./Documentação/README.md)
+
+Isto **não** autoriza criar a frota Grok Bot (Jarvis, Alex, …) nem implementar o produto. O texto abaixo permanece o snapshot da Fase 0 (15/09/2026).
+
+---
+
 # AmanhÃ£ â€” abrir daqui
 
 Documento de handoff. Leia este arquivo primeiro, no Cursor Web ou no desktop.

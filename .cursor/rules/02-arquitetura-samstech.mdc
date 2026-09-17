@@ -1,0 +1,27 @@
+---
+description: Arquitetura SamsTech — produto existente, satélites e o que não inventar
+alwaysApply: true
+---
+
+# Arquitetura SamsTech
+
+O sistema de produto **já existe**: NF-Stream-Analyze (React + TS + Vite, Supabase, Vercel). Não reconstruir em outra stack. Não inventar arquitetura.
+
+## Onde está o quê
+
+- Produto: https://github.com/SamsTechSolucoes/nf-stream-analyze (privado). Produção: https://nf-stream-analyze.vercel.app
+- Este repo: instruções de agentes e documentação apenas.
+- Arquitetura oficial: aguardar documento do Samuel em `Documentação/arquitetura/`. Sem esse doc, **não** implementar produto.
+
+## Classificação (ver diagnóstico)
+
+Preserve o que está **EXISTENTE E FUNCIONANDO**. Adapte só o marcado como tal. Satélites (`neon-flow`, `prospecta-b2b-lead-finder`) provavelmente serão substituídos — não promover a núcleo.
+
+## Trilhos (não misturar no mesmo turno)
+
+- **A** — operar a tela / consulta / rascunho.
+- **B** — mudar código.
+
+Samuel decide negócio, produção, merge, deploy e envio ao cliente. Disparo em massa e scraping de WhatsApp Web são recusados sem aval.
+
+Decisões duráveis: `Documentação/decisoes/`. Inventário: `Documentação/diagnostico-ambiente-2026-09-17.md`.

@@ -1,23 +1,33 @@
 # Agentes Sams.Tech.Soluções
 
-Desenho teórico da equipe de Bots (Grok Bot) em cima do sistema que já existe: **NF-Stream-Analyze**. Nada foi criado no app Grok Bot ainda.
+Repositório **privado** de instruções de agentes e documentação.  
+Não tornar público.
 
-**Comece aqui:** [AMANHA.md](./AMANHA.md)
+**Engenheiro Principal (Grok Bot / Cursor) está ativo para preparação de ambiente e regras.**  
+**A implementação de funcionalidades do produto ainda NÃO começou.** Sem código de aplicação neste repo. Sem alterar `nf-stream-analyze` até existir documento oficial de arquitetura e autorização do Samuel.
 
-Repositório: https://github.com/SamsTechSolucoes/agentes-sams-tech-solucoes  
-**Privado.** Contém perfil de trabalho; não tornar público.
+- Comece aqui (permanente): [AGENTS.md](./AGENTS.md)
+- Diretriz completa: [Documentação/SamsTech_Diretriz_Engenheiro_Principal.md](./Documentação/SamsTech_Diretriz_Engenheiro_Principal.md)
+- Diagnóstico 17/09/2026: [Documentação/diagnostico-ambiente-2026-09-17.md](./Documentação/diagnostico-ambiente-2026-09-17.md)
+- Índice: [Documentação/README.md](./Documentação/README.md)
+
+Handoff da Fase 0 (equipe Grok Bot no papel, 15/09/2026): [AMANHA.md](./AMANHA.md)
+
+Repositório: https://github.com/SamsTechSolucoes/agentes-sams-tech-solucoes
+
+O código do produto **não** está neste repo. Está em https://github.com/SamsTechSolucoes/nf-stream-analyze (produção: https://nf-stream-analyze.vercel.app).
 
 ## Pastas
 
 | Pasta | Conteúdo |
 |---|---|
-| `perfil/` | Biografia (GPT + Gemini + síntese) |
-| `empresa/` | Organograma, necessidades, fichas para colar no Grok Bot |
-| `docs/decisoes/` | Decisões datadas (padrão do NF-Stream) |
-| `docs/conversa-handoff-15-09-2026.md` | Snapshot desta conversa |
-
-O código do NF-Stream **não** está neste repo. Está em `nf-stream-analyze`.
+| `AGENTS.md` + `.cursor/rules/` | Identidade do Engenheiro Principal e regras Cursor |
+| `Documentação/` | Diretriz, diagnóstico, stubs de arquitetura / decisões / runbooks |
+| `docs/conversa-handoff-15-09-2026.md` | Snapshot da conversa 14–15/09/2026 |
+| `perfil/` / `empresa/` | Citadas no desenho teórico da Fase 0; **ainda não estão neste git** |
 
 ## Status
 
-Fase 0 — papel. Aguardando o Samuel cortar o organograma e autorizar a Fase 1 (Jarvis).
+- **Ambiente / instruções:** Engenheiro Principal ativo (docs e regras).
+- **Produto:** sem implementação daqui. Aguarda doc oficial em `Documentação/arquitetura/` + aval do Samuel.
+- **Frota Grok Bot (Jarvis, Alex, …):** ainda Fase 0 no papel. Não criar Bots até autorização da Fase 1.

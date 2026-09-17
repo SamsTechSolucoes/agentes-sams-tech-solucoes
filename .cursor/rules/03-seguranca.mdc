@@ -1,0 +1,22 @@
+---
+description: Segurança SamsTech — segredos, git e o que nunca vazar
+alwaysApply: true
+---
+
+# Segurança
+
+**Segredos nunca entram em código, commit, log, artefato ou chat.** Não imprimir valores de token, chave, senha, `.env` ou connection string. Se encontrar um segredo, avisar o Samuel e **não** copiar o valor.
+
+## Achado crítico (diagnóstico 2026-09-17)
+
+Em `nf-stream-analyze` o git tree aparenta incluir `.env*` e `Tokens & Keys.txt`. Tratar como **EXISTENTE E PRECISA SER ADAPTADA** (higiene de segredos). Não versionar esses arquivos neste repo. Não colar conteúdo deles.
+
+## Práticas
+
+- Credenciais só em gerenciador de secrets / variáveis de ambiente do provedor, nunca no código.
+- Este repo é **privado**; mesmo assim não colocar chaves “temporárias”.
+- Não pedir, não ecoar e não commitar `service_role`, JWT, tokens de WhatsApp, Gemini, Vercel, Railway, Hostinger ou Render.
+- Acesso a produção, 2FA e contas de provedor: só o Samuel.
+- Não tornar público este repositório nem dumps de diagnóstico com dados operacionais sensíveis (clientes, telefones, NFs).
+
+Detalhe: `Documentação/SamsTech_Diretriz_Engenheiro_Principal.md` e `Documentação/diagnostico-ambiente-2026-09-17.md`.
