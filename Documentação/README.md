@@ -2,35 +2,35 @@
 
 Índice permanente. Código de produto **não** está aqui. Sistema de NF é **externo**.
 
-Comece por [../AGENTS.md](../AGENTS.md) e [../STATUS.md](../STATUS.md).
+## Começar
 
-## Instruções de agente
+- [STATUS](../STATUS.md)
+- [Guia rápido amanhã](../AMANHA-TESTES.md)
+- [Testes reais](./TESTES-REAIS-AMANHA.md)
+- [Abrir no Cursor](../ABRIR-NO-CURSOR.md)
+- [Mapa equipe Grok Bot × fichas](../empresa/MAPA-EQUIPE.md)
+- [AGENTS.md](../AGENTS.md)
+
+## Arquitetura e plano
 
 | Documento | Uso |
 |---|---|
 | [arquitetura/SamsTech_Agents_Arquitetura_V2.md](./arquitetura/SamsTech_Agents_Arquitetura_V2.md) | **Fonte de produto** (V2, 16/09/2026, seções 1–11, **texto integral**) |
 | [Plano_Implementacao_Fases_V2.md](./Plano_Implementacao_Fases_V2.md) | Fases 0–9 (completa) |
-| [fases/README.md](./fases/README.md) | Índice das fases 0–9 (não é índice incompleto) |
-| [TESTES-REAIS-AMANHA.md](./TESTES-REAIS-AMANHA.md) | Checklist dos testes reais da Secretária |
-| [fases/fase-1-mvp-secretaria.md](./fases/fase-1-mvp-secretaria.md) | Fase 1 operacional |
-| [fases/fase-2-comercial-ATIVACAO.md](./fases/fase-2-comercial-ATIVACAO.md) | Checklist se Samuel autorizar Fase 2 |
-| [fases/fase-5-checklist-ativacao.md](./fases/fase-5-checklist-ativacao.md) | Produtos — **PENDENTE SAMUEL** |
-| [fases/fase-6-checklist-ativacao.md](./fases/fase-6-checklist-ativacao.md) | Financeiro — **PENDENTE SAMUEL** |
+| [fases/README.md](./fases/README.md) | Índice das fases 0–9 |
 | [SamsTech_Diretriz_Engenheiro_Principal.md](./SamsTech_Diretriz_Engenheiro_Principal.md) | Diretriz de engenharia |
 | [diagnostico-ambiente-2026-09-17.md](./diagnostico-ambiente-2026-09-17.md) | Inventário classificado |
-| [../AGENTS.md](../AGENTS.md) | Porta de entrada |
-| [../empresa/constituicao-comum.md](../empresa/constituicao-comum.md) | Constituição dos papéis |
-| [../.cursor/rules/](../.cursor/rules/) | Regras Cursor |
 
-## Pastas desta árvore
+## Operação
 
-| Pasta | Uso |
+| Documento | Uso |
 |---|---|
-| [arquitetura/](./arquitetura/README.md) | V2 consolidada |
-| [fases/](./fases/README.md) | Índice 0–9 + one-pagers |
-| [decisoes/](./decisoes/README.md) | Log datado |
-| [runbooks/](./runbooks/README.md) | Operação (Secretária Fase 1) |
-| [playbooks/](./playbooks/README.md) | Contatos, NF (como falar), resumo matinal |
+| [fases/fase-1-mvp-secretaria.md](./fases/fase-1-mvp-secretaria.md) | Fase 1 operacional |
+| [runbooks/secretaria-fase1.md](./runbooks/secretaria-fase1.md) | Runbook Secretária |
+| [fases/fase-2-comercial-ATIVACAO.md](./fases/fase-2-comercial-ATIVACAO.md) | Checklist se Samuel autorizar Fase 2 |
+| [playbooks/](./playbooks/) | Contatos, NF (como falar), ofensores, resumo matinal |
+| [decisoes/](./decisoes/) | Log datado |
+| [../empresa/constituicao-comum.md](../empresa/constituicao-comum.md) | Constituição dos papéis |
 
 ## Decisões 17/09 (ler)
 
@@ -38,8 +38,4 @@ Comece por [../AGENTS.md](../AGENTS.md) e [../STATUS.md](../STATUS.md).
 - [decisoes/2026-09-17-autonomia-noturna.md](./decisoes/2026-09-17-autonomia-noturna.md)
 - [decisoes/2026-09-17-cursor-somente-engenheiro-e-termos-ptbr.md](./decisoes/2026-09-17-cursor-somente-engenheiro-e-termos-ptbr.md)
 
-## Handoff histórico (Fase 0 no papel)
-
-Não apagar: [../AMANHA.md](../AMANHA.md), [../docs/conversa-handoff-15-09-2026.md](../docs/conversa-handoff-15-09-2026.md).
-
-Operação do dia a dia: [../operacao/](../operacao/) e ficha [../empresa/fichas/01-secretaria.md](../empresa/fichas/01-secretaria.md).
+Handoff histórico (não apagar): [../AMANHA.md](../AMANHA.md), [../docs/conversa-handoff-15-09-2026.md](../docs/conversa-handoff-15-09-2026.md).

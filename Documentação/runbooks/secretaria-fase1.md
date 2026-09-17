@@ -1,7 +1,7 @@
 ﻿# Runbook — Secretária Fase 1
 
 Procedimento operacional da Secretária Pessoal.  
-Ficha: `empresa/fichas/01-secretaria.md`. Constituição: `empresa/constituicao-comum.md`.
+Chat Grok: **Secretária SamsTech**. Ficha: `empresa/fichas/01-secretaria.md`. Mapa: `empresa/MAPA-EQUIPE.md`. Constituição: `empresa/constituicao-comum.md`.
 
 ---
 

@@ -2,11 +2,14 @@
 
 Pastas usadas pela equipe (arquivos locais). Termos em PT-BR.
 
+Quem é cada bot: `empresa/MAPA-EQUIPE.md`.
+
 ## Uso geral (Fase 1+)
 - `tarefas/` — tarefas
 - `lembretes/` — lembretes
 - `registros/` — registros / notas
 - `fila-aprovacoes/` — rascunhos que precisam de OK de Samuel
+- `_exemplos/` — `EXEMPLO-*` arquivados (não são pendência do dia)
 
 ## Multiagente (esqueleto)
 - `gestor/` — decomposição e handoffs

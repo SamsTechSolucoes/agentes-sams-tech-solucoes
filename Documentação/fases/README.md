@@ -4,7 +4,8 @@ O plano completo (objetivo, arquivos, dados, integrações, dependências, risco
 
 [../Plano_Implementacao_Fases_V2.md](../Plano_Implementacao_Fases_V2.md)
 
-Arquitetura (seções 1–11, texto integral): [../arquitetura/SamsTech_Agents_Arquitetura_V2.md](../arquitetura/SamsTech_Agents_Arquitetura_V2.md)
+Arquitetura (seções 1–11, texto integral): [../arquitetura/SamsTech_Agents_Arquitetura_V2.md](../arquitetura/SamsTech_Agents_Arquitetura_V2.md)  
+Equipe Grok Bot × fichas: [../../empresa/MAPA-EQUIPE.md](../../empresa/MAPA-EQUIPE.md)
 
 Estes one-pagers **não** são um índice incompleto. Cada um aponta para o plano e para a V2. Fases 3–9 no papel até autorização.
 

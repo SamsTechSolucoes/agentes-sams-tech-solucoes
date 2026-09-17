@@ -15,14 +15,17 @@ Este GitHub e essa pasta são **o mesmo projeto**. Não use `nf-stream-analyze` 
 | 1 | [STATUS.md](./STATUS.md) | Briefing da manhã |
 | 2 | [AGENTS.md](./AGENTS.md) | Escopo do Engenheiro Principal |
 | 3 | [ABRIR-NO-CURSOR.md](./ABRIR-NO-CURSOR.md) | Abrir a pasta certa no Cursor |
-| 4 | [Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md](./Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md) | Arquitetura V2 (16/09/2026) |
-| 5 | [empresa/fichas/01-secretaria.md](./empresa/fichas/01-secretaria.md) | Secretária (Fase 1 operacional) |
-| 6 | [Documentação/TESTES-REAIS-AMANHA.md](./Documentação/TESTES-REAIS-AMANHA.md) | Checklist dos testes reais da Secretária |
+| 4 | [AMANHA-TESTES.md](./AMANHA-TESTES.md) | Guia rápido dos testes A–C |
+| 5 | [Documentação/TESTES-REAIS-AMANHA.md](./Documentação/TESTES-REAIS-AMANHA.md) | Checklist completo da Secretária |
+| 6 | [empresa/MAPA-EQUIPE.md](./empresa/MAPA-EQUIPE.md) | Equipe Grok Bot × fichas |
+| 7 | [empresa/fichas/01-secretaria.md](./empresa/fichas/01-secretaria.md) | Secretária (Fase 1 operacional) |
+| 8 | [Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md](./Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md) | Arquitetura V2 (16/09/2026) |
 
 ## Estado em 17/09/2026
 
 - **Engenheiro Principal** ativo neste repo (Cursor só para ele, temporário).
 - **Fase 1 — Secretária Pessoal: operacional** (tarefas, lembretes, registros, rascunhos na fila). Sem envio externo autônomo.
+- **Equipe Grok criada:** Secretária, Gestor, Comercial, Produtos, Financeiro, Inteligência, Evolução + Engineer. Mapa: [empresa/MAPA-EQUIPE.md](./empresa/MAPA-EQUIPE.md). Só a Secretária opera de verdade até o Samuel autorizar o resto.
 - **Sistema de NF:** externo. Não alterar `nf-stream-analyze` sem permissão explícita do Samuel.
 - **Código de produto:** não vive aqui e **não** deve ser escrito daqui.
 - **Arquitetura V2:** texto integral (seções 1–11), não índice curto. Plano fases 0–9 versionado.
@@ -33,8 +36,9 @@ Este GitHub e essa pasta são **o mesmo projeto**. Não use `nf-stream-analyze` 
 | Pasta | Conteúdo |
 |---|---|
 | `AGENTS.md` + `.cursor/rules/` | Identidade do Engenheiro Principal e regras Cursor |
-| `empresa/` | Constituição comum, glossário PT-BR, fichas 01–07 |
-| `operacao/` | Dia a dia: tarefas, lembretes, registros, fila de aprovações |
+| `empresa/` | Constituição, glossário, [MAPA-EQUIPE.md](./empresa/MAPA-EQUIPE.md), fichas 01–07 |
+| `operacao/` | Dia a dia + `_exemplos/` (não são pendência) |
+| `AMANHA-TESTES.md` | Guia rápido de amanhã |
 | `Documentação/` | Arquitetura V2, plano de fases, decisões, runbooks, playbooks |
 | `scripts/` | Helpers PowerShell **locais** (não são o sistema de NF) |
 | `templates/` | Markdown em branco |
@@ -45,7 +49,7 @@ Este GitHub e essa pasta são **o mesmo projeto**. Não use `nf-stream-analyze` 
 
 - Não é o código do NF-Stream-Analyze (https://github.com/SamsTechSolucoes/nf-stream-analyze).
 - Não é autorização para merge/deploy de produto, disparo WhatsApp ou limpeza de secrets de outro git.
-- Não é a frota Grok Bot da Fase 0 (Jarvis, Alex, …) como organograma antigo — a V2 usa Secretária, Gestor, Comercial, Produtos, Financeiro, Inteligência, Evolução.
+- Não é a frota Grok Bot da Fase 0 (Jarvis, Alex, …). A V2 e o mapa atual: Secretária, Gestor, Comercial, Produtos, Financeiro, Inteligência, Evolução.
 
 ## Segurança
 

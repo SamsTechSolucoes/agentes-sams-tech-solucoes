@@ -4,16 +4,18 @@ Termos oficiais do projeto. Preferir sempre a forma em português.
 
 ## Papéis (agentes)
 
-| Termo PT-BR | Identificador técnico (se houver) | Função resumida |
-|---|---|---|
-| Engenheiro Principal | SamsTechEngineer | Configura, desenvolve, testa e evolui o sistema. Único com Cursor por enquanto. |
-| Secretária Pessoal | — | Interface principal com Samuel: conversas, tarefas, lembretes, registros. |
-| Gestor da Equipe | — | Decompõe pedidos, delega e acompanha execução entre agentes. |
-| Comercial | — | Carteira, clientes, acompanhamentos, inativos, histórico, propostas. |
-| Produtos | — | Catálogo, estoque, entradas, equivalentes, aviso de produto aguardado. |
-| Financeiro | — | Inadimplência, cobranças, boletos, comissões (só com regra oficial). |
-| Inteligência Comercial e Operacional | — | Faturamento, metas, ofensores, logística, tickets/SLA. |
-| Evolução / Arquitetura | — | Sugere especialização ou novos agentes; nunca cria sozinho. |
+| Termo PT-BR | Bot no Grok | Identificador técnico | Função resumida |
+|---|---|---|---|
+| Engenheiro Principal | SamsTech Engineer | SamsTechEngineer | Configura, desenvolve, testa e evolui. Único com Cursor por enquanto. |
+| Secretária Pessoal | Secretária SamsTech | — | Interface principal: conversas, tarefas, lembretes, registros. |
+| Gestor da Equipe | Gestor SamsTech | — | Decompõe pedidos, delega e acompanha execução. |
+| Comercial | Comercial SamsTech | — | Carteira, acompanhamentos, inativos, histórico, propostas. |
+| Produtos | Produtos SamsTech | — | Catálogo, estoque, equivalentes, aviso de produto aguardado. |
+| Financeiro | Financeiro SamsTech | — | Inadimplência, cobranças, boletos, comissões (só com regra oficial). |
+| Inteligência Comercial e Operacional | Inteligência SamsTech | — | Faturamento, metas, ofensores, logística, tickets/SLA. |
+| Evolução / Arquitetura | Evolução SamsTech | — | Sugere especialização ou novos agentes; nunca cria sozinho. |
+
+Mapa: `empresa/MAPA-EQUIPE.md`. Canal de grupo: **SamsTech Ops** (Engineer + Secretária + Gestor + Comercial).
 
 ## Autonomia
 

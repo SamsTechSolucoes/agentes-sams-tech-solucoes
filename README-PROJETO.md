@@ -12,8 +12,8 @@ O sistema de NF em produção (**nf-stream-analyze**) é **referência externa**
 | Área | Conteúdo |
 |---|---|
 | `AGENTS.md` / `.cursor/rules/` | Identidade Engenheiro Principal + regras |
-| `empresa/` | Constituição comum + fichas 01–07 |
-| `operacao/` | Tarefas, lembretes, registros, fila de aprovações |
+| `empresa/` | Constituição + [MAPA-EQUIPE.md](./empresa/MAPA-EQUIPE.md) + fichas 01–07 |
+| `operacao/` | Tarefas, lembretes, registros, fila + `_exemplos/` |
 | `scripts/` | Helpers PowerShell **locais** |
 | `templates/` | Markdown em branco |
 | `Documentação/` | V2 integral, plano fases 0–9, decisões, runbooks |
@@ -28,5 +28,6 @@ O sistema de NF em produção (**nf-stream-analyze**) é **referência externa**
 3–9. One-pagers no papel; plano completo em `Documentação/Plano_Implementacao_Fases_V2.md` (não é índice incompleto)
 
 **Comece por:** [README.md](./README.md) → [STATUS.md](./STATUS.md) → [ABRIR-NO-CURSOR.md](./ABRIR-NO-CURSOR.md).  
-**Testes reais:** [Documentação/TESTES-REAIS-AMANHA.md](./Documentação/TESTES-REAIS-AMANHA.md).  
+**Testes:** [AMANHA-TESTES.md](./AMANHA-TESTES.md) → [Documentação/TESTES-REAIS-AMANHA.md](./Documentação/TESTES-REAIS-AMANHA.md).  
+**Equipe Grok × fichas:** [empresa/MAPA-EQUIPE.md](./empresa/MAPA-EQUIPE.md).  
 **Índice das fases:** [Documentação/fases/README.md](./Documentação/fases/README.md).

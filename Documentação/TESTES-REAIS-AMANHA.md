@@ -3,11 +3,16 @@
 Checklist para **validar a Fase 1 (Secretária)** no dia a dia real.  
 Não é código. Não é envio. Não é o sistema de NF.
 
+Guia de 4 linhas: [AMANHA-TESTES.md](../AMANHA-TESTES.md)  
+Mapa Bot ↔ ficha: [empresa/MAPA-EQUIPE.md](../empresa/MAPA-EQUIPE.md)
+
 **Repo exclusivo:** https://github.com/SamsTechSolucoes/agentes-sams-tech-solucoes  
 **Pasta a abrir:** `C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes`  
 **Como abrir:** [ABRIR-NO-CURSOR.md](../ABRIR-NO-CURSOR.md)  
 **Briefing:** [STATUS.md](../STATUS.md)  
-**Ficha:** [empresa/fichas/01-secretaria.md](../empresa/fichas/01-secretaria.md)
+**Chat Grok:** **Secretária SamsTech** (ficha [01-secretaria.md](../empresa/fichas/01-secretaria.md))
+
+Arquivos `EXEMPLO-*` estão em `operacao/_exemplos/` — **não** são pendência do dia.
 
 ---
 
@@ -17,116 +22,92 @@ Não é código. Não é envio. Não é o sistema de NF.
 2. Escolher **somente** `C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes`.
 3. No Source Control, o remoto deve ser `agentes-sams-tech-solucoes`.
 4. Se aparecer outro repo (`nf-stream-analyze` ou pasta antiga `Projeto Agentes…`): **fechar** e abrir de novo a pasta certa.
-5. Ler `STATUS.md` (1 minuto). Não precisa ler a Arquitetura V2 para estes testes.
+5. Ler `STATUS.md` (1 minuto). Abrir o chat **Secretária SamsTech**.
 
 ---
 
-## 1. Secretária — três pedidos reais
+## Roteiro (~15 min)
 
-Fazer **na conversa da Secretária** (não no Engenheiro Principal, se os dois existirem).  
-Pedir coisas **suas**, do dia — não copiar os `EXEMPLO-*`.
+Fazer **na conversa da Secretária SamsTech** (não no Engenheiro, se os dois existirem).  
+Pedir coisas **suas**, do dia — não copiar `operacao/_exemplos/`.
 
-### 1.1 Tarefa
+### A — Tarefa
 
-Diga, no tom que você usa de verdade, algo como:
+> Anota tarefa: ligar para [cliente real seu] amanhã de manhã  
+> (ou o que você realmente precisa fazer hoje)
 
-> Anota tarefa: [o que você precisa fazer hoje].
+**Esperado:** arquivo novo em `operacao/tarefas/` + caminho completo na resposta. Nada sai por WhatsApp/e-mail.
 
-**Esperado**
+**Não esperado:** tarefa virar follow-up comercial sozinha; Secretária usar Cursor/Shell.
 
-- Arquivo novo em `operacao/tarefas/`.
-- A Secretária responde com o **caminho completo** do arquivo.
-- Nada sai por WhatsApp/e-mail.
+### B — Lembrete
 
-**Não esperado**
+> Me lembra às 10:00 de revisar a carteira  
+> (ou hora/prazo reais)
 
-- Tarefa virar follow-up comercial sozinha.
-- A Secretária usar Cursor / Shell.
+**Esperado:** arquivo em `operacao/lembretes/` com status pendente + caminho.  
+O lembrete `operacao/lembretes/20260917-0222-desligar-torneira.md` **continua lá** (não apagar).
 
-### 1.2 Lembrete
+**Não esperado:** notificação no celular / WhatsApp / Calendar; Gmail ligado.
 
-> Me lembra [hora ou prazo] de [o quê].
+### C — Rascunho WhatsApp (SEM envio)
 
-**Esperado**
+> Rascunha um WhatsApp pedindo retorno ao comprador [nome real]
 
-- Arquivo novo em `operacao/lembretes/`.
-- Caminho completo na resposta.
-- O lembrete real `operacao/lembretes/20260917-0222-desligar-torneira.md` **continua lá** (não apagar).
+**Esperado:** arquivo **somente** em `operacao/fila-aprovacoes/`, status pendente. A Secretária pede o seu OK. **Nada enviado.**
 
-**Não esperado**
+**Não esperado:** envio real; cobrança iniciada; telefone inventado se você não passou o dado.
 
-- Notificação no celular / WhatsApp / Calendar (ainda não).
-- Gmail ligado.
-
-### 1.3 Rascunho na fila (WhatsApp ou e-mail)
-
-> Rascunha um WhatsApp para [quem] dizendo [o quê].  
-> (ou e-mail — mesmo fluxo)
-
-**Esperado**
-
-- Arquivo **somente** em `operacao/fila-aprovacoes/`.
-- Texto é rascunho. A Secretária **pede o seu OK**.
-- **Nenhuma** mensagem é enviada.
-
-**Não esperado**
-
-- Envio real.
-- Cobrança iniciada.
-- Cliente/telefone inventado se você não passou o dado.
-
----
-
-## 2. Conferir pendências (opcional, 30 segundos)
-
-No Cursor, pasta certa aberta, o Engenheiro Principal (ou você) pode rodar:
+### D — Pendências
 
 ```powershell
 cd C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes
 .\scripts\listar-pendencias.ps1
 ```
 
-Ignorar `README.md` e arquivos `EXEMPLO-*`.  
-Os três itens do passo 1 devem aparecer como pendentes.
+Ignorar `README.md` e `operacao/_exemplos/`. Os itens A–C devem aparecer.
+
+### E — Opcional (scripts)
+
+```powershell
+.\scripts\novo-tarefa.ps1 -Titulo "Teste manual" -Descricao "ok"
+.\scripts\resumo-matinal.ps1
+```
 
 ---
 
-## 3. O que NÃO esperar ainda
+## O que NÃO esperar ainda
 
 | Ainda não | Por quê |
 |---|---|
 | Envio WhatsApp / e-mail sozinho | Só rascunho + sua aprovação |
-| Consulta automática ao banco de NF | Sistema de NF é **externo**; upload continua com você |
-| Gestor / Comercial / Produtos / Financeiro **ao vivo** | Fichas existem; operação ao vivo = **PENDENTE SAMUEL** (Fase 2+) |
-| Drive, Sheets, Gmail, Calendar ligados | Fase 4 / 9 |
-| Regras de comissão, estoque, ofensores | Não inventar; falta documento seu |
-| Código novo no `nf-stream-analyze` | Proibido neste projeto |
-| Skills / Routines permanentes | Só depois de processo estável **e** o seu OK |
-| Cursor na Secretária | Só o Engenheiro Principal usa Cursor nesta fase |
+| Leitura automática do sistema de NF | NF é **externo**; upload continua com você |
+| Gestor / Comercial / Produtos / Financeiro / Inteligência / Evolução **ao vivo** | Bots e fichas **já existem**; operar de verdade = **PENDENTE SAMUEL** |
+| Drive, Sheets, Gmail, Calendar | Fases 4 / 9 |
+| Comissão, estoque, ofensores calculados | Não inventar; falta documento seu |
+| Código em `nf-stream-analyze` | Proibido neste projeto |
+| Cursor na Secretária | Só o **SamsTech Engineer** usa Cursor nesta fase |
 
 ---
 
-## 4. Critério de “Fase 1 ok para mim”
+## Critério de “Fase 1 ok para mim”
 
-Marque só o que você **fez de verdade** neste teste:
-
-- [ ] Abri a pasta certa no Cursor (`ABRIR-NO-CURSOR.md`)
-- [ ] Pedi **1 tarefa real** e vi o arquivo em `operacao/tarefas/`
-- [ ] Pedi **1 lembrete real** e vi o arquivo em `operacao/lembretes/`
-- [ ] Pedi **1 rascunho** e vi **só** a fila (`operacao/fila-aprovacoes/`)
+- [ ] Abri a pasta certa no Cursor
+- [ ] **A** — 1 tarefa real em `operacao/tarefas/`
+- [ ] **B** — 1 lembrete real em `operacao/lembretes/`
+- [ ] **C** — 1 rascunho **só** na fila (`operacao/fila-aprovacoes/`)
 - [ ] Confirmei que **nada** foi enviado sozinho
-- [ ] O formato dos markdowns serve (se não servir: anotar o que mudar; não inventar regra)
 
-Se os três pedidos funcionarem no seu dia, a Fase 1 está validada.  
-Fase 2 (Comercial ao vivo) **só** se você autorizar por escrito — checklist: `Documentação/fases/fase-2-comercial-ATIVACAO.md`.
+Se A–C funcionarem, a Fase 1 está validada.  
+Fase 2 ao vivo **só** com autorização escrita — `Documentação/fases/fase-2-comercial-ATIVACAO.md`.
 
 ---
 
-## 5. Se algo falhar
+## Se algo falhar
 
-1. Confirmar de novo o Source Control = `agentes-sams-tech-solucoes`.
+1. Source Control = `agentes-sams-tech-solucoes`.
 2. Não abrir o repo de NF “para consertar”.
-3. Anotar o que pediu e o que aconteceu em `operacao/registros/` (ou no chat).
+3. Anotar no chat do **SamsTech Engineer** o que pediu e o que aconteceu.
 4. Não apagar o lembrete da torneira.
 
-Fonte operacional: `Documentação/runbooks/secretaria-fase1.md`.
+Fonte: `Documentação/runbooks/secretaria-fase1.md`.

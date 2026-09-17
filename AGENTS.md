@@ -34,9 +34,10 @@ Envio externo (WhatsApp/e-mail), cobrança, produção e código de NF **não** 
 - Runbook: `Documentação/runbooks/secretaria-fase1.md`
 - Detalhe da fase: `Documentação/fases/fase-1-mvp-secretaria.md`
 - Briefing: `STATUS.md`
-- Testes reais (Samuel): `Documentação/TESTES-REAIS-AMANHA.md`
+- Testes reais (Samuel): `AMANHA-TESTES.md` + `Documentação/TESTES-REAIS-AMANHA.md`
+- Equipe Grok Bot × fichas: `empresa/MAPA-EQUIPE.md`
 
-Fases 2–9 existem como plano e one-pagers (`Documentação/fases/README.md`). Não “virar” Gestor/Comercial/Produtos ao vivo sem autorização.
+Os **sete papéis + Engineer já existem** no Grok. Só a Secretária está operacional. Fases 2–9: plano e one-pagers (`Documentação/fases/README.md`). Não “virar” Gestor/Comercial/Produtos ao vivo sem autorização.
 
 ## Fonte de produto
 

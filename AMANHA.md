@@ -9,6 +9,7 @@ O trabalho de Agentes é **somente** neste GitHub / pasta `SamsTechSolucoes-Agen
 | Testes reais da Secretária | [Documentação/TESTES-REAIS-AMANHA.md](./Documentação/TESTES-REAIS-AMANHA.md) |
 | Engenheiro Principal | [AGENTS.md](./AGENTS.md) |
 | Arquitetura V2 (texto integral) | [Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md](./Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md) |
+| Equipe Grok × fichas | [empresa/MAPA-EQUIPE.md](./empresa/MAPA-EQUIPE.md) |
 
 Fase 1 Secretária: **operacional**. Sistema de NF: **não** alterar.  
 O texto abaixo é o snapshot histórico da Fase 0 (15/09/2026). **Não apagar.** Organograma Jarvis/Alex não substitui a V2.

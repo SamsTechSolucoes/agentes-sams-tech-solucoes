@@ -2,6 +2,7 @@
 
 **Fase:** papel / stub operacional (Phase 2+).  
 **Status:** **NÃO AUTORIZADO A IR AO VIVO** até Samuel validar Fase 1 (Secretária) e autorizar explicitamente este domínio.  
+**Bot no Grok:** Financeiro SamsTech (`empresa/MAPA-EQUIPE.md`)  
 **Fonte de produto:** `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`
 
 ## Missão

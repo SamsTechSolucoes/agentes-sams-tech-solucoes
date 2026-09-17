@@ -20,7 +20,8 @@ Este GitHub e esta pasta são **o mesmo projeto**. Não existe segundo repo de A
 2. `C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes`
 3. Source Control deve mostrar **`agentes-sams-tech-solucoes`**
 4. Se mostrar `nf-stream-analyze` ou “Incorrect Repository”: feche a pasta e abra de novo a do passo 2
-5. Leia `STATUS.md`. Para os testes da Secretária: `Documentação/TESTES-REAIS-AMANHA.md`
+5. Leia `STATUS.md`. Testes: `AMANHA-TESTES.md` → `Documentação/TESTES-REAIS-AMANHA.md` (chat **Secretária SamsTech**).
+6. Quem é cada bot: `empresa/MAPA-EQUIPE.md`
 
 Não é necessário criar outro repositório. O trabalho local já está no `main` deste GitHub (docs, scripts, fichas, fases). Puxe o `main` se a pasta estiver atrasada:
 
