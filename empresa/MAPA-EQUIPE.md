@@ -38,7 +38,7 @@ O grupo **não** autoriza envio WhatsApp nem trabalho em NF.
 1. Samuel fala com a **Secretária SamsTech** no dia a dia (Fase 1).
 2. Outros bots: colar/ler a ficha da coluna **Ficha**; não inventar regra de comissão, estoque ou cobrança.
 3. Dúvida de pasta ou “quem faz o quê”: este mapa, depois a ficha.
-4. Configuração, git, scripts: **SamsTech Engineer** no Cursor.
+4. Comando de engenharia: app **Grok Bot** → chat **SamsTech Engineer** (se não tiver o app: `ABRIR-GROK-BOT.md`). Execução com ferramentas só no Cursor. Modelo: `templates/comando-engenheiro.md`.
 
 ## O que o mapa não é
 

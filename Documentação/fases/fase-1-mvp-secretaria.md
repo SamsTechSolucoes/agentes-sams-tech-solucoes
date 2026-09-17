@@ -1,7 +1,7 @@
 ﻿# Fase 1 — MVP Secretária Pessoal
 
 **Autorizada (docs/ops neste repo):** 17/09/2026  
-**Status:** **OPERACIONAL** — validação humana do Samuel na manhã ainda pendente  
+**Status:** **OPERACIONAL** — piloto A–C confirmado pelo Samuel (concluído em 16/09/2026)  
 **Restrição de pasta/repo:** somente `agentes-sams-tech-solucoes` / `C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes`  
 **Sistema de NF:** externo — não alterar  
 **Idioma:** PT-BR  
@@ -83,7 +83,7 @@ Não criar arquivos em outros repositórios.
 ## Dependências
 
 - Fase 0 documental (AGENTS, V2, constituição, pastas `operacao/`) — **feita** neste git.
-- Samuel validar 3 pedidos piloto na manhã.
+- Samuel validar 3 pedidos piloto na manhã. **Feito (16/09, confirmado 17/09).**
 - Não depende de código novo no sistema de NF.
 
 ---
@@ -125,15 +125,15 @@ Piloto: 1 tarefa, 1 lembrete, 1 rascunho na fila (sem envio).
 
 - [x] Ficha + constituição + runbook + pastas + scripts neste git
 - [x] Zero envios externos autônomos
-- [ ] Samuel usou a Secretária em **1 dia real** de trabalho
-- [ ] 3 consultas/pedidos confiáveis + 1 resumo matinal útil
+- [x] Samuel usou a Secretária no piloto A–C (16/09; confirmado 17/09)
+- [ ] 1 resumo matinal útil em dia de trabalho (ainda não declarado)
 - [ ] Samuel autoriza (ou não) a Fase 2
 
 ---
 
 ## Decisões que dependem de Samuel
 
-- Validar a Fase 1 ao acordar.
+- Validar a Fase 1 ao acordar. **Piloto A–C: feito.**
 - Horário do resumo matinal (hoje: 8:00 seg–sex — confirmar).
 - Nome de exibição da Secretária no Grok Bot, se quiser mudar.
 - Se a Secretária poderá, no futuro, **consultar** o NF só leitura — ainda assim **sem** editar aquele repo daqui.

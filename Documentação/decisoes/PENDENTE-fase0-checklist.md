@@ -16,3 +16,4 @@ Nada abaixo está decidido automaticamente. Marque quando confirmar.
 - [x] Termos em PT-BR (2026-09-17)
 - [x] Cursor só Engenheiro Principal temporariamente (2026-09-17)
 - [x] Arquitetura V2 como fonte de produto — texto integral neste git (16/09 versionada em 17/09)
+- [x] Comando ao Engenheiro pelo Grok Bot; Ambientes já configurados; Cursor no PC aberto (2026-09-17)

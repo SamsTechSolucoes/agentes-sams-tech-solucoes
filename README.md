@@ -15,16 +15,18 @@ Este GitHub e essa pasta são **o mesmo projeto**. Não use `nf-stream-analyze` 
 | 1 | [STATUS.md](./STATUS.md) | Briefing da manhã |
 | 2 | [AGENTS.md](./AGENTS.md) | Escopo do Engenheiro Principal |
 | 3 | [ABRIR-NO-CURSOR.md](./ABRIR-NO-CURSOR.md) | Abrir a pasta certa no Cursor |
-| 4 | [AMANHA-TESTES.md](./AMANHA-TESTES.md) | Guia rápido dos testes A–C |
-| 5 | [Documentação/TESTES-REAIS-AMANHA.md](./Documentação/TESTES-REAIS-AMANHA.md) | Checklist completo da Secretária |
-| 6 | [empresa/MAPA-EQUIPE.md](./empresa/MAPA-EQUIPE.md) | Equipe Grok Bot × fichas |
-| 7 | [empresa/fichas/01-secretaria.md](./empresa/fichas/01-secretaria.md) | Secretária (Fase 1 operacional) |
-| 8 | [Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md](./Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md) | Arquitetura V2 (16/09/2026) |
+| 4 | [ABRIR-GROK-BOT.md](./ABRIR-GROK-BOT.md) | Baixar o app Grok Bot (não é o Cursor) |
+| 5 | [WEB-ACOMPANHAMENTO.md](./WEB-ACOMPANHAMENTO.md) | Comandar o Engenheiro pelo Grok Bot |
+| 6 | [AMANHA-TESTES.md](./AMANHA-TESTES.md) | Guia rápido dos testes A–C |
+| 7 | [Documentação/TESTES-REAIS-AMANHA.md](./Documentação/TESTES-REAIS-AMANHA.md) | Checklist completo da Secretária |
+| 8 | [empresa/MAPA-EQUIPE.md](./empresa/MAPA-EQUIPE.md) | Equipe Grok Bot × fichas |
+| 9 | [empresa/fichas/01-secretaria.md](./empresa/fichas/01-secretaria.md) | Secretária (Fase 1 operacional) |
+| 10 | [Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md](./Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md) | Arquitetura V2 (16/09/2026) |
 
 ## Estado em 17/09/2026
 
 - **Engenheiro Principal** ativo neste repo (Cursor só para ele, temporário).
-- **Fase 1 — Secretária Pessoal: operacional** (tarefas, lembretes, registros, rascunhos na fila). Sem envio externo autônomo.
+- **Fase 1 — Secretária Pessoal: operacional** (piloto A–C confirmado em 16/09). Sem envio externo autônomo.
 - **Equipe Grok criada:** Secretária, Gestor, Comercial, Produtos, Financeiro, Inteligência, Evolução + Engineer. Mapa: [empresa/MAPA-EQUIPE.md](./empresa/MAPA-EQUIPE.md). Só a Secretária opera de verdade até o Samuel autorizar o resto.
 - **Sistema de NF:** externo. Não alterar `nf-stream-analyze` sem permissão explícita do Samuel.
 - **Código de produto:** não vive aqui e **não** deve ser escrito daqui.

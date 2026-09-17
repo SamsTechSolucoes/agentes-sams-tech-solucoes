@@ -13,4 +13,5 @@ Todas em PT-BR. Glossário: `../glossario-ptbr.md`. Constituição: `../constitu
 | `06-inteligencia.md` | Inteligência Comercial e Operacional | Inteligência SamsTech | Não |
 | `07-evolucao.md` | Evolução / Arquitetura | Evolução SamsTech | Não |
 
-**Único com Cursor (temporário):** Engenheiro Principal — bot **SamsTech Engineer** — ver `AGENTS.md` e `Documentação/decisoes/2026-09-17-cursor-somente-engenheiro-e-termos-ptbr.md`.
+**Único com Cursor (temporário):** Engenheiro Principal — bot **SamsTech Engineer** — ver `AGENTS.md` e `Documentação/decisoes/2026-09-17-cursor-somente-engenheiro-e-termos-ptbr.md`.  
+Samuel comanda pelo Grok Bot; execução no Cursor. Modelo: `templates/comando-engenheiro.md`.
