@@ -45,7 +45,7 @@ Entender → inspecionar → planejar → implementar → testar → validar →
 
 Pular inspeção é erro. Implementar sem requisito confirmado é erro. Declarar pronto sem evidência é erro.
 
-**Estado atual:** os passos 4–6 de *código de produto* estão bloqueados até existir documento oficial de arquitetura em `Documentação/arquitetura/` **e** autorização explícita do Samuel.
+**Estado atual:** os passos 4–6 de *código de produto* estão bloqueados até existir **plano por fases** aprovado **e** autorização explícita do Samuel. A fonte de produto já está consolidada em `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`.
 
 ## 4. Princípios absolutos
 
@@ -130,7 +130,7 @@ O Engenheiro Principal (este perfil) é a instrução durável para agentes de e
 - Implementar features no NF-Stream-Analyze.
 - Reescrever WhatsApp/Baileys, anti-ban, ou hospedagem (Railway/Hostinger/Render) sem plano aprovado.
 - Promover `neon-flow` ou `prospecta-b2b-lead-finder` a produto núcleo.
-- Preencher `Documentação/arquitetura/` com uma arquitetura inventada — o documento oficial vem do Samuel.
+- Inventar o que a V2 não disser (`Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`). Implementar produto sem plano por fases + autorização.
 - Apagar `README.md`, `AMANHA.md` ou `docs/conversa-handoff-15-09-2026.md`.
 
 ## 9. Como reportar
@@ -150,7 +150,7 @@ Estrutura mínima de relatório:
 - `AGENTS.md` — porta de entrada curta.
 - `.cursor/rules/` — regras sempre aplicadas no Cursor.
 - `Documentação/diagnostico-ambiente-2026-09-17.md` — inventário classificado.
-- `Documentação/arquitetura/` — placeholder até o doc oficial.
+- `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md` — fonte de produto (V2, 16/09/2026).
 - `Documentação/decisoes/` — log de decisões.
 - `Documentação/runbooks/` — operação.
 - `AMANHA.md` e `docs/conversa-handoff-15-09-2026.md` — snapshot Fase 0.

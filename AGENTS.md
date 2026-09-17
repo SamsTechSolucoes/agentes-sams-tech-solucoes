@@ -13,10 +13,11 @@ Este arquivo é a porta de entrada para qualquer agente (Cursor, Grok Bot ou equ
 
 ## Leitura obrigatória
 
-1. [Documentação/SamsTech_Diretriz_Engenheiro_Principal.md](Documentação/SamsTech_Diretriz_Engenheiro_Principal.md) — diretriz completa.
-2. [Documentação/diagnostico-ambiente-2026-09-17.md](Documentação/diagnostico-ambiente-2026-09-17.md) — inventário classificado do ambiente.
-3. [Documentação/README.md](Documentação/README.md) — índice.
-4. Regras Cursor em `.cursor/rules/` (sempre aplicadas quando o Cursor as carregar).
+1. [Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md](Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md) — **fonte de produto** (Arquitetura V2, 16/09/2026).
+2. [Documentação/SamsTech_Diretriz_Engenheiro_Principal.md](Documentação/SamsTech_Diretriz_Engenheiro_Principal.md) — diretriz completa.
+3. [Documentação/diagnostico-ambiente-2026-09-17.md](Documentação/diagnostico-ambiente-2026-09-17.md) — inventário classificado do ambiente.
+4. [Documentação/README.md](Documentação/README.md) — índice.
+5. Regras Cursor em `.cursor/rules/` (sempre aplicadas quando o Cursor as carregar).
 
 Handoff histórico (Fase 0 / Grok Bot no papel): [AMANHA.md](AMANHA.md) e [docs/conversa-handoff-15-09-2026.md](docs/conversa-handoff-15-09-2026.md).
 
@@ -53,4 +54,4 @@ Plano de referência: Cursor Pro. Cota é recurso finito. Preferir inspeção lo
 
 ## Quando parar e perguntar
 
-Arquitetura oficial ainda **não** foi entregue pelo Samuel (`Documentação/arquitetura/`). Sem esse documento: não desenhar sistema novo, não substituir o NF-Stream-Analyze, não misturar trilho de operação de tela com trilho de mudança de código.
+Fonte de produto: [Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md](Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md) (status consolidado). **Implementação só após plano por fases e autorização.** Não desenhar sistema novo, não substituir o NF-Stream-Analyze, não inventar o que a V2 não disser, não misturar trilho de operação de tela com trilho de mudança de código.

@@ -11,7 +11,7 @@ O sistema de produto **já existe**: NF-Stream-Analyze (React + TS + Vite, Supab
 
 - Produto: https://github.com/SamsTechSolucoes/nf-stream-analyze (privado). Produção: https://nf-stream-analyze.vercel.app
 - Este repo: instruções de agentes e documentação apenas.
-- Arquitetura oficial: aguardar documento do Samuel em `Documentação/arquitetura/`. Sem esse doc, **não** implementar produto.
+- Fonte de produto: `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md` (V2, 16/09/2026, status consolidado). **Implementação só após plano por fases e autorização.** Não inventar o que a V2 não disser.
 
 ## Classificação (ver diagnóstico)
 

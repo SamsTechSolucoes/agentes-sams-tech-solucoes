@@ -95,13 +95,13 @@ Objetivo cumprido nesta leva: esqueleto durável de instruções (`AGENTS.md`, `
 |---|---|
 | Handoff Fase 0 (`AMANHA.md`, `docs/conversa-handoff-15-09-2026.md`) | **EXISTENTE E FUNCIONANDO** (preservado) |
 | Diretriz Engenheiro Principal | passou a existir neste repo |
-| Documento oficial de arquitetura do Samuel | **NÃO EXISTE** (placeholder em `Documentação/arquitetura/`) |
-| Features de produto implementadas daqui | **NÃO EXISTE** — e não devem existir até o doc de arquitetura + autorização |
+| Documento oficial de arquitetura do Samuel | **EXISTENTE E PRECISA SER ADAPTADA** — V2 versionada em `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md` (índice oficial 16/09; corpo corrido integral ainda não chegou a este git) |
+| Features de produto implementadas daqui | **NÃO EXISTE** — e não devem existir até plano por fases + autorização |
 
 ## 7. Implicações para o próximo agente
 
 1. Não implementar produto.
 2. Não clonar/editar `nf-stream-analyze` “para adiantar”.
-3. Não preencher arquitetura oficial no lugar do Samuel.
+3. Não inventar o corpo da Arquitetura V2. Fonte: `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`. Implementação só após plano por fases + autorização.
 4. WhatsApp/Baileys e higiene de segredos são as adaptações mais sensíveis — só com plano aprovado.
 5. Satélites Lovable não viram núcleo por inércia.

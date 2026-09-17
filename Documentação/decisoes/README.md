@@ -34,3 +34,7 @@ Ainda não extraídas para arquivos individuais. Fonte: [../../docs/conversa-han
 ## Decisão desta preparação (17/09/2026)
 
 Este repositório passou a hospedar a diretriz do Engenheiro Principal e o diagnóstico de ambiente. Isso **não** inicia implementação de produto.
+
+## Arquitetura V2 (16/09/2026)
+
+Ver [2026-09-16-arquitetura-v2.md](./2026-09-16-arquitetura-v2.md). Fonte: `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`.

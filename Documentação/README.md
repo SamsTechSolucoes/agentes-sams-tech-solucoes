@@ -10,6 +10,7 @@ Comece por [../AGENTS.md](../AGENTS.md).
 
 | Documento | Uso |
 |---|---|
+| [arquitetura/SamsTech_Agents_Arquitetura_V2.md](./arquitetura/SamsTech_Agents_Arquitetura_V2.md) | **Fonte de produto** (Arquitetura V2, 16/09/2026) |
 | [SamsTech_Diretriz_Engenheiro_Principal.md](./SamsTech_Diretriz_Engenheiro_Principal.md) | Diretriz completa do Engenheiro Principal |
 | [diagnostico-ambiente-2026-09-17.md](./diagnostico-ambiente-2026-09-17.md) | Inventário classificado do ambiente (17/09/2026) |
 | [../AGENTS.md](../AGENTS.md) | Porta de entrada curta (ordem de trabalho + regras) |
@@ -19,7 +20,7 @@ Comece por [../AGENTS.md](../AGENTS.md).
 
 | Pasta | Uso |
 |---|---|
-| [arquitetura/](./arquitetura/README.md) | Aguarda o documento **oficial** de arquitetura do Samuel. Não inventar. |
+| [arquitetura/](./arquitetura/README.md) | **Consolidado.** Fonte: [arquitetura/SamsTech_Agents_Arquitetura_V2.md](./arquitetura/SamsTech_Agents_Arquitetura_V2.md). Implementação só após plano por fases e autorização. |
 | [decisoes/](./decisoes/README.md) | Log de decisões datadas (padrão a preencher quando houver decisão) |
 | [runbooks/](./runbooks/README.md) | Operação / incidentes — stubs até haver procedimento estável |
 
