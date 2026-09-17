@@ -1,12 +1,11 @@
-# Central de aprovações
+﻿# Indice da Central de Aprovacoes (visao)
 
-Índice do que depende do OK de Samuel. Os rascunhos em si ficam em `../fila-aprovacoes/`.
+A fila operacional do dia a dia e:
+`operacao/fila-aprovacoes/`
 
-```md
-# Índice de aprovação
-- status: pendente|aprovado|recusado|editado
-- referencia: caminho do arquivo na fila
-- tipo: whatsapp|email|outro
-- atualizado: 2026-09-17T03:00:00-03:00
-- decisao_samuel:
-```
+Esta pasta (`operacao/central-aprovacoes/`) guarda indices/resumos quando o Gestor estiver ativo.
+
+Fluxo:
+1. Agente rascunha → fila-aprovacoes (status pendente)
+2. Samuel: aprovar | recusar | editar
+3. Envio (quando existir canal) so apos OK — na Fase 1 o envio continua manual
