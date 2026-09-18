@@ -139,3 +139,10 @@ Explicacao: a revisão abreviada do Git precisa ser protegida da análise sintá
 do PowerShell.
 Solucao proposta: repetir somente a verificação com `'@{upstream}'` entre aspas.
 
+2026-09-18 02:07 - busca global de drift S2/S3/B1
+Comando: rg no diretório raiz para padrões combinados
+Erro: IO error, caminho não encontrado.
+Explicacao: a busca global voltou a falhar na resolução do escopo Windows.
+Solucao proposta: validar separadamente em `Documentação` e `operacao`, como no
+procedimento que já funcionou anteriormente.
+

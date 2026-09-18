@@ -32,7 +32,7 @@ Operação local ativa. Prevenção: **45 dias sem compra**. Cliente inativo:
 |---|---|
 | Enviar WhatsApp, e-mail ou follow-up real | comunicação externa exige OK pontual |
 | Prometer preço, desconto, prazo ou comissão | regra oficial ausente |
-| Definir critério de carteira / inativo | PENDENTE SAMUEL |
+| Alterar critérios de prevenção/inatividade já aprovados | regra permanente exige nova decisão |
 | Alterar cadastro de cliente em produção | sistema externo |
 | Conectar API/produção ou gastar cota/serviço pago | custo e risco |
 | Mudar regra permanente de comercial | constituição §3 |

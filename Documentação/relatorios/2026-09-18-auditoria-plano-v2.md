@@ -22,13 +22,17 @@ Git. Não foi encontrado desvio irreversível que comprometa o objetivo da
 empresa híbrida. O principal risco é chamar componentes locais ou documentais
 de “concluídos” antes de validar sua execução contínua na máquina do agente.
 
+Pelos critérios formais do plano: **1 fase concluída, 6 parciais e 3 não
+operacionais**.
+
 ## Resultado por fase
 
-### Fase 0 — Fundação: concluída no escopo permitido
+### Fase 0 — Fundação: parcial, com base documental sólida
 
 Arquitetura, fichas, constituição, organograma, regras, SoT e limites de
-repositório estão registrados. Limpeza/rotação de segredos no sistema de NF
-permanece externa e depende de autorização específica, conforme o próprio
+repositório estão registrados. Ainda faltam as três prioridades da V1 e a
+autorização para o plano de limpeza/rotação de segredos no sistema de NF. Essa
+ação permanece externa e depende de autorização específica, conforme o próprio
 plano.
 
 ### Fase 1 — Secretária Pessoal: concluída e utilizável localmente

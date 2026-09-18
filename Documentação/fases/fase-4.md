@@ -1,6 +1,6 @@
-# Fase 4 — Camada Google (Drive / Sheets) (papel)
+# Fase 4 — Camada Google (Drive / Sheets)
 
-**Status:** one-pager. **Não implementar.**  
+**Status:** **PARCIAL** — Drive/Docs em uso; Sheets e sincronização não iniciados.  
 Detalhe completo: `Documentação/Plano_Implementacao_Fases_V2.md` (FASE 4).  
 V2 §10: `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`.
 
@@ -8,15 +8,18 @@ Este arquivo **não** é um índice incompleto. O plano-mãe já tem as seções
 
 ## Neste repo (hoje)
 
-Drive / Sheets / Gmail / Calendar **não** estão ligados. Não conectar OAuth, não criar workbook, não copiar base de clientes.
+Gmail e Calendar foram consultados em leitura pelo Engenheiro (S2). O Drive
+recebeu o resumo executivo S3 e a estrutura de pastas. Sheets, workbook e
+sincronização com o Supabase não foram ativados.
 
-Recomendação do Engenheiro (ainda **PENDENTE SAMUEL**): Supabase = fonte da verdade operacional; Sheets = espelho analítico.
+Decisão vigente: Supabase = fonte da verdade operacional; Sheets = espelho
+analítico futuro.
 
 ## Condição para sair do papel
 
-1. Fases anteriores combinadas + decisão SoT.
-2. Autorização explícita desta fase.
-3. Conta Google e estrutura das abas — **PENDENTE SAMUEL**.
+1. Definir a estrutura das abas e a frequência de sincronização.
+2. Autorizar explicitamente o workbook/Sheets.
+3. Validar amostra Sheet ↔ Supabase sem editar a fonte da verdade.
 
 ## Não fazer
 

@@ -1,17 +1,18 @@
 # Status das fontes (Engenheiro)
 
-**Atualizado:** 2026-09-17 21:15  
+**Atualizado:** 2026-09-18 02:05  
 Leitura operacional de linhas: **LIBERADA (S1)** para a pasta da Secretária `operacao/secretaria/sistema-nf/` (PII fora do git).  
-Gmail/Agenda (S2), Drive resumo (S3) e B1 (código NF) continuam pendentes.
+Gmail/Agenda (S2), Drive resumo (S3) e B1 (código NF) foram concluídos nos
+limites autorizados: leitura, publicação do resumo e mapeamento sem alteração.
 
 ## Conectores já autenticados no Cursor do Engenheiro
 
 | Fonte | Auth MCP | Uso liberado agora |
 |---|---|---|
 | Supabase | sim | **S1** — pasta da Secretária (sem escrita) |
-| Gmail | sim | não |
-| Google Calendar | sim | não |
-| Google Drive | sim (pastas scaffolding Fase 4) | não publicar ainda |
+| Gmail | sim | leitura pelo Engenheiro para resumo; sem envio |
+| Google Calendar | sim | leitura pelo Engenheiro; sem alteração |
+| Google Drive | sim | resumo executivo S3 publicado; Sheets não ativo |
 | Slack | sim | canal interno; não substitui aprovação |
 | WhatsApp clientes | não (MCP inexistente no Cursor) | rascunho local |
 | WhatsApp 1:1 Samuel | sessão no Grok Engineer | já autorizado à parte |

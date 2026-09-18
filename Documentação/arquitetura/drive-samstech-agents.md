@@ -10,4 +10,5 @@
 | 03-docs-executivos | identificador fora do Git |
 | 04-aprovacoes | identificador fora do Git |
 
-SoT (Supabase vs Sheets) ainda **PENDENTE SAMUEL**.
+SoT decidida em 17/09/2026: **Supabase é a fonte da verdade operacional**.
+Sheets será apenas espelho analítico quando a Fase 4 for autorizada.

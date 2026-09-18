@@ -36,7 +36,9 @@ Frase da V2: *“Samuel não deve precisar lembrar que precisa perguntar.”*
 | Resumo matinal | `scripts/resumo-matinal.ps1` (rotina combinada 8:00 seg–sex) | Não |
 | Dúvida | Perguntar ao Samuel; marcar `PENDENTE SAMUEL` | Não |
 
-Áudio, Gmail, Calendar, Contacts: **não** pela Secretária. Consulta ao banco do NF: **só** via Engenheiro depois do pacote S1, brief em `operacao/fontes/`.
+Áudio e Contacts: **não** pela Secretária. Gmail/Calendar foram consultados
+somente em leitura pelo Engenheiro (S2). Consulta ao banco do NF usa a cópia
+consolidada S1 e, para atualização, passa pelo Engenheiro.
 
 ---
 
@@ -60,7 +62,9 @@ Não criar arquivos em outros repositórios.
 
 ## Dados
 
-- Markdown operacional (títulos, prazos, rascunhos). **Sem** dump de clientes, telefones ou NFs copiados do SaaS.
+- Markdown operacional versionável (títulos, prazos, rascunhos) sem PII.
+- A cópia consolidada S1 com clientes, telefones e NFs fica em
+  `operacao/secretaria/sistema-nf/`, fora do Git.
 - Preferências leves só depois de classificar (comando vs preferência vs regra — V2 §7).
 - Lembrete real a preservar: `operacao/lembretes/20260917-0222-desligar-torneira.md`.
 - Ignorar `EXEMPLO-*` e READMEs como pedidos reais.
@@ -75,7 +79,9 @@ Não criar arquivos em outros repositórios.
 | Cursor (Engenheiro Principal) | Configuração e scripts |
 | Grok Bot Secretária | Conversa (sem Cursor) |
 | nf-stream-analyze | **Externo.** Tela só se Samuel pedir. Zero commits |
-| Gmail / Drive / Sheets / Calendar | Desligados |
+| Gmail / Calendar | S2 concluído em leitura pelo Engenheiro; sem ação externa |
+| Google Drive | S3 concluído; resumo executivo publicado |
+| Google Sheets | Não ativado |
 | WhatsApp produção | Proibido enviar |
 
 ---
@@ -136,18 +142,18 @@ Piloto: 1 tarefa, 1 lembrete, 1 rascunho na fila (sem envio).
 - [ ] Acompanhar uso durante **1 dia real** de trabalho (não bloqueia a conclusão inicial)
 - [ ] Validar utilidade do primeiro resumo matinal (acompanhamento)
 - [x] Samuel autoriza (ou não) a Fase 2 — **autorizada em modo local** (17/09)
-- [ ] Pacote S1–S3 / B1 (leitura real) — **pendente neste chat**
+- [x] Pacote S1–S3 / B1 concluído nos limites autorizados
 
 ---
 
 ## Decisões que dependem de Samuel
 
-- Horário do resumo matinal (hoje: 8:00 seg–sex — confirmar).
+- [x] Horário do resumo matinal: 8:00 seg–sex.
 - Nome de exibição da Secretária no Grok Bot, se quiser mudar.
 - Se a Secretária poderá, no futuro, **consultar** o NF só leitura — ainda assim **sem** editar aquele repo daqui.
 - [x] Autorizar Fase 2 (Comercial) em modo local — feito 17/09
 - Continuar **sem** Cursor para a Secretária (decisão vigente)
-- Pacote S1–S3 / B1 neste chat (leitura real)
+- [x] Pacote S1–S3 / B1 em leitura real e sem alteração externa
 
 ---
 

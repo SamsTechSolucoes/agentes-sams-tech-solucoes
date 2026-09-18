@@ -32,7 +32,7 @@ o pedido de atualização para o Engenheiro. Para antecipar:
 - Google Doc de decisões: criado; revisão por Samuel + lembrete após 6 horas
 - WhatsApp profissional da Secretária: aprovado em conceito; login e escopo pendentes
 - PII **não** vai para o GitHub
-- Auditoria do plano: 2 fases concluídas, 5 parciais e 3 não operacionais
+- Auditoria do plano: 1 fase concluída, 6 parciais e 3 não operacionais
 - Validação 18/09: estrutura 44/44 + todos os smoke tests + rotina diária em PASS
 
 ## Como usar
