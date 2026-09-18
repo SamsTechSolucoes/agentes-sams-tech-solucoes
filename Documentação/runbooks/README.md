@@ -7,6 +7,7 @@ Procedimentos operacionais **deste** repo. Sem secrets. Sem playbook de disparo 
 | [secretaria-fase1.md](./secretaria-fase1.md) | Pedidos da Secretária (Fase 1 operacional) |
 | [listar-pendencias.md](./listar-pendencias.md) | Como listar tarefas/fila/lembretes |
 | [backup-e-recuperacao-plataforma.md](./backup-e-recuperacao-plataforma.md) | Backup seguro e recriação em outra plataforma |
+| [trocar-avatares-plataformas.md](./trocar-avatares-plataformas.md) | Aplicar e validar identidade visual dos agentes |
 
 WhatsApp/Baileys de produção e deploy de NF **não** têm runbook aqui — o sistema de NF é externo.
 

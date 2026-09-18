@@ -55,6 +55,15 @@ Eu (Engenheiro no Cursor) **não consigo clicar** no app Grok por você. Este ar
 Para cada um, cole **uma vez** (texto curto em `COLAR-NO-GROK-SCAFFOLDING.md`):
 - “Você está em scaffolding. Não opere ao vivo. Leia só sua ficha quando eu pedir.”
 
+### 2.4 Avatares
+
+Depois do login manual de Samuel, aplicar as imagens seguindo:
+
+- mapa: `Documentação/arquitetura/mapa-avatares-agentes.md`;
+- procedimento: `Documentação/runbooks/trocar-avatares-plataformas.md`.
+
+Não usar arquivos descartados, testes, referências pessoais ou backups.
+
 ## BLOCO 3 — Grupo SamsTech Ops (se a UI tiver grupo)
 
 - [ ] Criar/abrir grupo **SamsTech Ops** com: Engenheiro + Secretária + Gestor + Comercial.
