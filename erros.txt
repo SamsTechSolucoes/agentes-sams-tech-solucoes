@@ -116,3 +116,11 @@ Bash como executável.
 Solucao proposta: usar here-string nativa do PowerShell para preservar a
 mensagem multilinha sem alterar configuração do Git.
 
+2026-09-18 01:50 - envio da branch de backup ao GitHub
+Comando: git push -u origin HEAD
+Erro: processo permaneceu sem saída por mais de seis minutos e foi encerrado.
+Explicacao: o transporte HTTPS do Git ficou bloqueado antes de informar
+progresso, compatível com espera de autenticação ou indisponibilidade do helper.
+Solucao proposta: verificar a sessão do GitHub CLI e usar autenticação já
+autorizada, sem expor credenciais e sem repetir o mesmo fluxo travado.
+
