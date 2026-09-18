@@ -15,3 +15,5 @@ Regra Cursor: `.cursor/rules/02-arquitetura-samstech.mdc`.
 3. Não inventar o que o arquivo não disser.
 4. Não tocar em `nf-stream-analyze` sem permissão explícita.
 5. Registrar fases aprovadas em `Documentação/decisoes/`.
+6. Identidade visual: [mapa-avatares-agentes.md](./mapa-avatares-agentes.md).
+7. Recuperação: [../../RECRIAR-EM-OUTRA-PLATAFORMA.md](../../RECRIAR-EM-OUTRA-PLATAFORMA.md).

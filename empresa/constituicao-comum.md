@@ -3,6 +3,11 @@
 Documento obrigatório para **todos** os papéis (Secretária, Gestor, Comercial, Produtos, Financeiro, Inteligência, Evolução) e para o Engenheiro Principal.  
 Se a ficha do papel contradizer esta constituição, **vale a constituição** até o Samuel decidir por escrito em `Documentação/decisoes/`.
 
+**Ideologia operacional (leitura obrigatória):**  
+`empresa/ideologia-operacional.md`  
+**Logo e avatares oficiais:**  
+`Documentação/arquitetura/mapa-avatares-agentes.md`
+
 **Repo:** https://github.com/SamsTechSolucoes/agentes-sams-tech-solucoes  
 **Pasta:** `C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes`
 

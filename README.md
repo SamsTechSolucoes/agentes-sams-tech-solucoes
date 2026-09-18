@@ -1,7 +1,7 @@
 # Agentes Sams.Tech.Soluções
 
-Repositório **privado** e **exclusivo** do projeto SamsTech Agents.  
-Não tornar público.
+Repositório **público** e **exclusivo** do projeto SamsTech Agents.  
+Não publicar PII, credenciais, links privados ou dados operacionais sensíveis.
 
 **GitHub (único):** https://github.com/SamsTechSolucoes/agentes-sams-tech-solucoes  
 **Pasta local (clone / fonte do dia a dia):** `C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes`
@@ -20,8 +20,10 @@ Este GitHub e essa pasta são **o mesmo projeto**. Não use `nf-stream-analyze` 
 | 6 | [empresa/MAPA-EQUIPE.md](./empresa/MAPA-EQUIPE.md) | Equipe Grok Bot × fichas |
 | 7 | [empresa/fichas/01-secretaria.md](./empresa/fichas/01-secretaria.md) | Secretária (Fase 1 operacional) |
 | 8 | [Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md](./Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md) | Arquitetura V2 (16/09/2026) |
+| 9 | [RECRIAR-EM-OUTRA-PLATAFORMA.md](./RECRIAR-EM-OUTRA-PLATAFORMA.md) | Caminho mínimo de recuperação |
+| 10 | [Documentação/arquitetura/mapa-avatares-agentes.md](./Documentação/arquitetura/mapa-avatares-agentes.md) | Logo e imagem de cada papel |
 
-## Estado em 17/09/2026
+## Estado em 18/09/2026
 
 - **Engenheiro Principal** ativo neste repo (Cursor só para ele, temporário).
 - **Fase 1 — Secretária Pessoal: operacional** (tarefas, lembretes, registros, rascunhos na fila). Sem envio externo autônomo.
@@ -29,6 +31,7 @@ Este GitHub e essa pasta são **o mesmo projeto**. Não use `nf-stream-analyze` 
 - **Sistema de NF:** externo. Não alterar `nf-stream-analyze` sem permissão explícita do Samuel.
 - **Código de produto:** não vive aqui e **não** deve ser escrito daqui.
 - **Arquitetura V2:** texto integral (seções 1–11), não índice curto. Plano fases 0–9 versionado.
+- **Backup de recuperação:** branch de backup no GitHub + guia de reconstrução multiplataforma.
 - Autonomia noturna 17/09: documentação, fichas, fases, scripts locais — ver [Documentação/decisoes/2026-09-17-autonomia-noturna.md](./Documentação/decisoes/2026-09-17-autonomia-noturna.md).
 
 ## Pastas

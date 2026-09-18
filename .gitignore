@@ -31,3 +31,9 @@ Avatares do Sistema/**/*.png
 Avatares do Sistema/**/*.jpg
 Avatares do Sistema/**/*.jpeg
 Avatares do Sistema/Documentacao_Marca/**
+
+# Identidade visual oficial que deve ser recuperável pelo Git
+!Avatares do Sistema/SamsTechSolucoes_AVATARES/LOGO_OFICIAL/LOGO_OFICIAL.png
+!Avatares do Sistema/SamsTechSolucoes_AVATARES/SECRETARIA/*.png
+!Avatares do Sistema/SamsTechSolucoes_AVATARES/CEO_GERENTE_25/*MANTER*.png
+!Avatares do Sistema/SamsTechSolucoes_AVATARES/CEO_GERENTE_25/*Manter*.png

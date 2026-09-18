@@ -146,3 +146,11 @@ Explicacao: a busca global voltou a falhar na resolução do escopo Windows.
 Solucao proposta: validar separadamente em `Documentação` e `operacao`, como no
 procedimento que já funcionou anteriormente.
 
+2026-09-18 02:15 - ajuste dos links de ideologia na constituição
+Comando: edição de `empresa/constituicao-comum.md`
+Erro: falha de sistema `ftruncate`.
+Explicacao: o arquivo pode ter sido alterado ou bloqueado por outra gravação
+simultânea.
+Solucao proposta: reler a versão atual e aplicar novamente apenas o trecho dos
+links, preservando as demais mudanças.
+
