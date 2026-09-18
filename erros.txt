@@ -132,3 +132,10 @@ existe nesta instalação.
 Solucao proposta: usar `gh auth git-credential` apenas nesta execução por meio
 de `git -c`, sem alterar a configuração global ou local do Git.
 
+2026-09-18 02:00 - verificação do commit remoto
+Comando: git rev-parse --short @{upstream}
+Erro: PowerShell interpretou `@{upstream}` como início de hashtable.
+Explicacao: a revisão abreviada do Git precisa ser protegida da análise sintática
+do PowerShell.
+Solucao proposta: repetir somente a verificação com `'@{upstream}'` entre aspas.
+
