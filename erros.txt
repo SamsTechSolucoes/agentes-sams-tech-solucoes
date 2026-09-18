@@ -124,3 +124,11 @@ progresso, compatível com espera de autenticação ou indisponibilidade do help
 Solucao proposta: verificar a sessão do GitHub CLI e usar autenticação já
 autorizada, sem expor credenciais e sem repetir o mesmo fluxo travado.
 
+2026-09-18 01:57 - envio não interativo ao GitHub
+Comando: git push com GIT_TERMINAL_PROMPT=0 e GCM_INTERACTIVE=Never
+Erro: `credential-manager-core` não está disponível; Git não obteve usuário.
+Explicacao: o GitHub CLI está autenticado, mas o helper configurado do Git não
+existe nesta instalação.
+Solucao proposta: usar `gh auth git-credential` apenas nesta execução por meio
+de `git -c`, sem alterar a configuração global ou local do Git.
+
