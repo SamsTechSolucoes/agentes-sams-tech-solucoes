@@ -1,20 +1,41 @@
 ﻿---
-description: Arquitetura do SamsTech, preservação do sistema e política de uma plataforma
+description: Arquitetura SamsTech V2 — fonte de produto, escopo e limites
 alwaysApply: true
 ---
 
-# Arquitetura SamsTech
+# Arquitetura SamsTech (V2)
 
-Fonte: `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md` (16/09/2026).
+**Fonte oficial:** `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md` (16/09/2026).  
+**Decisão:** `Documentação/decisoes/2026-09-16-arquitetura-v2.md`  
+**Fundação neste repo:** `Documentação/decisoes/2026-09-17-arquitetura-fundacao-concluida.md` 
+**Conformidade:** `Documentação/arquitetura/CONFORMIDADE-V2.md`
+**Mandato de execução:** `Documentação/decisoes/2026-09-17-engenheiro-executa-samuel-autoriza.md` — Engenheiro executa; Samuel só autoriza acessos.
 
-O **Agents** vive neste repositório. O sistema de NF (`nf-stream-analyze`) é **externo** — não inspecionar/alterar o código dele sem permissão explícita.
+## O que este repo é
+- Projeto **Agents** (`agentes-sams-tech-solucoes` / pasta `SamsTechSolucoes-Agentes`).
+- Fase operacional: **Fase 1 validada** + **Fase 2 comercial local** + **recorte v1** (ponte de leitura após S1–S3/B1, Central índice, Gestor handoff local).
+- Engenheiro Principal (`SamsTechEngineer`): único com Cursor até nova ordem. Canal de execução do dia a dia neste chat.
 
+## O que este repo NÃO é
+- Não é o sistema de NF (`nf-stream-analyze`) — **externo**. Sem inspecionar/alterar código dele sem permissão explícita e pontual.
+- Não é lugar para n8n, banco extra, serviço pago ou novo agente sem necessidade comprovada + OK de Samuel.
+- Memória de chat **não** é fonte oficial; decisão vai em `Documentação/decisoes/`.
+
+## Organograma (não inverter)
+Samuel → Secretária → Gestor → [Comercial, Produtos, Financeiro] → Inteligência → Central de aprovações → fontes.  
+Evolução **só sugere**. Samuel pode falar com a Secretária no Grok **ou** com o Engenheiro neste chat (gravação e conectores). O organograma não inverte: Secretária não vira Comercial/Financeiro.
+
+## Autonomia (teto V2)
+- **Sozinho:** pesquisar, organizar, analisar, gravar neste repo, lembretes, rascunhos na fila.
+- **Com OK:** envio comercial, cobrança, cancelar crítico, ligar Gmail/Drive/Sheets/Calendar/WhatsApp de produção, qualquer trabalho no NF.
+- **Nunca:** dinheiro, jurídico, irreversível, inventar comissão/preço, secrets no git/chat, scraping WA / massa sem aval.
+- **Exceção documentada:** WhatsApp 1:1 Engenheiro↔Samuel (contato autorizado mantido fora do Git) — ver decisão 2026-09-17-whatsapp-engenheiro-samuel.
+
+## Regras de trabalho
 - Inspecione o que já existe **nesta pasta** antes de criar ou substituir.
 - Não apague funcionalidade sem entender dependências e validar.
-- Ambiente principal de configuração: Cursor, usado **somente** pelo Engenheiro Principal (`SamsTechEngineer`) até nova ordem.
-- Não introduza n8n, banco extra, serviço pago ou novo agente sem necessidade técnica comprovada.
-- Novo agente ou Bot só com responsabilidade distinta e justificativa duradoura. Samuel confirma.
-- Conflito entre pedido e arquitetura: explique o conflito, a consequência e a recomendação. Não altere a decisão sozinho.
-- Decisão arquitetural confirmada deve ser registrada na documentação. Memória de chat não é fonte oficial.
-- Termos e funções dos agentes em PT-BR (`empresa/glossario-ptbr.md`).
-- Fase 1 Secretária está operacional neste repo; fases seguintes só com autorização.
+- Na dúvida: perguntar a Samuel / marcar `PENDENTE SAMUEL`. Nunca inventar.
+- Termos e papéis em PT-BR (`empresa/glossario-ptbr.md`).
+- Conflito pedido × arquitetura: explicar conflito, consequência e recomendação — **não** decidir sozinho.
+- Fases 2–9 e Skills/Routines: só com autorização explícita.
+- Custo previsível (Cursor Pro, sem overage sem OK). LGPD; sem bypass de auth.

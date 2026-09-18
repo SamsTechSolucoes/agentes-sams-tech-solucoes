@@ -17,8 +17,10 @@ Quem é cada bot: `empresa/MAPA-EQUIPE.md`.
 - `produtos/` — cliente aguardando, equivalências
 - `financeiro/` — inadimplência, cobranças-rascunho, comissões (fonte oficial pendente)
 - `inteligencia/` — ofensores, resumos (fato ≠ interpretação)
-- `central-aprovacoes/` — índice do que depende de aprovação
+- `central-aprovacoes/` — índice do que depende de aprovação (`indice-atual.md`)
 - `aprendizado/` — comando / preferência / procedimento / regra permanente
+- `fontes/` — ponte de leitura (consultas sanitizadas + privados gitignored)
+- `secretaria/sistema-nf/` — cópia de trabalho do sistema de NF (PII local, fora do git)
 
-Não versionar segredos. Não copiar dados do sistema de NF para cá sem autorização.
-Quem grava arquivos via Cursor, por enquanto: só o **Engenheiro Principal**.
+Não versionar segredos. Não copiar dump de cliente/NF para o git.
+Quem grava arquivos via Cursor: só o **Engenheiro Principal**.

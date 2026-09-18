@@ -15,6 +15,8 @@ function Count-Status($relDir, $needle) {
 $t = Count-Status "operacao\tarefas" "aberta"
 $l = Count-Status "operacao\lembretes" "pendente"
 $f = Count-Status "operacao\fila-aprovacoes" "pendente"
+$h = Count-Status "operacao\gestor" "aberto"
+$fu = Count-Status "operacao\comercial\follow-ups" "aberto"
 $outDir = Join-Path $root "operacao\registros"
 New-Item -ItemType Directory -Force -Path $outDir | Out-Null
 $name = "{0}-resumo-matinal-auto.md" -f (Get-Date -Format "yyyyMMdd")
@@ -25,6 +27,9 @@ $path = Join-Path $outDir $name
 - tarefas_abertas: $t
 - lembretes_pendentes: $l
 - fila_aprovacao_pendente: $f
+- handoffs_gestor_abertos: $h
+- followups_comerciais_abertos: $fu
+- fontes: ver operacao/fontes/STATUS.md (linhas de cliente so com pacote S1)
 - nota: Gerado por scripts/resumo-matinal.ps1. Nao inventa clientes nem dados de NF.
 "@ | Set-Content -Encoding UTF8 $path
 Write-Host "Resumo: $path"

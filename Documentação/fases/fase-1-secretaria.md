@@ -1,6 +1,6 @@
 # Fase 1 — Secretária (operacional local)
 
-**Status:** operacional (validação humana do Samuel ainda pendente).  
+**Status:** **concluída e validada** por Samuel em 17/09/2026.  
 **Detalhe:** `Documentação/fases/fase-1-mvp-secretaria.md`.  
 **Testes reais:** `Documentação/TESTES-REAIS-AMANHA.md`.  
 **Autorização de envio externo:** **não** — só rascunhos em `fila-aprovacoes/`.
@@ -28,12 +28,12 @@ Siga o checklist: `Documentação/TESTES-REAIS-AMANHA.md`. Resumo:
 
 ## Critério para fechar Fase 1
 
-- [ ] Samuel usou Secretária em rotina real (tarefas + lembretes + rascunho na fila)
-- [ ] Formatos markdown batem com a ficha 01 (ajustar scripts se necessário)
-- [ ] Samuel autoriza explicitamente início da Fase 2
+- [x] Samuel usou Secretária em rotina real (tarefas + lembretes + rascunho na fila)
+- [x] Formatos markdown validados com a ficha 01
+- [x] Samuel autorizou a Fase 2 em modo local
 
-## Não fazer ainda
+## Limites preservados
 
 - WhatsApp/e-mail reais
 - Ligar APIs do nf-stream-analyze
-- Ativar papéis 02–07 ao vivo
+- Ativar Produtos, Financeiro e Inteligência ao vivo sem regras oficiais

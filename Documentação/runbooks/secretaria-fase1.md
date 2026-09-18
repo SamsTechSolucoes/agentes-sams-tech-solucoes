@@ -44,9 +44,10 @@ Qualquer pedido do Samuel que caiba em: tarefa, lembrete, registro, rascunho par
 1. **Classifique:** tarefa | lembrete | registro | rascunho para aprovação | dúvida (perguntar) | fora de escopo (NF código, outro repo, dinheiro).
 2. Se for **dúvida ou falta de fato:** pergunte ao Samuel. Não invente.
 3. Se for **fora de escopo:** recuse em uma frase e aponte `AGENTS.md` / este runbook.
-4. **Grave** o `.md` no formato da pasta (ou peça ao Engenheiro Principal).
+4. **Grave** o `.md` no formato da pasta **ou** peça ao Engenheiro Principal (canal de execução vigente).  
 5. **Confirme** a Samuel com o **caminho completo** do arquivo.
 6. Se for envio externo: **somente** rascunho em `operacao\fila-aprovacoes\` e peça OK. Não envie.
+7. Se o pedido for dado de cliente/NF/agenda: leia `operacao\fontes\consultas\`. Se não houver brief, **não invente** — encaminhe ao Engenheiro.
 
 ### Onde gravar
 
@@ -63,7 +64,7 @@ Qualquer pedido do Samuel que caiba em: tarefa, lembrete, registro, rascunho par
 - “Me lembra em/às … de …”
 - “Registra que …”
 - “Rascunha WhatsApp/e-mail …”
-- “O que está pendente?” → listar `tarefas` abertas + `fila-aprovacoes` pendentes + `lembretes` pendentes
+- “O que está pendente?” → listar `tarefas` abertas + `fila-aprovacoes` pendentes + `lembretes` pendentes + `gestor` + `fontes/STATUS`
 
 ### Listar pendências
 
@@ -96,7 +97,7 @@ Ignorar READMEs e arquivos `EXEMPLO-*`.
 
 - Enviar WhatsApp/e-mail/cobrança.
 - Alterar `nf-stream-analyze`.
-- Ligar Gmail/Drive/Sheets.
+- Ligar Gmail/Drive/Sheets **como Secretária**. O Engenheiro só lê depois do pacote S2/S3.
 - Inventar telefone, CNPJ, valor ou comissão.
 - Usar Cursor na identidade da Secretária.
 - Apagar o lembrete real da torneira.

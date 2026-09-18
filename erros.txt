@@ -1,0 +1,118 @@
+2026-09-17 22:47 - gh api tree / filtro jq
+Comando: gh api repos/SamsTechSolucoes/nf-stream-analyze/git/trees/main?recursive=1 --jq com test(...; "i")
+Erro: function not defined: i/0
+Explicacao: o jq embutido no gh interpretou o segundo argumento de test de forma incompativel.
+Solucao proposta: usar ascii_downcase e contains sem flag opcional.
+
+2026-09-17 22:48 - gh api tree / segundo filtro jq
+Comando: gh api ... --jq com contains("whatsapp")
+Erro: function not defined: whatsapp/0
+Explicacao: a passagem de aspas entre PowerShell e o jq do gh removeu as aspas internas.
+Solucao proposta: obter o JSON sem --jq e filtrar com ConvertFrom-Json no PowerShell.
+
+2026-09-17 23:01 - status-fontes contradiz S1
+Comando: .\scripts\smoke-test-ponte-v1.ps1
+Erro: o relatorio terminou com "Linhas de cliente: nao ler sem pacote S1", embora S1 esteja liberado.
+Explicacao: texto fixo antigo permaneceu no script depois da autorizacao e exportacao de S1.
+Solucao proposta: informar que a leitura deve usar apenas a copia consolidada, sem nova consulta direta.
+
+2026-09-17 23:05 - atualizacao de STATUS.md
+Comando: patch de horario, imagens e integracoes no STATUS.md
+Erro: contexto textual nao encontrado pelo editor.
+Explicacao: o trecho de contexto usado no patch nao correspondeu byte a byte ao arquivo.
+Solucao proposta: reler o arquivo atual e aplicar alteracoes em blocos menores.
+
+2026-09-17 23:18 - selecionar conta Google no login NF
+Comando: clique na conta SamsTech pelo identificador da pagina
+Erro: referencia considerada desatualizada porque a descricao informada nao coincidia exatamente.
+Explicacao: o navegador valida a referencia junto com o texto acessivel atual.
+Solucao proposta: obter nova leitura da pagina e repetir com a descricao textual exata.
+
+2026-09-17 23:20 - OAuth Google do sistema NF
+Comando: Login com Google, conta SamsTech, Permitir
+Erro: retorno caiu em nf-stream-analyze-samstechsolucoes-projects.vercel.app/login sem sessao.
+Explicacao: o redirect_to do OAuth apontou para um dominio de preview diferente do dominio inicial.
+Solucao proposta: repetir pelo dominio de producao agora que o consentimento basico foi concedido; se persistir, registrar bloqueio de configuracao OAuth sem alterar o produto.
+
+2026-09-17 23:34 - ponte local da sessao para PDFs
+Comando: formulario POST do navegador autenticado para 127.0.0.1:8765/sessao
+Erro: o receptor local expirou sem receber a requisicao.
+Explicacao: a navegacao HTTPS para formulario HTTP local foi bloqueada antes de chegar ao processo.
+Solucao proposta: aceitar preflight de rede privada e usar POST fetch com CORS restrito a origem de producao.
+
+2026-09-17 23:38 - fetch CORS da sessao para localhost
+Comando: fetch POST de nf-stream-analyze.vercel.app para 127.0.0.1:8765
+Erro: TypeError Failed to fetch.
+Explicacao: o navegador bloqueou a requisicao de origem HTTPS para o servico HTTP local.
+Solucao proposta: voltar ao formulario de navegacao, ampliar o tempo do receptor e liberar o navegador imediatamente para concluir o POST.
+
+2026-09-17 23:40 - encerrar receptor local anterior
+Comando: Stop-Process -Id 12864 -Force
+Erro: processo nao encontrado.
+Explicacao: o receptor ja havia encerrado pelo limite de dois minutos.
+Solucao proposta: iniciar nova instancia somente depois de ampliar o limite.
+
+2026-09-17 23:58 - formulario local chegou sem sessao aceita
+Comando: POST por navegacao para 127.0.0.1:8765/sessao
+Erro: navegador abriu a URL local, mas o receptor nao iniciou downloads.
+Explicacao: navegacao HTTPS para HTTP pode omitir o cabecalho Origin ou envia-lo como null; a lista aceitava apenas dominios HTTPS.
+Solucao proposta: aceitar Origin vazio/null somente no receptor vinculado a 127.0.0.1, de uso unico e com JWT valido.
+
+2026-09-18 00:02 - reiniciar receptor local
+Comando: node .\scripts\baixar-pdfs-com-sessao-local.mjs
+Erro: EADDRINUSE 127.0.0.1:8765.
+Explicacao: o processo Node anterior permaneceu dono da porta apos encerrar apenas o processo PowerShell pai.
+Solucao proposta: identificar o PID que escuta a porta, encerrar somente esse receptor e reiniciar.
+
+2026-09-18 00:25 - abrir lista completa de NFs
+Comando: clique em "Mostrar Todas as Notas" no sistema NF.
+Erro: elemento com pointer-events none.
+Explicacao: o modal de atualizacao ainda estava sobre a pagina e bloqueava interacoes.
+Solucao proposta: fechar o modal e obter uma nova leitura da pagina antes de abrir a lista.
+
+2026-09-18 00:27 - pesquisa global de critérios comerciais
+Comando: busca por inativo/follow-up/cadencia em arquivos Markdown.
+Erro: IO error, caminho nao encontrado.
+Explicacao: a busca dedicada nao resolveu corretamente o caminho combinado com o filtro global.
+Solucao proposta: repetir em pastas documentais específicas, sem filtro global.
+
+2026-09-18 00:27 - lista de pendencias inclui testes
+Comando: .\scripts\listar-pendencias.ps1
+Erro: artefatos com nome smoke apareceram como tarefas, lembretes, aprovacoes e handoffs reais.
+Explicacao: o filtro ignorava README e EXEMPLO, mas nao ignorava smoke tests.
+Solucao proposta: excluir nomes contendo smoke da listagem operacional, preservando os arquivos de evidencia.
+
+2026-09-18 00:43 - pesquisa global da regra de inatividade
+Comando: busca por critérios de inatividade na raiz do repositório.
+Erro: IO error, caminho nao encontrado.
+Explicacao: a busca dedicada voltou a falhar ao receber a raiz ampla deste workspace.
+Solucao proposta: pesquisar separadamente Documentacao, empresa e operacao.
+
+2026-09-18 00:56 - download autenticado de PDFs
+Comando: node .\scripts\baixar-pdfs-com-sessao-local.mjs
+Erro: 1.513 PDFs baixados e 28 falharam; processo aguardou o temporizador mesmo apos concluir.
+Explicacao: alguns objetos do indice nao retornaram HTTP 200 e o temporizador de seguranca nao foi cancelado.
+Solucao proposta: registrar caminho/status das falhas, cancelar o temporizador ao receber a sessao e repetir apenas os arquivos ausentes.
+
+2026-09-18 01:31 - consulta da rotina diária
+Comando: schtasks /Query /TN SamsTech-Agents-Rotina-Diaria
+Erro: tarefa não encontrada.
+Explicacao: o instalador usa o nome SamsTech-Agents-Resumo-Diario.
+Solucao proposta: consultar pelo nome definido no instalador antes de concluir se a rotina está ausente.
+
+2026-09-18 01:38 - execução encadeada dos testes
+Comando: powershell.exe ... && powershell.exe ...
+Erro: o token && não é um separador válido nesta versão do PowerShell.
+Explicacao: o ambiente usa Windows PowerShell 5.1, que não oferece o operador
+de encadeamento condicional `&&`.
+Solucao proposta: executar os testes separadamente e consolidar os resultados,
+sem repetir o comando incompatível.
+
+2026-09-18 01:45 - commit com heredoc via Bash
+Comando: bash.exe -lc 'git commit ...'
+Erro: bash.exe não encontrado no PATH desta máquina.
+Explicacao: o ambiente disponível é Windows PowerShell 5.1 e não expõe Git
+Bash como executável.
+Solucao proposta: usar here-string nativa do PowerShell para preservar a
+mensagem multilinha sem alterar configuração do Git.
+

@@ -3,7 +3,7 @@
 | Campo | Valor |
 |---|---|
 | **ID** | `{id}` |
-| **Status** | aguardando-samuel |
+| **Status** | pendente |
 | **Canal** | {canal} |
 | **Destinatário** | {destino} |
 | **Criado em** | {criada} |
@@ -27,7 +27,7 @@
 ## Decisão do Samuel
 
 - [ ] aprovado
-- [ ] rejeitado
+- [ ] recusado
 - [ ] editar e reenviar rascunho
 
 **Assinatura / data:** 

@@ -4,7 +4,7 @@
 Samuel acompanha a configuração pela web e dá comandos ao Engenheiro Principal para acelerar — sem misturar com o sistema de NF.
 
 ## 1. Painel ao vivo (Google Docs)
-https://docs.google.com/document/d/1i_dHYla1wpAWrXPtI_g9oTunBZtPs6Sl8Wc1T3hYl9M/edit
+O identificador do Google Doc operacional é mantido fora do Git público.
 
 O Engenheiro atualiza este painel quando houver mudança de fase/ferramenta.
 

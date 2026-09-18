@@ -1,6 +1,7 @@
 # Fase 8 — Gestor + Central de Aprovações + equipe (papel)
 
-**Status:** one-pager. **Não implementar.**  
+**Status:** Fase 8 **ao vivo** (multiagente completo) continua no papel.  
+**Já neste repo:** handoff local (`operacao/gestor/`) + índice da Central (`scripts/indice-central-aprovacoes.ps1`).  
 Detalhe completo: `Documentação/Plano_Implementacao_Fases_V2.md` (FASE 8).  
 Fichas 02–07 em `empresa/fichas/`. Pasta: `operacao/central-aprovacoes/` (índice stub).
 
@@ -9,7 +10,9 @@ Este arquivo **não** é um índice incompleto. O plano-mãe já tem as seções
 ## Neste repo (hoje)
 
 - Fila local de rascunhos: `operacao/fila-aprovacoes/` (Fase 1)
-- Central formal + Gestor ao vivo: **não**
+- Índice da Central: `operacao/central-aprovacoes/indice-atual.md` (gerado)
+- Handoff do Gestor: `operacao/gestor/` (local)
+- Equipe completa ao vivo + SLA: **não**
 
 ## Condição para sair do papel
 

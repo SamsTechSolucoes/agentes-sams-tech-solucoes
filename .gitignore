@@ -4,3 +4,29 @@ Thumbs.db
 .env*
 Tokens*
 **/node_modules/
+
+# Snapshots com dado identificável de cliente/NF (ponte v1)
+operacao/fontes/privados/**
+!operacao/fontes/privados/README.md
+
+# Export completo do sistema de NF para a Secretária (PII local)
+operacao/secretaria/sistema-nf/**
+!operacao/secretaria/sistema-nf/LEIA-ME.md
+
+# Logs e dados identificáveis da operação local
+operacao/registros/logs-locais/**
+operacao/registros/wa-monitor-*.md
+operacao/comercial/privados/**
+
+# Materiais visuais temporários, descartados e referências pessoais
+Avatares do Sistema/BACKUP_NAO_BOM_*/
+Avatares do Sistema/**/_descartadas/
+Avatares do Sistema/testes/
+Avatares do Sistema/referencias/
+Avatares do Sistema/1.png
+Avatares do Sistema/2.png
+Avatares do Sistema/3.png
+Avatares do Sistema/Ceo.jpg
+Avatares do Sistema/**/*.png
+Avatares do Sistema/**/*.jpg
+Avatares do Sistema/**/*.jpeg

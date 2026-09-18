@@ -22,5 +22,5 @@ Abra `MODO-DIARIO.md` e `STATUS.md`.
 
 ## Acompanhar pela web
 Ver `WEB-ACOMPANHAMENTO.md` (Painel Drive + GitHub + como comandar o Engenheiro).  
-Painel: https://docs.google.com/document/d/1i_dHYla1wpAWrXPtI_g9oTunBZtPs6Sl8Wc1T3hYl9M/edit  
+Painel: Google Doc operacional; identificador mantido fora do Git público.  
 Integridade: `Documentação/INTEGRIDADE-FASES-E-FERRAMENTAS.md`

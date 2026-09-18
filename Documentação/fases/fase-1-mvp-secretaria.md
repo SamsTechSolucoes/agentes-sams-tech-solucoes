@@ -1,7 +1,7 @@
 ﻿# Fase 1 — MVP Secretária Pessoal
 
 **Autorizada (docs/ops neste repo):** 17/09/2026  
-**Status:** **OPERACIONAL** — validação humana do Samuel na manhã ainda pendente  
+**Status:** **CONCLUÍDA E VALIDADA** — configuração e testes humanos aprovados por Samuel em 17/09/2026  
 **Restrição de pasta/repo:** somente `agentes-sams-tech-solucoes` / `C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes`  
 **Sistema de NF:** externo — não alterar  
 **Idioma:** PT-BR  
@@ -36,7 +36,7 @@ Frase da V2: *“Samuel não deve precisar lembrar que precisa perguntar.”*
 | Resumo matinal | `scripts/resumo-matinal.ps1` (rotina combinada 8:00 seg–sex) | Não |
 | Dúvida | Perguntar ao Samuel; marcar `PENDENTE SAMUEL` | Não |
 
-Áudio, Gmail, Calendar, Contacts, consulta automática ao banco do NF: **não** nesta fase.
+Áudio, Gmail, Calendar, Contacts: **não** pela Secretária. Consulta ao banco do NF: **só** via Engenheiro depois do pacote S1, brief em `operacao/fontes/`.
 
 ---
 
@@ -83,7 +83,9 @@ Não criar arquivos em outros repositórios.
 ## Dependências
 
 - Fase 0 documental (AGENTS, V2, constituição, pastas `operacao/`) — **feita** neste git.
-- Samuel validar 3 pedidos piloto na manhã.
+- Três pedidos piloto validados por Samuel na tarde de 17/09/2026.
+- Secretária respondeu `PRONTA`; Engenheiro no Grok respondeu `PRONTO`.
+- Grok com uso semanal disponível (34% utilizado no momento da validação; sob demanda = nenhum).
 - Não depende de código novo no sistema de NF.
 
 ---
@@ -119,26 +121,33 @@ Piloto: 1 tarefa, 1 lembrete, 1 rascunho na fila (sem envio).
 3. Pedir um rascunho de WhatsApp → deve aparecer só em `operacao/fila-aprovacoes/`.
 4. Confirmar que **nada** saiu sozinho.
 
+**Resultado em 17/09/2026:** **APROVADO POR SAMUEL**. Testes reais concluídos e passaram.
+
 ---
 
 ## Critérios de conclusão
 
 - [x] Ficha + constituição + runbook + pastas + scripts neste git
 - [x] Zero envios externos autônomos
-- [ ] Samuel usou a Secretária em **1 dia real** de trabalho
-- [ ] 3 consultas/pedidos confiáveis + 1 resumo matinal útil
-- [ ] Samuel autoriza (ou não) a Fase 2
+- [x] Secretária configurada no Grok e respondeu `PRONTA`
+- [x] Três pedidos reais/piloto confiáveis testados por Samuel
+- [x] Engenheiro no Grok configurado e respondeu `PRONTO`
+- [x] Cota do Grok verificada e disponível
+- [ ] Acompanhar uso durante **1 dia real** de trabalho (não bloqueia a conclusão inicial)
+- [ ] Validar utilidade do primeiro resumo matinal (acompanhamento)
+- [x] Samuel autoriza (ou não) a Fase 2 — **autorizada em modo local** (17/09)
+- [ ] Pacote S1–S3 / B1 (leitura real) — **pendente neste chat**
 
 ---
 
 ## Decisões que dependem de Samuel
 
-- Validar a Fase 1 ao acordar.
 - Horário do resumo matinal (hoje: 8:00 seg–sex — confirmar).
 - Nome de exibição da Secretária no Grok Bot, se quiser mudar.
 - Se a Secretária poderá, no futuro, **consultar** o NF só leitura — ainda assim **sem** editar aquele repo daqui.
-- Autorizar Fase 2 (Comercial) só depois do teste acima.
-- Continuar **sem** Cursor para a Secretária (decisão vigente).
+- [x] Autorizar Fase 2 (Comercial) em modo local — feito 17/09
+- Continuar **sem** Cursor para a Secretária (decisão vigente)
+- Pacote S1–S3 / B1 neste chat (leitura real)
 
 ---
 
@@ -148,5 +157,6 @@ Piloto: 1 tarefa, 1 lembrete, 1 rascunho na fila (sem envio).
 - Sistema de NF (código, secrets, deploy)
 - Envio real
 - Dar Cursor a outros agentes
-- Ligar Gmail
+- Ligar Gmail **na Secretária** (S2 é leitura pelo Engenheiro, se autorizado)
 - Inventar comissão, estoque ou ofensor
+- WhatsApp de produção na Secretária

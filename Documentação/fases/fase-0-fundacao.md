@@ -12,9 +12,9 @@ A Arquitetura V2 neste git é o **texto integral** (seções 1–11), não um í
 - [x] `Documentação/` (diretriz, diagnóstico, arquitetura V2 **integral**)
 - [x] `empresa/constituicao-comum.md` e ficha `01-secretaria.md`
 - [x] `operacao/{tarefas,lembretes,registros,fila-aprovacoes}`
-- [x] Sync pasta ↔ GitHub deste repo (`main` = fonte da verdade operacional)
-- [ ] Samuel valida que a Secretária (Fase 1) cobre o dia a dia desejado — ver `Documentação/TESTES-REAIS-AMANHA.md`
-- [ ] SoT Supabase vs Sheets — PENDENTE SAMUEL
+- [x] Clone Git configurado; sincronização remota depende de commit/push autorizado
+- [x] Samuel validou a Secretária (Fase 1) em 17/09/2026
+- [x] SoT: Supabase como verdade operacional; Sheets apenas espelho
 
 ## Fora desta fase
 

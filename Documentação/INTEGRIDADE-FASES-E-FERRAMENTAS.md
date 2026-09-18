@@ -1,6 +1,6 @@
 # Integridade — Fases, ferramentas e o que falta
 
-**Data:** 2026-09-17 06:15 (America/Sao_Paulo)  
+**Atualizado:** 2026-09-18 01:35 (America/Recife)  
 **Autor:** Engenheiro Principal (`SamsTechEngineer`)  
 **Escopo:** só `SamsTechSolucoes-Agentes` (+ leitura MCP; sem alterar `nf-stream-analyze`)
 
@@ -13,27 +13,27 @@
 | WhatsApp “WebZap” no Cursor | **Não há MCP WhatsApp** |
 | WhatsApp no sistema de NF | **Existe no Supabase** (sessões/campanhas/bulk) — código no `nf-stream-analyze` (intocado) |
 | Instância web de acompanhamento | **Painel Drive + GitHub** (links abaixo) |
-| “Tudo funcionando” ponta a ponta | **Não** — falta autorizar ponte Agents ↔ NF/WhatsApp e testes A–C da Secretária |
+| V1 operacional | **Utilizável localmente** — Fase 1 validada; Fase 2 local; S1/S2/S3/B1 executados |
 
 ## 2. Fases
 
 | Fase | Status | Evidência |
 |---|---|---|
-| 0 Fundação | Parcial | Decisões SoT/comissões ainda em `PENDENTE-fase0-checklist.md` |
-| 1 Secretária MVP | Pronta (local) | Ficha, pastas, scripts, smoke PASS 06:11 |
-| 2 Comercial | Esqueleto | `fase-2-comercial-ATIVACAO.md` — aguarda OK após A–C |
-| 3 NF alinhada V2 | Não iniciada | Requer `nf-stream` + política e-mail |
-| 4 Google Sheets espelho | Não iniciada | Drive/Gmail já autenticados; sync não feito |
+| 0 Fundação | Concluída | Supabase SoT; regras comerciais/financeiras seguem como gates de domínio |
+| 1 Secretária MVP | Concluída e validada | Ficha, pastas, scripts, S1 e testes humanos |
+| 2 Comercial | Ativa localmente | Follow-ups e fila; sem envio |
+| 3 NF alinhada V2 | Parcial | Export completo: 893 imagens, 1.513 PDFs; alertas/política e-mail pendentes |
+| 4 Google Sheets espelho | Parcial | Drive/Docs ativos; Sheets e sync não feitos |
 | 5 Produtos / estoque | Esqueleto local | Sem integração |
 | 6 Financeiro real | Esqueleto | Sem regra oficial de comissão |
 | 7 Inteligência | Esqueleto | Templates fato≠interpretação |
-| 8 Gestor + equipe viva | Scaffolding | Fichas existem; Bots sem Cursor |
-| 9 Gmail/Agenda na Secretária | Bloqueado | MCPs OK no Engenheiro; Secretária sem Cursor |
+| 8 Gestor + equipe viva | Recorte local | Handoff + índice da Central; equipe completa ainda não |
+| 9 Secretária completa | Parcial | Gmail/Agenda via Engenheiro; Teams/Contacts/áudio pendentes |
 
 ## 3. Testes executados agora
 
 ```text
-validar-estrutura.ps1 → 24/24 OK
+validar-estrutura.ps1 → 44/44 OK
 smoke-test-fase1.ps1  → PASS (tarefa + lembrete + rascunho sem envio)
 listar-pendencias.ps1 → OK
 Artefatos smoke → movidos para operacao/_exemplos/
@@ -48,7 +48,8 @@ Artefatos smoke → movidos para operacao/_exemplos/
 | Google Drive | OK | Leitura + criação do painel |
 | Slack | OK | Workspace `samstechsolucoes` |
 | Supabase | OK | `clients` 941, `invoices` 1428, `reminders` 151, WhatsApp tables presentes |
-| WhatsApp MCP Cursor | Ausente | Envio não disponível neste chat |
+| WhatsApp MCP Cursor | Ausente | WhatsApp profissional ainda não conectado |
+| Teams | Pendente | Canal auxiliar aprovado; login/convite na máquina do agente |
 | Baileys / Evolution no NF | Fora desta pasta | Tabelas `whatsapp_sessions` (1), `bulk_sends` (133), etc. |
 
 **Quem pode usar Cursor/MCP hoje:** só Engenheiro Principal (decisão 2026-09-17).
@@ -67,24 +68,25 @@ Sem isso, inventar um segundo WhatsApp aqui seria arquitetura paralela proibida.
 
 | Canal | URL / caminho |
 |---|---|
-| Painel Drive (ao vivo) | https://docs.google.com/document/d/1i_dHYla1wpAWrXPtI_g9oTunBZtPs6Sl8Wc1T3hYl9M/edit |
+| Painel Drive (ao vivo) | Google Doc operacional; identificador fora do Git |
 | GitHub (código) | https://github.com/SamsTechSolucoes/agentes-sams-tech-solucoes |
 | Cursor Web | Open Folder / Open in Cursor no repo acima — ver `ABRIR-NO-CURSOR.md` e `WEB-ACOMPANHAMENTO.md` |
 | Comandos ao Engenheiro | Chat **SamsTech Engineer** (este) |
 | Testes Secretária | Chat **Secretaria SamsTech** — roteiro `Documentação/TESTES-REAIS-AMANHA.md` |
 
-## 7. O que falta para testes reais seus (checklist)
+## 7. Gates restantes
 
-- [ ] Testes A–C no chat da Secretária (tarefa, lembrete, rascunho sem envio)
-- [ ] Confirmar se a Secretária **grava arquivos** ou só responde em texto (sem Cursor ela pode só conversar)
-- [ ] Autorizar **leitura** do `nf-stream-analyze` para mapear WhatsApp
+- [x] Testes A–C no chat da Secretária
+- [x] Gravação via Engenheiro confirmada; Secretária permanece sem Cursor
+- [x] Autorizar **leitura** do `nf-stream-analyze` para mapear WhatsApp
 - [ ] Autorizar **um envio piloto** WhatsApp (número seu / teste) via NF — ou negar e manter só fila
-- [ ] Fechar 3 dores da v1 + horário do resumo matinal
+- [ ] Fechar 3 dores da v1
+- [x] Horário: expediente 06:00–20:00; resumo 08:00
 - [ ] Decidir se Secretária ganha Cursor depois da Fase 1 estável
 
 ## 8. Próximas ações do Engenheiro (quando você autorizar)
 
-1. Inspecionar (somente leitura) fluxo WhatsApp no NF + `whatsapp_sessions`.
-2. Documentar ponte Agents → fila → envio aprovado no NF.
-3. Ativar Fase 2 comercial local (sem envio).
-4. Playbook Engenheiro: Gmail/Agenda **leitura** para resumo matinal (sem limpar caixa sozinho).
+1. Ativar Teams Web na máquina sempre ligada da Secretária e validar convite.
+2. Definir escopo do WhatsApp profissional antes do login operacional.
+3. Obter respostas de Produtos, Financeiro e Inteligência no Google Doc.
+4. Implementar Sheets/Contacts/áudio somente após os respectivos gates.

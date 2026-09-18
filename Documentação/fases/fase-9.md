@@ -8,7 +8,14 @@ Este arquivo **não** é um índice incompleto. O plano-mãe já tem as seções
 
 ## Neste repo (hoje)
 
-Gmail / Calendar / Contacts **desligados**. Áudio → texto → ação: **não**.
+Gmail e Agenda em leitura para resumo. Contacts sem conector direto. Áudio →
+texto → ação ainda não ativado.
+
+Teams Web foi aprovado como canal auxiliar de texto, imagens, áudio e arquivos
+na máquina sempre ligada do agente.
+Ver `../arquitetura/canal-teams-samuel-agentes.md`. Conta e convite aguardam
+execução na máquina do agente; instalar aplicativo exige decisão posterior.
+Slack continua sendo o conector disponível até a ativação do Teams.
 
 ## Condição para sair do papel
 

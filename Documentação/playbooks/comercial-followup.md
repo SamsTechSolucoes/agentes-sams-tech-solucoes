@@ -1,23 +1,22 @@
-# Playbook — Follow-up comercial (scaffolding)
+# Playbook — Follow-up comercial
 
-**Status:** **scaffolding only.** Fase 2 **não** está ao vivo.  
+**Status:** **operacional local**, autorizado por Samuel em 17/09/2026.  
 **Ficha:** `empresa/fichas/03-comercial.md`  
 **Template:** [`templates/follow-up-comercial.md`](../../templates/follow-up-comercial.md)  
-**Pasta (vazia de propósito):** `operacao/comercial/follow-ups/`
+**Pasta:** `operacao/comercial/follow-ups/`
 
-Não enviar. Não inventar comissão %, preço, histórico de compras ou lista de inativos.
+Não enviar automaticamente. Não inventar comissão %, preço, histórico de compras ou lista de inativos.
 
 ---
 
-## Quando usar (depois que Samuel autorizar Fase 2)
+## Quando usar
 
-1. Abrir o template `templates/follow-up-comercial.md`.
-2. Copiar para `operacao/comercial/follow-ups/YYYYMMDD-<cliente>.md` (sem inventar cliente).
-3. Preencher só o que Samuel informou. Buracos = `PENDENTE SAMUEL`.
-4. Mensagem ao cliente → **copiar** para `operacao/fila-aprovacoes/` (nunca enviar daqui).
-5. Esperar OK explícito.
-
-Até lá: este arquivo documenta o trilho. Não opera carteira de verdade.
+1. Receber cliente, motivo e próxima ação de Samuel/Secretária.
+2. Executar `scripts/novo-followup-comercial.ps1` ou copiar o template.
+3. Preencher só dados informados. Buracos = `PENDENTE SAMUEL`.
+4. Mensagem ao cliente → copiar para `operacao/fila-aprovacoes/`.
+5. Esperar OK explícito antes de qualquer envio.
+6. Ao concluir a ação, atualizar `status: concluido` e registrar o resultado.
 
 ---
 
@@ -35,7 +34,7 @@ Há também `templates/follow-up.md` (formato longo). Preferir **`follow-up-come
 
 ---
 
-## Fora de escopo (agora)
+## Fora de escopo
 
 | Proibido | Motivo |
 |---|---|

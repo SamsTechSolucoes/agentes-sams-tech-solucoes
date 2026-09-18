@@ -5,7 +5,7 @@ Troca o foco de **desenvolvimento/software** para **uso do dia**.
 ## 1. Abrir (2 min)
 1. Cursor → Open Folder → `C:\Users\notebook\Desktop\SamsTechSolucoes-Agentes`
 2. Ler `STATUS.md` (deve dizer **MODO DIÁRIO**)
-3. Painel web: https://docs.google.com/document/d/1i_dHYla1wpAWrXPtI_g9oTunBZtPs6Sl8Wc1T3hYl9M/edit
+3. Painel web: Google Doc operacional; identificador mantido fora do Git.
 
 ## 2. Rotina do dia (Secretária)
 Chat **Secretaria SamsTech**:

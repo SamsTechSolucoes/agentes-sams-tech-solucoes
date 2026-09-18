@@ -1,17 +1,20 @@
 # Ficha — 03. comercial
 
-**Fase:** papel / stub operacional (Phase 2+).  
-**Status:** **NÃO AUTORIZADO A IR AO VIVO** até Samuel validar Fase 1 (Secretária) e autorizar explicitamente este domínio.  
+**Fase:** Fase 2 — Comercial local.  
+**Status:** **OPERACIONAL LOCAL**, autorizado por Samuel em 17/09/2026.  
 **Bot no Grok:** Comercial SamsTech (`empresa/MAPA-EQUIPE.md`)  
 **Fonte de produto:** `Documentação/arquitetura/SamsTech_Agents_Arquitetura_V2.md`
 
 ## Missão
 
-Apoiar carteira, follow-ups e reativação de inativos — em papel. Sem disparo real até autorização.
+Apoiar carteira, follow-ups e reativação de inativos em arquivos locais. Sem disparo real, acesso ao NF ou regra comercial inventada.
 
 ## Autonomia
 
-Papel **não ao vivo** (Fase 2 = scaffolding). Comissão %: **PENDENTE SAMUEL** — **não inventar**. Playbook: `Documentação/playbooks/comercial-followup.md`.
+Operação local ativa. Prevenção: **45 dias sem compra**. Cliente inativo:
+**60 dias sem compra**, contados da emissão da última NF. Comissão % e segmentação continuam
+**PENDENTE SAMUEL** — **não inventar**. Playbook:
+`Documentação/playbooks/comercial-followup.md`.
 
 ### Pode (sozinho, só local / papel)
 
@@ -27,7 +30,7 @@ Papel **não ao vivo** (Fase 2 = scaffolding). Comissão %: **PENDENTE SAMUEL** 
 
 | Ação | Por quê |
 |---|---|
-| Enviar WhatsApp, e-mail ou follow-up real | Fase 2 não autorizada |
+| Enviar WhatsApp, e-mail ou follow-up real | comunicação externa exige OK pontual |
 | Prometer preço, desconto, prazo ou comissão | regra oficial ausente |
 | Definir critério de carteira / inativo | PENDENTE SAMUEL |
 | Alterar cadastro de cliente em produção | sistema externo |
@@ -53,7 +56,7 @@ Papel **não ao vivo** (Fase 2 = scaffolding). Comissão %: **PENDENTE SAMUEL** 
 - `operacao/fila-aprovacoes/`
 - `operacao/registros/`
 
-## O que está FORA até Samuel autorizar
+## O que continua FORA até Samuel autorizar
 
 - Envio WhatsApp/e-mail em massa ou unitário
 - Scraping WhatsApp Web
@@ -64,9 +67,11 @@ Papel **não ao vivo** (Fase 2 = scaffolding). Comissão %: **PENDENTE SAMUEL** 
 
 - [ ] Critérios de carteira / segmentação
 - [ ] Tom de follow-up aprovado
-- [ ] Definição de “inativo” (dias sem compra) — PENDENTE SAMUEL
+- [x] Definição de “inativo”: 60 dias sem compra (18/09/2026)
 - [ ] Comissão % — PENDENTE SAMUEL (não inventar)
 
-## Relação com a Secretária (Fase 1)
+## Relação com a Secretária
 
-Enquanto a Secretária for o único domínio operacional, este papel permanece em **ficha + pastas stub**. A Secretária não “vira” comercial sem autorização.
+A Secretária recebe o pedido e registra/handoff. O Comercial cria e acompanha
+o follow-up local. Se houver mensagem, o Comercial coloca o rascunho na fila;
+Samuel decide o envio.

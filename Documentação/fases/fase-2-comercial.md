@@ -1,25 +1,29 @@
-# Fase 2 — Comercial (plano only)
+# Fase 2 — Comercial
 
-**Status:** **plano / scaffolding**. **NÃO autorizado a ir ao vivo** até Samuel validar Fase 1.
+**Status:** **ATIVA EM MODO LOCAL**, autorizada por Samuel em 17/09/2026.
 
 ## Pré-requisitos
 
-1. Fase 1 validada por Samuel.
-2. Autorização explícita: “pode operar Comercial em modo X”.
-3. Itens PENDENTE SAMUEL na ficha `empresa/fichas/03-comercial.md` preenchidos (critérios, tom, inativo, comissão).
+1. Fase 1 validada por Samuel — **concluído**.
+2. Autorização explícita para avançar — **concluído em 17/09/2026**.
+3. Inatividade definida em 60 dias; segmentação e comissão permanecem pendentes.
 
-## Já preparado (stubs)
+## Entregue
 
 - Ficha `03-comercial.md`
 - Pastas `operacao/comercial/{carteira,follow-ups,inativos}/` (READMEs)
 - Template `templates/follow-up.md`
+- Script `scripts/novo-followup-comercial.ps1`
+- Listagem de follow-ups em `scripts/listar-pendencias.ps1`
+- Teste `scripts/smoke-test-fase2-comercial.ps1`
 
-## Plano (quando autorizado)
+## Fluxo ativo
 
-1. Definir 1 ritual diário mínimo (ex.: listar follow-ups do dia) — **só local**.
+1. Listar follow-ups abertos no início do dia — **só local**.
 2. Todo contato externo vira rascunho em `fila-aprovacoes/`.
-3. Só então discutir conector (se Samuel quiser) — custo + risco.
+3. Samuel aprova/edita/recusa; nenhum envio automático.
+4. Conector só será discutido com autorização separada.
 
-## Explicitamente fora até nova ordem
+## Explicitamente fora até nova autorização
 
 - Disparo em massa, scraping, promessas comerciais inventadas.

@@ -1,0 +1,11 @@
+﻿# Atualizar dados do sistema de notas
+- status: aberta
+- criado: 2026-09-17T22:59:20-03:00
+- responsavel: Engenheiro Principal
+- solicitante: SecretÃ¡ria Pessoal
+- recorrencia: semanal, segunda-feira 07:30
+- pedido: Atualize a extracao completa do Supabase para operacao/secretaria/sistema-nf.
+- escopo: clientes, CNPJ/CPF, NFs, itens, catalogo, imagens e lembretes.
+- pdfs: baixar somente com sessao autenticada; nunca gravar token.
+- upload_nf: nao; a SecretÃ¡ria manipula a pasta consolidada.
+- envio_externo: nenhum

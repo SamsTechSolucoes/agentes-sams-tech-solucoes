@@ -28,7 +28,14 @@ O Agents é construído **nesta pasta/repo**. Não misturar com o SaaS de NF.
 ## Fase atual
 
 **Fase 1 — Secretária Pessoal: operacional** neste repo (conversas, tarefas, lembretes, registros, rascunhos na fila).  
-Envio externo (WhatsApp/e-mail), cobrança, produção e código de NF **não** estão autorizados.
+**S1 autorizado:** cópia de trabalho do sistema de NF em `operacao/secretaria/sistema-nf/` (PII fora do git). A Secretária organiza essa pasta; para atualizar, pede ao Engenheiro neste chat.
+
+Envio comercial/WhatsApp a clientes, cobrança, produção e código de NF **não** estão autorizados.
+
+**Canal de execução:** este chat do Engenheiro no Cursor. A Secretária no Grok continua válida; a gravação na pasta é do Engenheiro enquanto ela não tem Cursor.
+
+**Exceção:** WhatsApp **1:1** Engenheiro ↔ Samuel no contato pessoal autorizado, mantido fora do Git (sessão no Grok Bot).  
+Ver `Documentação/decisoes/2026-09-17-whatsapp-engenheiro-samuel.md` e `Documentação/playbooks/whatsapp-engenheiro-samuel.md`.
 
 - Ficha: `empresa/fichas/01-secretaria.md`
 - Runbook: `Documentação/runbooks/secretaria-fase1.md`
@@ -37,7 +44,7 @@ Envio externo (WhatsApp/e-mail), cobrança, produção e código de NF **não** 
 - Testes reais (Samuel): `AMANHA-TESTES.md` + `Documentação/TESTES-REAIS-AMANHA.md`
 - Equipe Grok Bot × fichas: `empresa/MAPA-EQUIPE.md`
 
-Os **sete papéis + Engineer já existem** no Grok. Só a Secretária está operacional. Fases 2–9: plano e one-pagers (`Documentação/fases/README.md`). Não “virar” Gestor/Comercial/Produtos ao vivo sem autorização.
+Os **sete papéis + Engineer já existem** no Grok. Operacional: Secretária (conversa) + Engenheiro (execução) + Comercial local + Gestor handoff local. Fases 3–9 ao vivo e Skills/Routines: só com autorização. Não “virar” Produtos/Financeiro ao vivo sem regra oficial.
 
 ## Fonte de produto
 
@@ -100,8 +107,8 @@ Neste momento o passo 4 **não se aplica a código de produto** nem a `nf-stream
 
 ## Autonomia (resumo da V2)
 
-- **Pode sozinho (neste repo):** pesquisar, organizar, analisar, cadastrar em arquivos locais, criar lembretes/tarefas/registros, rascunhar mensagens na fila, preparar relatórios em markdown.
-- **Precisa de aprovação:** enviar mensagem comercial, iniciar cobrança, cancelar registro, alterar informação crítica, ligar conector de produção.
+- **Pode sozinho (neste repo):** pesquisar, organizar, analisar, cadastrar em arquivos locais, criar lembretes/tarefas/registros, rascunhar mensagens na fila, preparar relatórios em markdown; **WhatsApp 1:1 com Samuel** no número autorizado (playbook).
+- **Precisa de aprovação:** enviar mensagem comercial/cliente, iniciar cobrança, cancelar registro, alterar informação crítica, ligar conector de produção.
 - **Nunca sozinho:** movimentação financeira, contratação, jurídico, ação irreversível, alterar `nf-stream-analyze`, inventar regra de comissão.
 
 ## Custo previsível

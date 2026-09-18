@@ -1,6 +1,6 @@
 # Gestor — handoffs e decomposição
 
-Arquivo: `YYYYMMDD-handoff-descricao.md`
+Arquivo: `YYYYMMDD-HHmmss-descricao.md` (script `scripts/novo-handoff-gestor.ps1`)
 
 ```md
 # Handoff

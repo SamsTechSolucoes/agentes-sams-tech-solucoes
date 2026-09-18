@@ -12,6 +12,9 @@ Este arquivo **não** é um índice incompleto. O plano-mãe já tem as seções
 2. Taxonomia/pesos de ofensores e fonte de tickets — **PENDENTE SAMUEL**.
 3. Separar **fatos** de **interpretações**.
 
+Entrevista guiada em papel preparada em
+`operacao/inteligencia/20260918-perguntas-ativacao.md`.
+
 ## Não fazer
 
 - Passar hipótese como fato

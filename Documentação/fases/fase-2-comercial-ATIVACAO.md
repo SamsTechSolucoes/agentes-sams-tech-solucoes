@@ -1,7 +1,10 @@
-﻿# Fase 2 — Comercial (pronto para quando Samuel autorizar ao vivo)
+﻿# Fase 2 — Comercial (ativação local)
+
+**Autorizada por Samuel:** 17/09/2026  
+**Modo:** arquivos locais; sem NF e sem envio externo automático
 
 ## Pré-requisito
-Fase 1 validada no chat da Secretária.
+Fase 1 validada no chat da Secretária — **concluído**.
 
 ## Escopo nesta pasta (sem NF)
 - `operacao/comercial/carteira`
@@ -10,11 +13,12 @@ Fase 1 validada no chat da Secretária.
 - Ficha `empresa/fichas/03-comercial.md`
 - Bot **Comercial SamsTech**
 
-## Primeiros entregáveis ao autorizar
-1. Template de follow-up padrão (rascunho)
-2. Lista de inativos **informada por Samuel** ou importada com OK (não inventar)
-3. Padrão de nome de contato: `CNPJ/CPF - Nome [Cliente Cantu]` — só após confirmação
+## Entregue
+1. Template e script de follow-up local
+2. Lista de inativos apenas quando **informada por Samuel**
+3. Padrão de contato documentado, sem migração automática
 4. Toda mensagem externa → `operacao/fila-aprovacoes`
+5. Smoke test da Fase 2
 
 ## Não fazer sem OK
 Enviar WhatsApp, alterar NF, inventar clientes.
